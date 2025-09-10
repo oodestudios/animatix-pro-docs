@@ -1,0 +1,59 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/animatix-pro-docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/animatix-pro-docs/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/graph-executor-util",
+              "path": "/animatix-pro-docs/docs/api/graph-executor-util",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "examples",
+              "path": "/animatix-pro-docs/docs/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/animatix-pro-docs/docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/animatix-pro-docs/docs/getting-started/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/animatix-pro-docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/animatix-pro-docs/docs/intro",
+                "label": "intro"
+              }
+            },
+            "apiSidebar": {
+              "link": {
+                "path": "/animatix-pro-docs/docs/api/graph-executor-util",
+                "label": "api/graph-executor-util"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

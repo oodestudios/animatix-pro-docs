@@ -1,0 +1,35 @@
+{
+  "/animatix-pro-docs/docs-604": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/animatix-pro-docs/docs-377": {
+    "__comp": "a7bd4aaa",
+    "__props": "d3ef14a1"
+  },
+  "/animatix-pro-docs/docs-824": {
+    "__comp": "a94703ab"
+  },
+  "/animatix-pro-docs/docs/api/graph-executor-util-e07": {
+    "__comp": "17896441",
+    "content": "8fe10fa9"
+  },
+  "/animatix-pro-docs/docs/examples-a18": {
+    "__comp": "17896441",
+    "content": "09d5ad39"
+  },
+  "/animatix-pro-docs/docs/getting-started/installation-3f4": {
+    "__comp": "17896441",
+    "content": "54f44165"
+  },
+  "/animatix-pro-docs/docs/getting-started/quick-start-2ac": {
+    "__comp": "17896441",
+    "content": "588bd741"
+  },
+  "/animatix-pro-docs/docs/intro-d17": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "api/graph-executor-util",
+  "title": "GraphExecutorUtil",
+  "description": "The GraphExecutorUtil class provides static methods for programmatic control of Animatix Pro animations. This is the core API that allows you to control animations from your own scripts.",
+  "source": "@site/docs/api/graph-executor-util.md",
+  "sourceDirName": "api",
+  "slug": "/api/graph-executor-util",
+  "permalink": "/animatix-pro-docs/docs/api/graph-executor-util",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/api/graph-executor-util.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar"
+}
