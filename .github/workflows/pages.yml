@@ -30,6 +30,16 @@ jobs:
           node-version: '18'
           cache: 'npm'
       
+      - name: Verify Node.js installation
+        run: |
+          node --version
+          npm --version
+      
+      - name: List directory contents
+        run: |
+          ls -la
+          pwd
+      
       - name: Install dependencies
         run: npm install
       
