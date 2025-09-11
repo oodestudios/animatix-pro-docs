@@ -28,6 +28,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: 'animatix-pro-docs/package-lock.json'
       
       - name: Verify Node.js installation
         run: |
@@ -46,7 +48,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          npm ci --prefer-offline --no-audit
+          npm install
         working-directory: ./animatix-pro-docs
       
       - name: Build Docusaurus
