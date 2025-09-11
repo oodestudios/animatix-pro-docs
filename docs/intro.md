@@ -7,7 +7,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://oodestudios.github.io/animatix-pro-docs/)
 [![Unity](https://img.shields.io/badge/Unity-2021.3%2B-blue)](https://unity.com/)
-[![License](https://img.shields.io/badge/License-Proprietary-red)]()
+[![License](https://img.shields.io/badge/License-Proprietary-red)](https://oodestudios.github.io/animatix-pro-docs/)
 
 </div>
 

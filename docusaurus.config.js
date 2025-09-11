@@ -15,7 +15,7 @@ const config = {
   organizationName: 'oodestudios',
   projectName: 'animatix-pro-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set

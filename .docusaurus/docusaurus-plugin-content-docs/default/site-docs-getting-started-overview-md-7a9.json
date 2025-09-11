@@ -1,0 +1,20 @@
+{
+  "id": "getting-started/overview",
+  "title": "Overview",
+  "description": "Welcome to Animatix Pro - the professional animation system for Unity that revolutionizes how you create stunning UI and camera animations.",
+  "source": "@site/docs/getting-started/overview.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/overview",
+  "permalink": "/animatix-pro-docs/getting-started/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/getting-started/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/animatix-pro-docs/getting-started/installation"
+  }
+}

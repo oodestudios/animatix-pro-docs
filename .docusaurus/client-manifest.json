@@ -1,0 +1,261 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "09d5ad39": [
+      864
+    ],
+    "0e384e19": [
+      976
+    ],
+    "54f44165": [
+      924
+    ],
+    "588bd741": [
+      324
+    ],
+    "5e95c892": [
+      647
+    ],
+    "7a96ca3d": [
+      271
+    ],
+    "7cc5c8c8": [
+      889
+    ],
+    "8fe10fa9": [
+      811
+    ],
+    "a6a542e1": [
+      356
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "abc168d8": [
+      420
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      634,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.9dd819fe.js",
+          "hash": "a9e19d588b2dadf9",
+          "publicPath": "/animatix-pro-docs/assets/js/a94703ab.9dd819fe.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.747ab678.js",
+          "hash": "00beba73080d75be",
+          "publicPath": "/animatix-pro-docs/assets/js/a7bd4aaa.747ab678.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.06feaaa1.js",
+          "hash": "91ab7967e4f0cb52",
+          "publicPath": "/animatix-pro-docs/assets/js/a7456010.06feaaa1.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.d3f5892a.js",
+          "hash": "eb5512c1944f07df",
+          "publicPath": "/animatix-pro-docs/assets/js/237.d3f5892a.js"
+        }
+      ]
+    },
+    "271": {
+      "js": [
+        {
+          "file": "assets/js/7a96ca3d.819dfc56.js",
+          "hash": "6ef384d26f3ec67e",
+          "publicPath": "/animatix-pro-docs/assets/js/7a96ca3d.819dfc56.js"
+        }
+      ]
+    },
+    "324": {
+      "js": [
+        {
+          "file": "assets/js/588bd741.24d69175.js",
+          "hash": "683757e7e5184e94",
+          "publicPath": "/animatix-pro-docs/assets/js/588bd741.24d69175.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.37fa090e.js",
+          "hash": "5199c0560dfd5896",
+          "publicPath": "/animatix-pro-docs/assets/js/runtime~main.37fa090e.js"
+        }
+      ]
+    },
+    "356": {
+      "js": [
+        {
+          "file": "assets/js/a6a542e1.94483bc0.js",
+          "hash": "226ea47470bcb962",
+          "publicPath": "/animatix-pro-docs/assets/js/a6a542e1.94483bc0.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.acf6fb2f.js",
+          "hash": "95f1d1702c953f0a",
+          "publicPath": "/animatix-pro-docs/assets/js/17896441.acf6fb2f.js"
+        }
+      ]
+    },
+    "420": {
+      "js": [
+        {
+          "file": "assets/js/abc168d8.6f487743.js",
+          "hash": "420d8cba283c4ef1",
+          "publicPath": "/animatix-pro-docs/assets/js/abc168d8.6f487743.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.14c50520.js",
+          "hash": "fbc13dea490bfae3",
+          "publicPath": "/animatix-pro-docs/assets/js/c4f5d8e4.14c50520.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.63381e58.js",
+          "hash": "3fd62cda2d384b36",
+          "publicPath": "/animatix-pro-docs/assets/js/5e95c892.63381e58.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.f749e138.js",
+          "hash": "9e95bfd6ef58fd59",
+          "publicPath": "/animatix-pro-docs/assets/js/aba21aa0.f749e138.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.43efeca3.js",
+          "hash": "09a2e33459a1e902",
+          "publicPath": "/animatix-pro-docs/assets/js/main.43efeca3.js"
+        }
+      ]
+    },
+    "811": {
+      "js": [
+        {
+          "file": "assets/js/8fe10fa9.1753230f.js",
+          "hash": "754e7d3f8ecd4be5",
+          "publicPath": "/animatix-pro-docs/assets/js/8fe10fa9.1753230f.js"
+        }
+      ]
+    },
+    "864": {
+      "js": [
+        {
+          "file": "assets/js/09d5ad39.a9b84de0.js",
+          "hash": "0a9e63ce06c77d7f",
+          "publicPath": "/animatix-pro-docs/assets/js/09d5ad39.a9b84de0.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.37976ca5.css",
+          "hash": "c22bc71602e3fe62",
+          "publicPath": "/animatix-pro-docs/assets/css/styles.37976ca5.css"
+        }
+      ]
+    },
+    "889": {
+      "js": [
+        {
+          "file": "assets/js/7cc5c8c8.d4fe74fe.js",
+          "hash": "2000d48f03a762ac",
+          "publicPath": "/animatix-pro-docs/assets/js/7cc5c8c8.d4fe74fe.js"
+        }
+      ]
+    },
+    "924": {
+      "js": [
+        {
+          "file": "assets/js/54f44165.bf95fbc5.js",
+          "hash": "a43ebe859d78c6c1",
+          "publicPath": "/animatix-pro-docs/assets/js/54f44165.bf95fbc5.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.eb832f83.js",
+          "hash": "c857560acf48d991",
+          "publicPath": "/animatix-pro-docs/assets/js/0e384e19.eb832f83.js"
+        }
+      ]
+    }
+  }
+}

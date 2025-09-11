@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f0f0f0"/>
+  <path d="M50 150 L100 50 L150 150 L50 150 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="100" cy="40" r="15" fill="#FFC107"/>
+  <path d="M30 150 L50 150 L40 130 L30 150 Z" fill="#8BC34A"/>
+  <path d="M150 150 L170 150 L160 130 L150 150 Z" fill="#8BC34A"/>
+  <text x="100" y="180" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Visual Editor</text>
+</svg>

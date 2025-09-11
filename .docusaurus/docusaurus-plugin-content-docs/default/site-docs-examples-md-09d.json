@@ -5,16 +5,20 @@
   "source": "@site/docs/examples.md",
   "sourceDirName": ".",
   "slug": "/examples",
-  "permalink": "/animatix-pro-docs/docs/examples",
+  "permalink": "/animatix-pro-docs/examples",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/examples.md",
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/examples.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Quick Start",
-    "permalink": "/animatix-pro-docs/docs/getting-started/quick-start"
+    "title": "GraphExecutorUtil",
+    "permalink": "/animatix-pro-docs/api/graph-executor-util"
+  },
+  "next": {
+    "title": "UI/UX Animations",
+    "permalink": "/animatix-pro-docs/examples/ui-ux-animations"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "examples/ui-ux-animations",
+  "title": "UI/UX Animations",
+  "description": "This section provides comprehensive examples of UI and UX animations created with Animatix Pro.",
+  "source": "@site/docs/examples/ui-ux-animations.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/ui-ux-animations",
+  "permalink": "/animatix-pro-docs/examples/ui-ux-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/examples/ui-ux-animations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Examples",
+    "permalink": "/animatix-pro-docs/examples"
+  }
+}

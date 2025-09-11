@@ -1,38 +1,52 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/animatix-pro-docs/docs",
+      "path": "/animatix-pro-docs/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/animatix-pro-docs/docs",
-          "mainDocId": "intro",
+          "path": "/animatix-pro-docs/",
+          "mainDocId": "getting-started/overview",
           "docs": [
             {
               "id": "api/graph-executor-util",
-              "path": "/animatix-pro-docs/docs/api/graph-executor-util",
+              "path": "/animatix-pro-docs/api/graph-executor-util",
               "sidebar": "apiSidebar"
             },
             {
               "id": "examples",
-              "path": "/animatix-pro-docs/docs/examples",
+              "path": "/animatix-pro-docs/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/ui-ux-animations",
+              "path": "/animatix-pro-docs/examples/ui-ux-animations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/installation",
-              "path": "/animatix-pro-docs/docs/getting-started/installation",
+              "path": "/animatix-pro-docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/animatix-pro-docs/getting-started/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/quick-start",
-              "path": "/animatix-pro-docs/docs/getting-started/quick-start",
+              "path": "/animatix-pro-docs/getting-started/quick-start",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/animatix-pro-docs/docs/intro",
+              "path": "/animatix-pro-docs/intro"
+            },
+            {
+              "id": "visual-editor/graphflow-overview",
+              "path": "/animatix-pro-docs/visual-editor/graphflow-overview",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -40,13 +54,13 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/animatix-pro-docs/docs/intro",
-                "label": "intro"
+                "path": "/animatix-pro-docs/getting-started/overview",
+                "label": "getting-started/overview"
               }
             },
             "apiSidebar": {
               "link": {
-                "path": "/animatix-pro-docs/docs/api/graph-executor-util",
+                "path": "/animatix-pro-docs/api/graph-executor-util",
                 "label": "api/graph-executor-util"
               }
             }

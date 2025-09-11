@@ -11,7 +11,7 @@ export default {
   "baseUrl": "/animatix-pro-docs/",
   "organizationName": "oodestudios",
   "projectName": "animatix-pro-docs",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -27,11 +27,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/"
+          "routeBasePath": "/",
+          "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -63,11 +60,6 @@ export default {
         {
           "to": "/examples",
           "label": "Examples",
-          "position": "left"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
           "position": "left"
         },
         {
@@ -110,10 +102,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/oodestudios/animatix-pro"

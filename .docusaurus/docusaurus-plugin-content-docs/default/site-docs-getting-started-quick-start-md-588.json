@@ -1,29 +1,24 @@
 {
   "id": "getting-started/quick-start",
   "title": "Quick Start",
-  "description": "Create your first animation in 5 minutes! 🚀",
+  "description": "Create your first animation in just 5 minutes! This guide will walk you through creating a simple UI button animation.",
   "source": "@site/docs/getting-started/quick-start.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/quick-start",
-  "permalink": "/animatix-pro-docs/docs/getting-started/quick-start",
+  "permalink": "/animatix-pro-docs/getting-started/quick-start",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/getting-started/quick-start.md",
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/getting-started/quick-start.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
-  "frontMatter": {
-    "id": "quick-start",
-    "title": "Quick Start",
-    "sidebar_position": 2
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Installation",
-    "permalink": "/animatix-pro-docs/docs/getting-started/installation"
+    "permalink": "/animatix-pro-docs/getting-started/installation"
   },
   "next": {
-    "title": "Code Examples",
-    "permalink": "/animatix-pro-docs/docs/examples"
+    "title": "GraphFlow Editor Overview",
+    "permalink": "/animatix-pro-docs/visual-editor/graphflow-overview"
   }
 }

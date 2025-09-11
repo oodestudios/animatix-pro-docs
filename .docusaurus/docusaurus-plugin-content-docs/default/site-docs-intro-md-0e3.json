@@ -1,25 +1,15 @@
 {
   "id": "intro",
   "title": "Welcome to Animatix Pro",
-  "description": "Animatix Pro",
+  "description": "Professional Animation System for Unity",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/animatix-pro-docs/docs/intro",
+  "permalink": "/animatix-pro-docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
-  "frontMatter": {
-    "id": "intro",
-    "title": "Welcome to Animatix Pro",
-    "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Installation",
-    "permalink": "/animatix-pro-docs/docs/getting-started/installation"
-  }
+  "frontMatter": {}
 }

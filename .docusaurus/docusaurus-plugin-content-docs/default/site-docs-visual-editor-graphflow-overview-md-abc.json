@@ -1,0 +1,24 @@
+{
+  "id": "visual-editor/graphflow-overview",
+  "title": "GraphFlow Editor Overview",
+  "description": "The GraphFlow Editor is the heart of Animatix Pro - a powerful visual interface for creating complex animations through an intuitive node-based system.",
+  "source": "@site/docs/visual-editor/graphflow-overview.md",
+  "sourceDirName": "visual-editor",
+  "slug": "/visual-editor/graphflow-overview",
+  "permalink": "/animatix-pro-docs/visual-editor/graphflow-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/visual-editor/graphflow-overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/animatix-pro-docs/getting-started/quick-start"
+  },
+  "next": {
+    "title": "GraphExecutorUtil",
+    "permalink": "/animatix-pro-docs/api/graph-executor-util"
+  }
+}
