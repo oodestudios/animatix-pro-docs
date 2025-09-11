@@ -11,5 +11,10 @@
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/animatix-pro-docs/getting-started/quick-start"
+  }
 }

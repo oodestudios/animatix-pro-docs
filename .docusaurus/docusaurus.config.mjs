@@ -13,6 +13,7 @@ export default {
   "projectName": "animatix-pro-docs",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [

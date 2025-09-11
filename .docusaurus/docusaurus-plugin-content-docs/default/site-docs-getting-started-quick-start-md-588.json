@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Installation",
-    "permalink": "/animatix-pro-docs/getting-started/installation"
+    "title": "Welcome to Animatix Pro",
+    "permalink": "/animatix-pro-docs/intro"
   },
   "next": {
-    "title": "GraphFlow Editor Overview",
-    "permalink": "/animatix-pro-docs/visual-editor/graphflow-overview"
+    "title": "Overview",
+    "permalink": "/animatix-pro-docs/getting-started/overview"
   }
 }

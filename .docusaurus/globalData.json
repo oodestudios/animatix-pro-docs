@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/animatix-pro-docs/",
-          "mainDocId": "getting-started/overview",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "api/graph-executor-util",
@@ -42,7 +42,8 @@
             },
             {
               "id": "intro",
-              "path": "/animatix-pro-docs/intro"
+              "path": "/animatix-pro-docs/intro",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "visual-editor/graphflow-overview",
@@ -54,8 +55,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/animatix-pro-docs/getting-started/overview",
-                "label": "getting-started/overview"
+                "path": "/animatix-pro-docs/intro",
+                "label": "intro"
               }
             },
             "apiSidebar": {

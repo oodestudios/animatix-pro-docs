@@ -31,7 +31,10 @@ const sidebars = {
       label: '🚀 Getting Started',
       items: [
         'getting-started/overview',
-        'getting-started/installation'
+        'getting-started/installation',
+        'getting-started/quick-start',
+        'getting-started/first-animation',
+        'getting-started/project-setup'
       ]
     },
     
@@ -40,7 +43,9 @@ const sidebars = {
       type: 'category',
       label: '🎨 GraphFlow Editor',
       items: [
-        'visual-editor/graphflow-overview'
+        'visual-editor/interface-overview',
+        'visual-editor/node-types',
+        'visual-editor/connections-flow'
       ]
     },
     

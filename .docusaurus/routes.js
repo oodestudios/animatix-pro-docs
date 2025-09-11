@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/animatix-pro-docs/',
-    component: ComponentCreator('/animatix-pro-docs/', 'beb'),
+    component: ComponentCreator('/animatix-pro-docs/', '1fa'),
     routes: [
       {
         path: '/animatix-pro-docs/',
-        component: ComponentCreator('/animatix-pro-docs/', 'bd4'),
+        component: ComponentCreator('/animatix-pro-docs/', '1e0'),
         routes: [
           {
             path: '/animatix-pro-docs/',
-            component: ComponentCreator('/animatix-pro-docs/', '90b'),
+            component: ComponentCreator('/animatix-pro-docs/', '041'),
             routes: [
               {
                 path: '/animatix-pro-docs/api/graph-executor-util',
@@ -57,8 +57,9 @@ export default [
               },
               {
                 path: '/animatix-pro-docs/intro',
-                component: ComponentCreator('/animatix-pro-docs/intro', '2b5'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/intro', '129'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/visual-editor/graphflow-overview',

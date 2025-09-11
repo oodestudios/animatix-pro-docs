@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Quick Start",
-    "permalink": "/animatix-pro-docs/getting-started/quick-start"
+    "title": "Installation",
+    "permalink": "/animatix-pro-docs/getting-started/installation"
   },
   "next": {
     "title": "GraphExecutorUtil",
