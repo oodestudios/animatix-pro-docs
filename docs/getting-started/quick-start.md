@@ -1,13 +1,35 @@
 # Quick Start
 
-Create your first animation in just 5 minutes! This guide will walk you through creating a simple UI button animation.
+Create your first animation in just 5 minutes! This guide will walk you through creating a simple UI button animation using Animatix Pro's visual graph editor.
 
-## What We'll Create
+## 🎯 What We'll Create
 
-We'll create a button that:
-- **Scales up** when hovered
-- **Scales down** when clicked
-- **Returns to normal** when released
+We'll create an interactive button animation that:
+- **Scales up** when hovered (1.0 → 1.2)
+- **Scales down** when clicked (1.2 → 0.9)
+- **Returns to normal** when released (0.9 → 1.0)
+- **Includes smooth easing** for professional feel
+
+## 📋 Prerequisites
+
+Before we start, make sure you have:
+- ✅ **Unity 2021.3+** installed
+- ✅ **Animatix Pro** imported in your project
+- ✅ **A UI Button** in your scene (we'll create one if needed)
+- ✅ **Basic Unity knowledge** (creating GameObjects, using Inspector)
+
+## 🚀 Let's Get Started!
+
+### Step 0: Create a UI Button (if needed)
+
+If you don't have a UI button in your scene yet:
+
+1. **Right-click** in the Hierarchy window
+2. **Select UI > Button**
+3. **Position it** in the center of your Canvas
+4. **Rename it** to "MyButton" for clarity
+
+> **💡 Tip:** Make sure you have a Canvas in your scene. If not, right-click in Hierarchy → UI → Canvas.
 
 ## Step 1: Create a GraphFlow Asset
 
@@ -146,25 +168,58 @@ public class AnimationListener : MonoBehaviour
 }
 ```
 
-## What's Next?
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Animation doesn't play:**
+- Check that the GraphExecutor component is attached
+- Verify the GraphFlow Asset is assigned
+- Ensure the button GameObject is set in the trigger node
+
+**Button doesn't respond:**
+- Make sure the button has a Button component
+- Check that the button is interactive (not disabled)
+- Verify the trigger node is connected to the animation node
+
+**Animation looks choppy:**
+- Try different easing curves
+- Adjust the duration values
+- Check your target framerate
+
+### Getting Help
+
+If you run into issues:
+- **Check the Console** for error messages
+- **Review the Inspector** settings for each node
+- **Test in Play Mode** to see real-time behavior
+- **Join our Discord** for community support
+
+## 🎉 What's Next?
 
 Congratulations! You've created your first animation. Here's what to explore next:
 
-### **Learn More**
-- **[Basic Concepts](basic-concepts)** - Understand the fundamentals
-- **[Visual Editor](visual-editor/graphflow-overview)** - Master the interface
+### **📚 Learn More**
+- **[Getting Started Overview](getting-started/overview)** - Complete setup guide
+- **[GraphFlow Editor](visual-editor/graphflow-overview)** - Master the interface
 - **[Animation Types](animation-types/ui-animations)** - Explore different animations
 
-### **Advanced Topics**
+### **⚙️ Advanced Topics**
 - **[Custom Actions](programming/custom-actions)** - Create your own functionality
 - **[Performance Optimization](advanced-features/performance-optimization)** - Optimize your animations
 - **[API Reference](api/graph-executor-util)** - Full technical documentation
 
-### **Examples**
+### **🎯 Examples**
 - **[UI/UX Animations](examples/ui-ux-animations)** - Complete UI examples
 - **[Camera Animations](examples/gameplay-sequences)** - Cinematic sequences
 - **[Real-world Projects](examples/real-world-projects)** - Professional examples
 
 ---
 
-**Great job!** You've successfully created your first Animatix Pro animation. Ready to learn more? Check out the [Basic Concepts](basic-concepts) guide!
+<div align="center">
+
+**🎊 Great job!** You've successfully created your first Animatix Pro animation!
+
+**Ready to learn more?** Check out the [Getting Started Overview](getting-started/overview) guide!
+
+</div>
