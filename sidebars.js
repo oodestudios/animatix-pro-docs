@@ -49,7 +49,21 @@ const sidebars = {
       ]
     },
     
-    // 4. API Reference
+    // 4. Animation Types
+    {
+      type: 'category',
+      label: '✨ Animation Types',
+      items: [
+        'animation-types/ui-animations',
+        'animation-types/text-animations',
+        'animation-types/3d-object-animations',
+        'animation-types/camera-animations',
+        'animation-types/particle-animations',
+        'animation-types/audio-animations'
+      ]
+    },
+    
+    // 5. API Reference
     {
       type: 'category',
       label: '🔧 API Reference',
@@ -58,7 +72,7 @@ const sidebars = {
       ]
     },
     
-    // 5. Examples & Tutorials
+    // 6. Examples & Tutorials
     {
       type: 'category',
       label: '🎯 Examples & Tutorials',
