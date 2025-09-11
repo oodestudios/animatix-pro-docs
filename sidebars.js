@@ -30,9 +30,8 @@ const sidebars = {
       type: 'category',
       label: '🚀 Getting Started',
       items: [
-        'getting-started/installation',
-        'getting-started/first-animation',
-        'getting-started/project-setup'
+        'getting-started/overview',
+        'getting-started/installation'
       ]
     },
     
@@ -41,93 +40,26 @@ const sidebars = {
       type: 'category',
       label: '🎨 GraphFlow Editor',
       items: [
-        'visual-editor/interface-overview',
-        'visual-editor/node-types',
-        'visual-editor/connections-flow'
+        'visual-editor/graphflow-overview'
       ]
     },
     
-    // 4. Animation Types
-    {
-      type: 'category',
-      label: '✨ Animation Types',
-      items: [
-        'animation-types/ui-animations',
-        'animation-types/text-animations',
-        'animation-types/3d-object-animations',
-        'animation-types/camera-animations',
-        'animation-types/particle-animations',
-        'animation-types/audio-animations'
-      ]
-    },
-    
-    // 5. Advanced Features
-    {
-      type: 'category',
-      label: '⚙️ Advanced Features',
-      items: [
-        'advanced-features/triggers-conditions',
-        'advanced-features/events-actions',
-        'advanced-features/loops-variables',
-        'advanced-features/state-management'
-      ]
-    },
-    
-    // 6. API Reference
+    // 4. API Reference
     {
       type: 'category',
       label: '🔧 API Reference',
       items: [
-        'api/core-classes',
-        'api/scripting-examples'
+        'api/graph-executor-util'
       ]
     },
     
-    // 7. Developer Guide
-    {
-      type: 'category',
-      label: '💻 Developer Guide',
-      items: [
-        'developer-guide/custom-triggers',
-        'developer-guide/custom-conditions',
-        'developer-guide/custom-actions',
-        'developer-guide/runtime-control'
-      ]
-    },
-    
-    // 8. Examples & Tutorials
+    // 5. Examples & Tutorials
     {
       type: 'category',
       label: '🎯 Examples & Tutorials',
       items: [
-        'examples/ui-ux-animations',
-        'examples/gameplay-sequences',
-        'examples/cinematic-camera',
-        'examples/vr-ar-mobile'
-      ]
-    },
-    
-    // 9. Reference
-    {
-      type: 'category',
-      label: '📖 Reference',
-      items: [
-        'reference/node-reference',
-        'reference/property-reference',
-        'reference/error-codes',
-        'reference/changelog'
-      ]
-    },
-    
-    // 10. Community & Support
-    {
-      type: 'category',
-      label: '🤝 Community & Support',
-      items: [
-        'community/faq',
-        'community/troubleshooting',
-        'community/contact-support',
-        'community/contributing'
+        'examples',
+        'examples/ui-ux-animations'
       ]
     }
   ],
@@ -138,8 +70,7 @@ const sidebars = {
       type: 'category',
       label: 'API Reference',
       items: [
-        'api/core-classes',
-        'api/scripting-examples'
+        'api/graph-executor-util'
       ]
     }
   ]
