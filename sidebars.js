@@ -102,7 +102,34 @@ const sidebars = {
       label: '🎯 Examples & Tutorials',
       items: [
         'examples',
-        'examples/ui-ux-animations'
+        'examples/ui-ux-animations',
+        'examples/gameplay-sequences',
+        'examples/cinematic-camera',
+        'examples/vr-ar-mobile'
+      ]
+    },
+    
+    // 9. Reference
+    {
+      type: 'category',
+      label: '📖 Reference',
+      items: [
+        'reference/node-reference',
+        'reference/properties-reference',
+        'reference/error-codes',
+        'reference/changelog'
+      ]
+    },
+    
+    // 10. Community & Support
+    {
+      type: 'category',
+      label: '🤝 Community & Support',
+      items: [
+        'community/faq',
+        'community/troubleshooting',
+        'community/contact-support',
+        'community/contributing'
       ]
     }
   ],

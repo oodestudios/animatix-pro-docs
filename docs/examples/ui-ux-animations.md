@@ -1,396 +1,1021 @@
 # UI/UX Animations
 
-This section provides comprehensive examples of UI and UX animations created with Animatix Pro.
+Complete examples and tutorials for creating stunning UI/UX animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for common UI animation patterns.
 
-## Button Animations
+## 🎨 UI Animation Examples
 
-### Hover Effects
+### Button Animations
+Complete button animation examples for different use cases.
 
-Create engaging button hover animations that provide visual feedback to users.
-
-#### Scale on Hover
-
-```csharp
-// Simple scale animation on hover
-public class ButtonHover : MonoBehaviour
-{
-    public GraphFlowAsset hoverAnimation;
-    
-    public void OnPointerEnter()
-    {
-        GraphExecutorUtil.RunGraph(hoverAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Hover** trigger node
-2. Add **Scale Animation** node
-3. Configure: Start Scale (1,1,1) → End Scale (1.1,1.1,1.1)
-4. Set duration: 0.2 seconds
-5. Use Ease Out Back easing
-
-#### Color Transition
+#### Hover Button Animation
+Create an engaging hover effect for buttons.
 
 ```csharp
-// Color change animation
-public class ButtonColorHover : MonoBehaviour
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class HoverButtonExample : MonoBehaviour
 {
-    public GraphFlowAsset colorAnimation;
+    [SerializeField] private Button button;
+    [SerializeField] private GraphFlowAsset hoverAnimation;
+    [SerializeField] private GraphFlowAsset clickAnimation;
     
-    public void OnPointerEnter()
-    {
-        GraphExecutorUtil.RunGraph(colorAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Hover** trigger node
-2. Add **Color Animation** node
-3. Configure: Start Color (White) → End Color (Blue)
-4. Set duration: 0.3 seconds
-5. Use Ease In Out easing
-
-### Click Animations
-
-#### Press Effect
-
-```csharp
-// Button press animation
-public class ButtonPress : MonoBehaviour
-{
-    public GraphFlowAsset pressAnimation;
+    private GraphExecutor graphExecutor;
     
-    public void OnPointerDown()
+    private void Start()
     {
-        GraphExecutorUtil.RunGraph(pressAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Click** trigger node
-2. Add **Scale Animation** node
-3. Configure: Start Scale (1,1,1) → End Scale (0.95,0.95,0.95)
-4. Set duration: 0.1 seconds
-5. Use Ease In Out easing
-
-#### Ripple Effect
-
-```csharp
-// Ripple effect on click
-public class ButtonRipple : MonoBehaviour
-{
-    public GraphFlowAsset rippleAnimation;
-    
-    public void OnPointerClick()
-    {
-        GraphExecutorUtil.RunGraph(rippleAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Click** trigger node
-2. Add **Scale Animation** node (for ripple)
-3. Add **Fade Animation** node (for opacity)
-4. Configure parallel execution
-5. Set duration: 0.5 seconds
-
-## Panel Animations
-
-### Slide In/Out
-
-#### From Right
-
-```csharp
-// Panel slides in from right
-public class PanelSlideIn : MonoBehaviour
-{
-    public GraphFlowAsset slideInAnimation;
-    
-    public void ShowPanel()
-    {
-        GraphExecutorUtil.RunGraph(slideInAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Trigger** node
-2. Add **Move Animation** node
-3. Configure: Start Position (Screen Right) → End Position (Center)
-4. Set duration: 0.4 seconds
-5. Use Ease Out Back easing
-
-#### From Bottom
-
-```csharp
-// Panel slides in from bottom
-public class PanelSlideUp : MonoBehaviour
-{
-    public GraphFlowAsset slideUpAnimation;
-    
-    public void ShowPanel()
-    {
-        GraphExecutorUtil.RunGraph(slideUpAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **On Trigger** node
-2. Add **Move Animation** node
-3. Configure: Start Position (Screen Bottom) → End Position (Center)
-4. Set duration: 0.3 seconds
-5. Use Ease Out Cubic easing
-
-### Fade In/Out
-
-#### Simple Fade
-
-```csharp
-// Simple fade in/out
-public class PanelFade : MonoBehaviour
-{
-    public GraphFlowAsset fadeInAnimation;
-    public GraphFlowAsset fadeOutAnimation;
-    
-    public void ShowPanel()
-    {
-        GraphExecutorUtil.RunGraph(fadeInAnimation);
-    }
-    
-    public void HidePanel()
-    {
-        GraphExecutorUtil.RunGraph(fadeOutAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **Fade Animation** node
-2. Configure: Start Alpha (0) → End Alpha (1)
-3. Set duration: 0.3 seconds
-4. Use Ease In Out easing
-
-## Menu Animations
-
-### Staggered Animation
-
-```csharp
-// Staggered menu item animation
-public class MenuStagger : MonoBehaviour
-{
-    public GraphFlowAsset[] menuItemAnimations;
-    
-    public void ShowMenu()
-    {
-        for (int i = 0; i < menuItemAnimations.Length; i++)
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
         {
-            StartCoroutine(AnimateMenuItem(i));
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Set up button events
+        button.onClick.AddListener(OnButtonClick);
+        
+        // Set up hover events
+        var eventTrigger = button.gameObject.AddComponent<UnityEngine.EventSystems.EventTrigger>();
+        
+        var pointerEnter = new UnityEngine.EventSystems.EventTrigger.Entry();
+        pointerEnter.eventID = UnityEngine.EventSystems.EventTriggerType.PointerEnter;
+        pointerEnter.callback.AddListener((data) => OnPointerEnter());
+        eventTrigger.triggers.Add(pointerEnter);
+        
+        var pointerExit = new UnityEngine.EventSystems.EventTrigger.Entry();
+        pointerExit.eventID = UnityEngine.EventSystems.EventTriggerType.PointerExit;
+        pointerExit.callback.AddListener((data) => OnPointerExit());
+        eventTrigger.triggers.Add(pointerExit);
+    }
+    
+    private void OnPointerEnter()
+    {
+        if (hoverAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(hoverAnimation);
+            graphExecutor.Play();
         }
     }
     
-    IEnumerator AnimateMenuItem(int index)
+    private void OnPointerExit()
     {
-        yield return new WaitForSeconds(index * 0.1f);
-        GraphExecutorUtil.RunGraph(menuItemAnimations[index]);
+        if (hoverAnimation != null)
+        {
+            graphExecutor.Stop();
+        }
+    }
+    
+    private void OnButtonClick()
+    {
+        if (clickAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(clickAnimation);
+            graphExecutor.Play();
+        }
     }
 }
 ```
 
-**GraphFlow Setup:**
-1. Add **Move Animation** node
-2. Configure: Start Position (Above) → End Position (Final)
-3. Set duration: 0.4 seconds
-4. Use Ease Out Back easing
-
-### Accordion Menu
+#### Toggle Button Animation
+Create an animated toggle button.
 
 ```csharp
-// Accordion-style menu expansion
-public class AccordionMenu : MonoBehaviour
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ToggleButtonExample : MonoBehaviour
 {
-    public GraphFlowAsset expandAnimation;
-    public GraphFlowAsset collapseAnimation;
+    [SerializeField] private Toggle toggle;
+    [SerializeField] private GraphFlowAsset onAnimation;
+    [SerializeField] private GraphFlowAsset offAnimation;
+    [SerializeField] private Image toggleBackground;
+    [SerializeField] private RectTransform toggleHandle;
     
+    private GraphExecutor graphExecutor;
+    private bool isAnimating = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        toggle.onValueChanged.AddListener(OnToggleValueChanged);
+    }
+    
+    private void OnToggleValueChanged(bool isOn)
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateToggle(isOn));
+    }
+    
+    private System.Collections.IEnumerator AnimateToggle(bool isOn)
+    {
+        isAnimating = true;
+        
+        GraphFlowAsset animation = isOn ? onAnimation : offAnimation;
+        if (animation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(animation);
+            graphExecutor.Play();
+            
+            // Wait for animation to complete
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+        
+        isAnimating = false;
+    }
+}
+```
+
+### Menu Animations
+Complete menu animation examples.
+
+#### Slide-In Menu
+Create a smooth slide-in menu animation.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SlideInMenuExample : MonoBehaviour
+{
+    [SerializeField] private RectTransform menuPanel;
+    [SerializeField] private Button openButton;
+    [SerializeField] private Button closeButton;
+    [SerializeField] private GraphFlowAsset slideInAnimation;
+    [SerializeField] private GraphFlowAsset slideOutAnimation;
+    
+    private GraphExecutor graphExecutor;
+    private bool isOpen = false;
+    private bool isAnimating = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Initially hide the menu
+        menuPanel.gameObject.SetActive(false);
+        
+        // Set up button events
+        openButton.onClick.AddListener(OpenMenu);
+        closeButton.onClick.AddListener(CloseMenu);
+    }
+    
+    public void OpenMenu()
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateMenu(true));
+    }
+    
+    public void CloseMenu()
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateMenu(false));
+    }
+    
+    private System.Collections.IEnumerator AnimateMenu(bool open)
+    {
+        isAnimating = true;
+        
+        if (open)
+        {
+            menuPanel.gameObject.SetActive(true);
+            graphExecutor.SetGraphFlowAsset(slideInAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+            isOpen = true;
+        }
+        else
+        {
+            graphExecutor.SetGraphFlowAsset(slideOutAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+            menuPanel.gameObject.SetActive(false);
+            isOpen = false;
+        }
+        
+        isAnimating = false;
+    }
+}
+```
+
+#### Dropdown Menu
+Create an animated dropdown menu.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
+
+public class DropdownMenuExample : MonoBehaviour
+{
+    [SerializeField] private Button dropdownButton;
+    [SerializeField] private RectTransform dropdownContent;
+    [SerializeField] private GraphFlowAsset expandAnimation;
+    [SerializeField] private GraphFlowAsset collapseAnimation;
+    [SerializeField] private List<Button> menuItems = new List<Button>();
+    
+    private GraphExecutor graphExecutor;
     private bool isExpanded = false;
+    private bool isAnimating = false;
     
-    public void ToggleMenu()
+    private void Start()
     {
-        if (isExpanded)
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
         {
-            GraphExecutorUtil.RunGraph(collapseAnimation);
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Initially hide the dropdown content
+        dropdownContent.gameObject.SetActive(false);
+        
+        // Set up button events
+        dropdownButton.onClick.AddListener(ToggleDropdown);
+        
+        // Set up menu item events
+        foreach (var item in menuItems)
+        {
+            item.onClick.AddListener(() => OnMenuItemSelected(item));
+        }
+    }
+    
+    private void ToggleDropdown()
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateDropdown(!isExpanded));
+    }
+    
+    private void OnMenuItemSelected(Button selectedItem)
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateDropdown(false));
+        
+        // Handle menu item selection
+        Debug.Log($"Selected: {selectedItem.name}");
+    }
+    
+    private System.Collections.IEnumerator AnimateDropdown(bool expand)
+    {
+        isAnimating = true;
+        
+        if (expand)
+        {
+            dropdownContent.gameObject.SetActive(true);
+            graphExecutor.SetGraphFlowAsset(expandAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+            isExpanded = true;
         }
         else
         {
-            GraphExecutorUtil.RunGraph(expandAnimation);
+            graphExecutor.SetGraphFlowAsset(collapseAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+            dropdownContent.gameObject.SetActive(false);
+            isExpanded = false;
         }
-        isExpanded = !isExpanded;
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **Scale Animation** node
-2. Configure: Start Scale (1,0,1) → End Scale (1,1,1)
-3. Set duration: 0.3 seconds
-4. Use Ease Out Back easing
-
-## Loading Animations
-
-### Spinner
-
-```csharp
-// Rotating loading spinner
-public class LoadingSpinner : MonoBehaviour
-{
-    public GraphFlowAsset spinnerAnimation;
-    
-    void Start()
-    {
-        GraphExecutorUtil.RunGraph(spinnerAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **Rotate Animation** node
-2. Configure: Start Rotation (0) → End Rotation (360)
-3. Set duration: 1.0 seconds
-4. Use Linear easing
-5. Set to loop infinitely
-
-### Progress Bar
-
-```csharp
-// Animated progress bar
-public class ProgressBar : MonoBehaviour
-{
-    public GraphFlowAsset progressAnimation;
-    
-    public void UpdateProgress(float progress)
-    {
-        // Update progress value
-        GraphExecutorUtil.RunGraph(progressAnimation);
-    }
-}
-```
-
-**GraphFlow Setup:**
-1. Add **Scale Animation** node
-2. Configure: Start Scale (0,1,1) → End Scale (1,1,1)
-3. Set duration: 0.5 seconds
-4. Use Ease Out Cubic easing
-
-## Advanced Examples
-
-### Complex UI Sequence
-
-```csharp
-// Complex UI animation sequence
-public class ComplexUISequence : MonoBehaviour
-{
-    public GraphFlowAsset[] sequenceAnimations;
-    
-    public void PlaySequence()
-    {
-        StartCoroutine(PlayAnimationSequence());
-    }
-    
-    IEnumerator PlayAnimationSequence()
-    {
-        // Fade in background
-        GraphExecutorUtil.RunGraph(sequenceAnimations[0]);
-        yield return new WaitForSeconds(0.5f);
         
-        // Slide in main panel
-        GraphExecutorUtil.RunGraph(sequenceAnimations[1]);
-        yield return new WaitForSeconds(0.3f);
-        
-        // Stagger in menu items
-        for (int i = 2; i < sequenceAnimations.Length; i++)
+        isAnimating = false;
+    }
+}
+```
+
+### Loading Animations
+Complete loading animation examples.
+
+#### Progress Bar Animation
+Create an animated progress bar.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ProgressBarExample : MonoBehaviour
+{
+    [SerializeField] private Slider progressBar;
+    [SerializeField] private Text progressText;
+    [SerializeField] private GraphFlowAsset fillAnimation;
+    [SerializeField] private GraphFlowAsset completeAnimation;
+    
+    private GraphExecutor graphExecutor;
+    private bool isAnimating = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
         {
-            GraphExecutorUtil.RunGraph(sequenceAnimations[i]);
-            yield return new WaitForSeconds(0.1f);
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Initialize progress bar
+        progressBar.value = 0f;
+        UpdateProgressText();
+    }
+    
+    public void StartProgress(float duration)
+    {
+        if (isAnimating) return;
+        
+        StartCoroutine(AnimateProgress(duration));
+    }
+    
+    private System.Collections.IEnumerator AnimateProgress(float duration)
+    {
+        isAnimating = true;
+        
+        // Start fill animation
+        if (fillAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(fillAnimation);
+            graphExecutor.Play();
+        }
+        
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            float progress = elapsed / duration;
+            progressBar.value = progress;
+            UpdateProgressText();
+            
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        
+        // Complete the progress bar
+        progressBar.value = 1f;
+        UpdateProgressText();
+        
+        // Play completion animation
+        if (completeAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(completeAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+        
+        isAnimating = false;
+    }
+    
+    private void UpdateProgressText()
+    {
+        if (progressText != null)
+        {
+            progressText.text = $"{Mathf.RoundToInt(progressBar.value * 100)}%";
         }
     }
 }
 ```
 
-### Interactive Elements
+#### Spinner Animation
+Create a rotating spinner animation.
 
 ```csharp
-// Interactive UI elements with multiple states
-public class InteractiveElement : MonoBehaviour
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SpinnerExample : MonoBehaviour
 {
-    public GraphFlowAsset idleAnimation;
-    public GraphFlowAsset hoverAnimation;
-    public GraphFlowAsset clickAnimation;
-    public GraphFlowAsset disabledAnimation;
+    [SerializeField] private RectTransform spinner;
+    [SerializeField] private GraphFlowAsset spinAnimation;
+    [SerializeField] private float spinSpeed = 360f;
     
-    private bool isEnabled = true;
+    private GraphExecutor graphExecutor;
+    private bool isSpinning = false;
     
-    public void OnPointerEnter()
+    private void Start()
     {
-        if (isEnabled)
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
         {
-            GraphExecutorUtil.RunGraph(hoverAnimation);
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
         }
+        
+        // Initially hide the spinner
+        spinner.gameObject.SetActive(false);
     }
     
-    public void OnPointerClick()
+    public void StartSpinning()
     {
-        if (isEnabled)
+        if (isSpinning) return;
+        
+        spinner.gameObject.SetActive(true);
+        isSpinning = true;
+        
+        if (spinAnimation != null)
         {
-            GraphExecutorUtil.RunGraph(clickAnimation);
-        }
-    }
-    
-    public void SetEnabled(bool enabled)
-    {
-        isEnabled = enabled;
-        if (!enabled)
-        {
-            GraphExecutorUtil.RunGraph(disabledAnimation);
+            graphExecutor.SetGraphFlowAsset(spinAnimation);
+            graphExecutor.Play();
         }
         else
         {
-            GraphExecutorUtil.RunGraph(idleAnimation);
+            // Fallback to simple rotation
+            StartCoroutine(SimpleSpin());
+        }
+    }
+    
+    public void StopSpinning()
+    {
+        if (!isSpinning) return;
+        
+        isSpinning = false;
+        
+        if (graphExecutor.IsPlaying())
+        {
+            graphExecutor.Stop();
+        }
+        
+        spinner.gameObject.SetActive(false);
+    }
+    
+    private System.Collections.IEnumerator SimpleSpin()
+    {
+        while (isSpinning)
+        {
+            spinner.Rotate(0, 0, -spinSpeed * Time.deltaTime);
+            yield return null;
         }
     }
 }
 ```
 
-## Best Practices
+### Notification Animations
+Complete notification animation examples.
 
-### Performance
-- **Use object pooling** for frequently animated elements
-- **Optimize animation curves** for smooth performance
-- **Test on target platforms** to ensure compatibility
-- **Use appropriate easing functions** for natural feel
+#### Toast Notification
+Create an animated toast notification.
 
-### User Experience
-- **Keep animations short** (0.2-0.5 seconds)
-- **Provide visual feedback** for all interactions
-- **Use consistent timing** across your UI
-- **Test with different input methods** (mouse, touch, keyboard)
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
-### Code Organization
-- **Group related animations** in the same GraphFlow asset
-- **Use meaningful names** for your animation assets
-- **Implement proper cleanup** in OnDestroy
-- **Document complex sequences** with comments
+public class ToastNotificationExample : MonoBehaviour
+{
+    [SerializeField] private RectTransform toastPanel;
+    [SerializeField] private Text messageText;
+    [SerializeField] private GraphFlowAsset showAnimation;
+    [SerializeField] private GraphFlowAsset hideAnimation;
+    [SerializeField] private float displayDuration = 3f;
+    
+    private GraphExecutor graphExecutor;
+    private bool isShowing = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Initially hide the toast
+        toastPanel.gameObject.SetActive(false);
+    }
+    
+    public void ShowToast(string message)
+    {
+        if (isShowing) return;
+        
+        StartCoroutine(ShowToastCoroutine(message));
+    }
+    
+    private IEnumerator ShowToastCoroutine(string message)
+    {
+        isShowing = true;
+        
+        // Set message and show panel
+        messageText.text = message;
+        toastPanel.gameObject.SetActive(true);
+        
+        // Play show animation
+        if (showAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(showAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+        
+        // Wait for display duration
+        yield return new WaitForSeconds(displayDuration);
+        
+        // Play hide animation
+        if (hideAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(hideAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+        
+        // Hide the toast
+        toastPanel.gameObject.SetActive(false);
+        isShowing = false;
+    }
+}
+```
 
-## Related Topics
+#### Alert Animation
+Create an animated alert notification.
 
-- **[Animation Types](animation-types/ui-animations)** - Learn about different UI animation types
-- **[Performance Optimization](advanced-features/performance-optimization)** - Optimize your animations
-- **[Custom Actions](programming/custom-actions)** - Create custom UI actions
-- **[API Reference](api/graph-executor-util)** - Complete API documentation
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class AlertExample : MonoBehaviour
+{
+    [SerializeField] private RectTransform alertPanel;
+    [SerializeField] private Text alertText;
+    [SerializeField] private Button closeButton;
+    [SerializeField] private GraphFlowAsset alertAnimation;
+    [SerializeField] private GraphFlowAsset closeAnimation;
+    
+    private GraphExecutor graphExecutor;
+    private bool isShowing = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        // Initially hide the alert
+        alertPanel.gameObject.SetActive(false);
+        
+        // Set up close button
+        closeButton.onClick.AddListener(CloseAlert);
+    }
+    
+    public void ShowAlert(string message)
+    {
+        if (isShowing) return;
+        
+        StartCoroutine(ShowAlertCoroutine(message));
+    }
+    
+    private System.Collections.IEnumerator ShowAlertCoroutine(string message)
+    {
+        isShowing = true;
+        
+        // Set message and show panel
+        alertText.text = message;
+        alertPanel.gameObject.SetActive(true);
+        
+        // Play alert animation
+        if (alertAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(alertAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+    }
+    
+    private void CloseAlert()
+    {
+        if (!isShowing) return;
+        
+        StartCoroutine(CloseAlertCoroutine());
+    }
+    
+    private System.Collections.IEnumerator CloseAlertCoroutine()
+    {
+        // Play close animation
+        if (closeAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(closeAnimation);
+            graphExecutor.Play();
+            
+            yield return new WaitUntil(() => !graphExecutor.IsPlaying());
+        }
+        
+        // Hide the alert
+        alertPanel.gameObject.SetActive(false);
+        isShowing = false;
+    }
+}
+```
+
+## 🎮 Interactive Examples
+
+### Drag and Drop
+Create drag and drop functionality with animations.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class DragDropExample : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+{
+    [SerializeField] private RectTransform dragObject;
+    [SerializeField] private GraphFlowAsset dragStartAnimation;
+    [SerializeField] private GraphFlowAsset dragEndAnimation;
+    [SerializeField] private Canvas canvas;
+    
+    private GraphExecutor graphExecutor;
+    private Vector2 originalPosition;
+    private bool isDragging = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+        
+        originalPosition = dragObject.anchoredPosition;
+    }
+    
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (isDragging) return;
+        
+        isDragging = true;
+        
+        // Play drag start animation
+        if (dragStartAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(dragStartAnimation);
+            graphExecutor.Play();
+        }
+    }
+    
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (!isDragging) return;
+        
+        // Update position
+        dragObject.anchoredPosition += eventData.delta / canvas.scaleFactor;
+    }
+    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        if (!isDragging) return;
+        
+        isDragging = false;
+        
+        // Play drag end animation
+        if (dragEndAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(dragEndAnimation);
+            graphExecutor.Play();
+        }
+        
+        // Check for drop target
+        CheckForDropTarget(eventData);
+    }
+    
+    private void CheckForDropTarget(PointerEventData eventData)
+    {
+        // Check if dropped on a valid target
+        var results = new System.Collections.Generic.List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+        
+        foreach (var result in results)
+        {
+            if (result.gameObject.CompareTag("DropTarget"))
+            {
+                // Handle successful drop
+                HandleSuccessfulDrop(result.gameObject);
+                return;
+            }
+        }
+        
+        // Return to original position if no valid target
+        StartCoroutine(ReturnToOriginalPosition());
+    }
+    
+    private void HandleSuccessfulDrop(GameObject target)
+    {
+        // Handle successful drop logic
+        Debug.Log($"Dropped on {target.name}");
+    }
+    
+    private System.Collections.IEnumerator ReturnToOriginalPosition()
+    {
+        Vector2 startPosition = dragObject.anchoredPosition;
+        float elapsed = 0f;
+        float duration = 0.5f;
+        
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = elapsed / duration;
+            dragObject.anchoredPosition = Vector2.Lerp(startPosition, originalPosition, progress);
+            yield return null;
+        }
+        
+        dragObject.anchoredPosition = originalPosition;
+    }
+}
+```
+
+### Swipe Gestures
+Create swipe gesture recognition with animations.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class SwipeGestureExample : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+{
+    [SerializeField] private RectTransform swipeObject;
+    [SerializeField] private GraphFlowAsset swipeLeftAnimation;
+    [SerializeField] private GraphFlowAsset swipeRightAnimation;
+    [SerializeField] private GraphFlowAsset swipeUpAnimation;
+    [SerializeField] private GraphFlowAsset swipeDownAnimation;
+    
+    private GraphExecutor graphExecutor;
+    private Vector2 startPosition;
+    private Vector2 endPosition;
+    private float minSwipeDistance = 50f;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+    }
+    
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        startPosition = eventData.position;
+    }
+    
+    public void OnDrag(PointerEventData eventData)
+    {
+        // Update object position during drag
+        Vector2 delta = eventData.delta;
+        swipeObject.anchoredPosition += delta;
+    }
+    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        endPosition = eventData.position;
+        Vector2 swipeDirection = endPosition - startPosition;
+        
+        if (swipeDirection.magnitude >= minSwipeDistance)
+        {
+            DetectSwipeDirection(swipeDirection);
+        }
+        else
+        {
+            // Return to original position
+            StartCoroutine(ReturnToOriginalPosition());
+        }
+    }
+    
+    private void DetectSwipeDirection(Vector2 direction)
+    {
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        
+        if (angle > -45f && angle <= 45f)
+        {
+            // Swipe right
+            PlaySwipeAnimation(swipeRightAnimation);
+        }
+        else if (angle > 45f && angle <= 135f)
+        {
+            // Swipe up
+            PlaySwipeAnimation(swipeUpAnimation);
+        }
+        else if (angle > 135f || angle <= -135f)
+        {
+            // Swipe left
+            PlaySwipeAnimation(swipeLeftAnimation);
+        }
+        else if (angle > -135f && angle <= -45f)
+        {
+            // Swipe down
+            PlaySwipeAnimation(swipeDownAnimation);
+        }
+    }
+    
+    private void PlaySwipeAnimation(GraphFlowAsset animation)
+    {
+        if (animation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(animation);
+            graphExecutor.Play();
+        }
+    }
+    
+    private System.Collections.IEnumerator ReturnToOriginalPosition()
+    {
+        Vector2 startPos = swipeObject.anchoredPosition;
+        Vector2 targetPos = Vector2.zero;
+        float elapsed = 0f;
+        float duration = 0.3f;
+        
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = elapsed / duration;
+            swipeObject.anchoredPosition = Vector2.Lerp(startPos, targetPos, progress);
+            yield return null;
+        }
+        
+        swipeObject.anchoredPosition = targetPos;
+    }
+}
+```
+
+## 🎨 Advanced Examples
+
+### Parallax Scrolling
+Create a parallax scrolling effect.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ParallaxScrollingExample : MonoBehaviour
+{
+    [SerializeField] private RectTransform[] parallaxLayers;
+    [SerializeField] private float[] parallaxSpeeds;
+    [SerializeField] private float scrollSpeed = 100f;
+    
+    private GraphExecutor graphExecutor;
+    private bool isScrolling = false;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+    }
+    
+    public void StartScrolling()
+    {
+        if (isScrolling) return;
+        
+        isScrolling = true;
+        StartCoroutine(ParallaxScroll());
+    }
+    
+    public void StopScrolling()
+    {
+        isScrolling = false;
+    }
+    
+    private System.Collections.IEnumerator ParallaxScroll()
+    {
+        while (isScrolling)
+        {
+            for (int i = 0; i < parallaxLayers.Length; i++)
+            {
+                if (parallaxLayers[i] != null)
+                {
+                    float speed = scrollSpeed * parallaxSpeeds[i];
+                    parallaxLayers[i].anchoredPosition += Vector2.left * speed * Time.deltaTime;
+                }
+            }
+            
+            yield return null;
+        }
+    }
+}
+```
+
+### Morphing UI
+Create morphing UI elements.
+
+```csharp
+using AnimatixPro.GraphFlow;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class MorphingUIExample : MonoBehaviour
+{
+    [SerializeField] private RectTransform morphObject;
+    [SerializeField] private GraphFlowAsset morphAnimation;
+    [SerializeField] private Vector2[] targetPositions;
+    [SerializeField] private Vector2[] targetSizes;
+    
+    private GraphExecutor graphExecutor;
+    private int currentMorphIndex = 0;
+    
+    private void Start()
+    {
+        graphExecutor = GetComponent<GraphExecutor>();
+        if (graphExecutor == null)
+        {
+            graphExecutor = gameObject.AddComponent<GraphExecutor>();
+        }
+    }
+    
+    public void MorphToNext()
+    {
+        if (morphAnimation != null)
+        {
+            graphExecutor.SetGraphFlowAsset(morphAnimation);
+            graphExecutor.Play();
+        }
+        else
+        {
+            StartCoroutine(SimpleMorph());
+        }
+    }
+    
+    private System.Collections.IEnumerator SimpleMorph()
+    {
+        Vector2 startPos = morphObject.anchoredPosition;
+        Vector2 startSize = morphObject.sizeDelta;
+        
+        Vector2 targetPos = targetPositions[currentMorphIndex];
+        Vector2 targetSize = targetSizes[currentMorphIndex];
+        
+        float elapsed = 0f;
+        float duration = 1f;
+        
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = elapsed / duration;
+            
+            morphObject.anchoredPosition = Vector2.Lerp(startPos, targetPos, progress);
+            morphObject.sizeDelta = Vector2.Lerp(startSize, targetSize, progress);
+            
+            yield return null;
+        }
+        
+        currentMorphIndex = (currentMorphIndex + 1) % targetPositions.Length;
+    }
+}
+```
+
+## 🚀 Performance Tips
+
+### Optimization Best Practices
+- **Use object pooling** for frequently animated UI elements
+- **Limit simultaneous animations** to prevent frame drops
+- **Use efficient easing curves** for smooth performance
+- **Profile UI performance** regularly on target devices
+
+### Mobile Considerations
+- **Simplify animations** for mobile devices
+- **Use lower frame rates** for complex animations
+- **Optimize texture sizes** for UI elements
+- **Test on actual devices** for accurate performance
+
+## 🎉 What's Next?
+
+Now that you understand UI/UX animations:
+
+### **📚 Learn More**
+- **[Gameplay Sequences](gameplay-sequences)** - Game animation examples
+- **[Cinematic Camera](cinematic-camera)** - Cinematic animation examples
+- **[Advanced Techniques](advanced-features/triggers-conditions)** - Complex workflows
+
+### **🎯 Try These Examples**
+- **[Gameplay Sequences](examples/gameplay-sequences)** - Complete game examples
+- **[Cinematic Camera](examples/cinematic-camera)** - Cinematic examples
+- **[Advanced Techniques](advanced-features/triggers-conditions)** - Complex workflows
 
 ---
 
-**Ready to create your own UI animations?** Check out the [Quick Start Guide](getting-started/quick-start) to get started!
+<div align="center">
+
+**🎊 UI/UX Animation mastery achieved!** You're ready to create stunning interfaces!
+
+**Let's explore gameplay!** Check out the [Gameplay Sequences](gameplay-sequences) guide!
+
+</div>
