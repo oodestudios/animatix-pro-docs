@@ -75,7 +75,19 @@ const sidebars = {
       ]
     },
     
-    // 6. API Reference
+    // 6. Developer Guide
+    {
+      type: 'category',
+      label: '💻 Developer Guide',
+      items: [
+        'developer-guide/custom-actions',
+        'developer-guide/custom-triggers',
+        'developer-guide/custom-conditions',
+        'developer-guide/runtime-control'
+      ]
+    },
+    
+    // 7. API Reference
     {
       type: 'category',
       label: '🔧 API Reference',
@@ -84,7 +96,7 @@ const sidebars = {
       ]
     },
     
-    // 7. Examples & Tutorials
+    // 8. Examples & Tutorials
     {
       type: 'category',
       label: '🎯 Examples & Tutorials',
