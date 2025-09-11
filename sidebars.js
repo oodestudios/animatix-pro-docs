@@ -63,7 +63,19 @@ const sidebars = {
       ]
     },
     
-    // 5. API Reference
+    // 5. Advanced Features
+    {
+      type: 'category',
+      label: '⚙️ Advanced Features',
+      items: [
+        'advanced-features/triggers-conditions',
+        'advanced-features/events-actions',
+        'advanced-features/loops-variables',
+        'advanced-features/state-management'
+      ]
+    },
+    
+    // 6. API Reference
     {
       type: 'category',
       label: '🔧 API Reference',
@@ -72,7 +84,7 @@ const sidebars = {
       ]
     },
     
-    // 6. Examples & Tutorials
+    // 7. Examples & Tutorials
     {
       type: 'category',
       label: '🎯 Examples & Tutorials',
