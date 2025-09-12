@@ -1,0 +1,20 @@
+{
+  "id": "examples",
+  "title": "Examples",
+  "description": "Explore real-world examples of Animatix Pro in action. These examples demonstrate various use cases and techniques you can apply to your own projects.",
+  "source": "@site/docs/examples.md",
+  "sourceDirName": ".",
+  "slug": "/examples",
+  "permalink": "/animatix-pro-docs/docs/examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/examples.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/animatix-pro-docs/docs/getting-started/quick-start"
+  }
+}
