@@ -1,7 +1,11 @@
 {
   "id": "getting-started/installation",
   "title": "Installation",
+<<<<<<< HEAD
   "description": "This guide will help you install Animatix Pro in your Unity project.",
+=======
+  "description": "Prerequisites",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "source": "@site/docs/getting-started/installation.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation",
@@ -11,7 +15,16 @@
   "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/getting-started/installation.md",
   "tags": [],
   "version": "current",
+<<<<<<< HEAD
   "frontMatter": {},
+=======
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "installation",
+    "title": "Installation",
+    "sidebar_position": 1
+  },
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Welcome to Animatix Pro",

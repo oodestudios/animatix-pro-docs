@@ -3,11 +3,14 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+<<<<<<< HEAD
     path: '/animatix-pro-docs/search',
     component: ComponentCreator('/animatix-pro-docs/search', '3e4'),
     exact: true
   },
   {
+=======
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
     path: '/animatix-pro-docs/docs',
     component: ComponentCreator('/animatix-pro-docs/docs', '604'),
     routes: [

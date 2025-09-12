@@ -1,7 +1,11 @@
 {
   "id": "api/graph-executor-util",
   "title": "GraphExecutorUtil",
+<<<<<<< HEAD
   "description": "The GraphExecutorUtil class provides a static API for controlling Animatix Pro animations programmatically. This is the core interface for developers who want to trigger animations from their own scripts.",
+=======
+  "description": "The GraphExecutorUtil class provides static methods for programmatic control of Animatix Pro animations. This is the core API that allows you to control animations from your own scripts.",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "source": "@site/docs/api/graph-executor-util.md",
   "sourceDirName": "api",
   "slug": "/api/graph-executor-util",

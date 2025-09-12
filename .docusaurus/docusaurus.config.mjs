@@ -9,9 +9,15 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://oodestudios.github.io",
   "baseUrl": "/animatix-pro-docs/",
+<<<<<<< HEAD
   "organizationName": "oode-studios",
   "projectName": "animatix-pro-docs",
   "onBrokenLinks": "warn",
+=======
+  "organizationName": "oodestudios",
+  "projectName": "animatix-pro-docs",
+  "onBrokenLinks": "throw",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -61,12 +67,25 @@ export default {
           "label": "API Reference"
         },
         {
+<<<<<<< HEAD
           "to": "/docs/examples",
+=======
+          "to": "/examples",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
           "label": "Examples",
           "position": "left"
         },
         {
+<<<<<<< HEAD
           "href": "https://github.com/oode-studios/animatix-pro",
+=======
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/oodestudios/animatix-pro",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
           "label": "GitHub",
           "position": "right"
         }
@@ -106,8 +125,17 @@ export default {
           "title": "More",
           "items": [
             {
+<<<<<<< HEAD
               "label": "GitHub",
               "href": "https://github.com/oode-studios/animatix-pro"
+=======
+              "label": "Blog",
+              "to": "/blog"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/oodestudios/animatix-pro"
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
             }
           ]
         }
@@ -322,6 +350,7 @@ export default {
         }
       ]
     },
+<<<<<<< HEAD
     "algolia": {
       "appId": "YOUR_APP_ID",
       "apiKey": "YOUR_SEARCH_API_KEY",
@@ -330,6 +359,8 @@ export default {
       "searchParameters": {},
       "searchPagePath": "search"
     },
+=======
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,

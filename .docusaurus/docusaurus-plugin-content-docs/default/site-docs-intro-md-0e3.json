@@ -1,7 +1,11 @@
 {
   "id": "intro",
   "title": "Welcome to Animatix Pro",
+<<<<<<< HEAD
   "description": "🎨 Animatix Pro",
+=======
+  "description": "Animatix Pro",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -11,7 +15,16 @@
   "editUrl": "https://github.com/oode-studios/animatix-pro-docs/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
+<<<<<<< HEAD
   "frontMatter": {},
+=======
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "title": "Welcome to Animatix Pro",
+    "sidebar_position": 1
+  },
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Installation",

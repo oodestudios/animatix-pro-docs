@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * Animatix Pro Documentation Custom Styles
  */
 
@@ -16,21 +17,70 @@
 .hero-content {
   flex: 1;
   padding: 0 2rem;
+=======
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Animatix Pro Custom Styles */
+.hero-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin: 2rem 0;
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
 }
 
 .hero-content h1 {
   font-size: 3rem;
+<<<<<<< HEAD
   font-weight: 700;
   margin-bottom: 1rem;
   background: linear-gradient(45deg, #fff, #e0e7ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+=======
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
+<<<<<<< HEAD
   font-weight: 600;
+=======
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin-bottom: 1rem;
   opacity: 0.9;
 }
@@ -39,12 +89,19 @@
   font-size: 1.1rem;
   margin-bottom: 2rem;
   opacity: 0.8;
+<<<<<<< HEAD
   line-height: 1.6;
+=======
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
+<<<<<<< HEAD
   flex-wrap: wrap;
 }
 
@@ -119,15 +176,63 @@
   padding: 3rem 2rem;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 10px;
+=======
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-buttons .button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .button--primary {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.hero-buttons .button--primary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.hero-buttons .button--secondary {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.hero-buttons .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+}
+
+.cta-section {
+  background: #f8f9fa;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin: 3rem 0;
 }
 
 .cta-section h2 {
+<<<<<<< HEAD
   color: #495057;
+=======
+  color: #2e8555;
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin-bottom: 1rem;
 }
 
 .cta-section p {
+<<<<<<< HEAD
   color: #6c757d;
   font-size: 1.1rem;
   margin-bottom: 2rem;
@@ -228,6 +333,66 @@
     text-align: center;
   }
   
+=======
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.cta-section .button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cta-section .button--primary {
+  background: #2e8555;
+  color: white;
+  border: none;
+}
+
+.cta-section .button--primary:hover {
+  background: #25c2a0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 133, 85, 0.3);
+}
+
+/* Code block enhancements */
+.prism-code {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Feature cards */
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  margin: 1rem 0;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  color: #2e8555;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -237,6 +402,7 @@
   }
   
   .hero-buttons {
+<<<<<<< HEAD
     justify-content: center;
   }
   
@@ -336,3 +502,14 @@
 .footer__link-item:hover {
   color: #e2e8f0;
 }
+=======
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-buttons .button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972

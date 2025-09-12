@@ -31,11 +31,14 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.8.1"
+<<<<<<< HEAD
     },
     "docusaurus-theme-search-algolia": {
       "type": "package",
       "name": "@docusaurus/theme-search-algolia",
       "version": "3.8.1"
+=======
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
     }
   }
 }

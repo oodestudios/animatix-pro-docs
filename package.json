@@ -9,6 +9,10 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+<<<<<<< HEAD
+=======
+    "deploy-github": "GIT_USER=oodestudios USE_SSH=true npm run build && npm run deploy",
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -18,7 +22,10 @@
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@docusaurus/theme-mermaid": "3.8.1",
+<<<<<<< HEAD
     "@docusaurus/theme-search-algolia": "3.8.1",
+=======
+>>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.0.0",
