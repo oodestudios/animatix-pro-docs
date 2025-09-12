@@ -255,7 +255,7 @@ Executes different paths based on conditions.
 - **Condition** (string) - Boolean expression to evaluate
 - **True Path** (Node[]) - Path when condition is true
 - **False Path** (Node[]) - Path when condition is false
-- **Parameters** (Dictionary<string, object>) - Variables for condition
+- **Parameters** (Dictionary&lt;string, object&gt;) - Variables for condition
 
 **Usage Example:**
 ```csharp
@@ -502,7 +502,7 @@ Execute arbitrary scripts.
 **Properties:**
 - **Script** (string) - Script code to execute
 - **Language** (ScriptLanguage) - Scripting language
-- **Parameters** (Dictionary<string, object>) - Input parameters
+- **Parameters** (Dictionary&lt;string, object&gt;) - Input parameters
 - **Return Value** (object) - Output value
 
 **Usage Example:**
@@ -511,7 +511,7 @@ Execute arbitrary scripts.
 ScriptNode scriptNode = new ScriptNode();
 scriptNode.Script = "return player.health > 50;";
 scriptNode.Language = ScriptLanguage.CSharp;
-scriptNode.Parameters = new Dictionary<string, object> { { "player", player } };
+scriptNode.Parameters = new Dictionary&lt;string, object&gt; { { "player", player } };
 ```
 
 ### Event Node

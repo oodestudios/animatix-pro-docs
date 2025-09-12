@@ -174,10 +174,10 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (targetButton == null)
    {
-       targetButton = GetComponent<Button>();
+       targetButton = GetComponent&lt;Button&gt;();
        if (targetButton == null)
        {
-           targetButton = FindObjectOfType<Button>();
+           targetButton = FindObjectOfType&lt;Button&gt;();
        }
    }
    ```
@@ -190,7 +190,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
        {
            if (targetButton == null)
            {
-               targetButton = GetComponent<Button>();
+               targetButton = GetComponent&lt;Button&gt;();
            }
            return targetButton;
        }
@@ -418,10 +418,10 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (particleSystem == null)
    {
-       particleSystem = GetComponent<ParticleSystem>();
+       particleSystem = GetComponent&lt;ParticleSystem&gt;();
        if (particleSystem == null)
        {
-           particleSystem = FindObjectOfType<ParticleSystem>();
+           particleSystem = FindObjectOfType&lt;ParticleSystem&gt;();
        }
    }
    ```
@@ -431,7 +431,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    if (particleSystem == null)
    {
        GameObject particleObj = new GameObject("ParticleSystem");
-       particleSystem = particleObj.AddComponent<ParticleSystem>();
+       particleSystem = particleObj.AddComponent&lt;ParticleSystem&gt;();
    }
    ```
 
@@ -443,7 +443,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
        {
            if (particleSystem == null)
            {
-               particleSystem = GetComponent<ParticleSystem>();
+               particleSystem = GetComponent&lt;ParticleSystem&gt;();
            }
            return particleSystem;
        }
@@ -465,10 +465,10 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (audioSource == null)
    {
-       audioSource = GetComponent<AudioSource>();
+       audioSource = GetComponent&lt;AudioSource&gt;();
        if (audioSource == null)
        {
-           audioSource = FindObjectOfType<AudioSource>();
+           audioSource = FindObjectOfType&lt;AudioSource&gt;();
        }
    }
    ```
@@ -477,7 +477,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (audioSource == null)
    {
-       audioSource = gameObject.AddComponent<AudioSource>();
+       audioSource = gameObject.AddComponent&lt;AudioSource&gt;();
    }
    ```
 
@@ -489,7 +489,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
        {
            if (audioSource == null)
            {
-               audioSource = GetComponent<AudioSource>();
+               audioSource = GetComponent&lt;AudioSource&gt;();
            }
            return audioSource;
        }
@@ -523,7 +523,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
 
 3. **Reset to Defaults:**
    ```csharp
-   if (intensity < 0f || intensity > 2f)
+   if (intensity &lt; 0f || intensity &gt; 2f)
    {
        intensity = 1f; // Default intensity
        Debug.LogWarning("Invalid intensity, using default value.");
@@ -672,10 +672,10 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (graphExecutor == null)
    {
-       graphExecutor = GetComponent<GraphExecutor>();
+       graphExecutor = GetComponent&lt;GraphExecutor&gt;();
        if (graphExecutor == null)
        {
-           graphExecutor = gameObject.AddComponent<GraphExecutor>();
+           graphExecutor = gameObject.AddComponent&lt;GraphExecutor&gt;();
        }
    }
    ```
@@ -697,7 +697,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
        {
            if (graphExecutor == null)
            {
-               graphExecutor = GetComponent<GraphExecutor>();
+               graphExecutor = GetComponent&lt;GraphExecutor&gt;();
            }
            return graphExecutor;
        }
@@ -719,7 +719,7 @@ Complete reference guide for all Animatix Pro error codes and troubleshooting so
    ```csharp
    if (graphFlowAsset == null)
    {
-       graphFlowAsset = Resources.Load<GraphFlowAsset>("DefaultGraphFlow");
+       graphFlowAsset = Resources.Load&lt;GraphFlowAsset&gt;("DefaultGraphFlow");
    }
    ```
 

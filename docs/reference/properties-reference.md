@@ -478,10 +478,10 @@ Properties for condition nodes.
 - **Usage:** `new Node[] { damageAnimation }`
 
 #### Parameters
-- **Type:** Dictionary<string, object>
+- **Type:** Dictionary&lt;string, object&gt;
 - **Description:** Variables for condition
 - **Default:** Empty dictionary
-- **Usage:** `new Dictionary<string, object> { { "PlayerHealth", 75 } }`
+- **Usage:** `new Dictionary&lt;string, object&gt; { { "PlayerHealth", 75 } }`
 
 ### Loop Properties
 Properties for loop nodes.
@@ -842,10 +842,10 @@ Properties for script nodes.
 - **Usage:** `ScriptLanguage.CSharp`
 
 #### Parameters
-- **Type:** Dictionary<string, object>
+- **Type:** Dictionary&lt;string, object&gt;
 - **Description:** Input parameters
 - **Default:** Empty dictionary
-- **Usage:** `new Dictionary<string, object> { { "player", player } }`
+- **Usage:** `new Dictionary&lt;string, object&gt; { { "player", player } }`
 
 #### Return Value
 - **Type:** object
