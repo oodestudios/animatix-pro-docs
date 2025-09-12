@@ -1,26 +1,5 @@
 /**
-<<<<<<< HEAD
  * Animatix Pro Documentation Custom Styles
- */
-
-/* Hero Section */
-.hero-banner {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 10px;
-  margin: 2rem 0;
-}
-
-.hero-content {
-  flex: 1;
-  padding: 0 2rem;
-=======
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
  */
 
 /* You can override the default Infima variables here. */
@@ -48,39 +27,35 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Animatix Pro Custom Styles */
+/* Hero Section */
 .hero-banner {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 4rem 2rem;
-  text-align: center;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 2rem 0;
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
+}
+
+.hero-content {
+  flex: 1;
+  padding: 0 2rem;
 }
 
 .hero-content h1 {
   font-size: 3rem;
-<<<<<<< HEAD
   font-weight: 700;
   margin-bottom: 1rem;
   background: linear-gradient(45deg, #fff, #e0e7ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-=======
-  font-weight: bold;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
-<<<<<<< HEAD
   font-weight: 600;
-=======
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin-bottom: 1rem;
   opacity: 0.9;
 }
@@ -89,20 +64,46 @@
   font-size: 1.1rem;
   margin-bottom: 2rem;
   opacity: 0.8;
-<<<<<<< HEAD
   line-height: 1.6;
-=======
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
-<<<<<<< HEAD
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-buttons .button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .button--primary {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.hero-buttons .button--primary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.hero-buttons .button--secondary {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.hero-buttons .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
 }
 
 .hero-demo {
@@ -176,66 +177,39 @@
   padding: 3rem 2rem;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 10px;
-=======
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.hero-buttons .button {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.hero-buttons .button--primary {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  color: white;
-}
-
-.hero-buttons .button--primary:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
-  transform: translateY(-2px);
-}
-
-.hero-buttons .button--secondary {
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  color: white;
-}
-
-.hero-buttons .button--secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.7);
-  transform: translateY(-2px);
-}
-
-.cta-section {
-  background: #f8f9fa;
-  padding: 3rem 2rem;
-  text-align: center;
-  border-radius: 12px;
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin: 3rem 0;
 }
 
 .cta-section h2 {
-<<<<<<< HEAD
   color: #495057;
-=======
-  color: #2e8555;
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
   margin-bottom: 1rem;
 }
 
 .cta-section p {
-<<<<<<< HEAD
   color: #6c757d;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+}
+
+.cta-section .button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cta-section .button--primary {
+  background: #2e8555;
+  color: white;
+  border: none;
+}
+
+.cta-section .button--primary:hover {
+  background: #25c2a0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 133, 85, 0.3);
 }
 
 /* Buttons */
@@ -326,46 +300,6 @@
   color: #dcdcaa;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero-banner {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-=======
-  color: #666;
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
-}
-
-.cta-section .button {
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-
-.cta-section .button--primary {
-  background: #2e8555;
-  color: white;
-  border: none;
-}
-
-.cta-section .button--primary:hover {
-  background: #25c2a0;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(46, 133, 85, 0.3);
-}
-
-/* Code block enhancements */
-.prism-code {
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
 /* Feature cards */
 .feature-card {
   background: white;
@@ -390,9 +324,13 @@
   line-height: 1.6;
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
+  .hero-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -402,8 +340,14 @@
   }
   
   .hero-buttons {
-<<<<<<< HEAD
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-buttons .button {
+    width: 100%;
+    max-width: 300px;
   }
   
   .hero-demo {
@@ -502,14 +446,3 @@
 .footer__link-item:hover {
   color: #e2e8f0;
 }
-=======
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-buttons .button {
-    width: 100%;
-    max-width: 300px;
-  }
-}
->>>>>>> 305028138015dfcc6aee6d67aa27995df9812972
