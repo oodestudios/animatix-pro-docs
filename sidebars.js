@@ -13,137 +13,84 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Animatix Pro Documentation Sidebar
+  // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-    // 1. Home
     {
       type: 'category',
-      label: '🏠 Home',
+      label: 'Getting Started',
       items: [
-        'intro',
-        'getting-started/quick-start'
-      ]
-    },
-    
-    // 2. Getting Started
-    {
-      type: 'category',
-      label: '🚀 Getting Started',
-      items: [
-        'getting-started/overview',
+        'getting-started/introduction',
         'getting-started/installation',
         'getting-started/quick-start',
-        'getting-started/first-animation',
-        'getting-started/project-setup'
-      ]
+      ],
     },
-    
-    // 3. GraphFlow Editor
     {
       type: 'category',
-      label: '🎨 GraphFlow Editor',
+      label: 'Core Concepts',
       items: [
-        'visual-editor/interface-overview',
-        'visual-editor/node-types',
-        'visual-editor/connections-flow'
-      ]
+        'core-concepts/graphflow-system',
+        'core-concepts/node-types',
+        'core-concepts/graph-executor',
+      ],
     },
-    
-    // 4. Animation Types
     {
       type: 'category',
-      label: '✨ Animation Types',
+      label: 'Animation Modules',
       items: [
-        'animation-types/ui-animations',
-        'animation-types/text-animations',
-        'animation-types/3d-object-animations',
-        'animation-types/camera-animations',
-        'animation-types/particle-animations',
-        'animation-types/audio-animations'
-      ]
+        'animation-modules/ui-animations',
+        'animation-modules/text-animations',
+        'animation-modules/3d-animations',
+        'animation-modules/camera-animations',
+        'animation-modules/audio-animations',
+        'animation-modules/material-animations',
+        'animation-modules/particle-systems',
+      ],
     },
-    
-    // 5. Advanced Features
     {
       type: 'category',
-      label: '⚙️ Advanced Features',
+      label: 'Events & Actions',
       items: [
-        'advanced-features/triggers-conditions',
-        'advanced-features/events-actions',
-        'advanced-features/loops-variables',
-        'advanced-features/state-management'
-      ]
+        'events-actions/triggers',
+        'events-actions/actions',
+        'events-actions/events',
+        'events-actions/conditions',
+      ],
     },
-    
-    // 6. Developer Guide
-    {
-      type: 'category',
-      label: '💻 Developer Guide',
-      items: [
-        'developer-guide/custom-actions',
-        'developer-guide/custom-triggers',
-        'developer-guide/custom-conditions',
-        'developer-guide/runtime-control'
-      ]
-    },
-    
-    // 7. API Reference
-    {
-      type: 'category',
-      label: '🔧 API Reference',
-      items: [
-        'api/graph-executor-util'
-      ]
-    },
-    
-    // 8. Examples & Tutorials
-    {
-      type: 'category',
-      label: '🎯 Examples & Tutorials',
-      items: [
-        'examples',
-        'examples/ui-ux-animations',
-        'examples/gameplay-sequences',
-        'examples/cinematic-camera',
-        'examples/vr-ar-mobile'
-      ]
-    },
-    
-    // 9. Reference
-    {
-      type: 'category',
-      label: '📖 Reference',
-      items: [
-        'reference/node-reference',
-        'reference/properties-reference',
-        'reference/error-codes',
-        'reference/changelog'
-      ]
-    },
-    
-    // 10. Community & Support
-    {
-      type: 'category',
-      label: '🤝 Community & Support',
-      items: [
-        'community/faq',
-        'community/troubleshooting',
-        'community/contact-support',
-        'community/contributing'
-      ]
-    }
-  ],
-
-  // API Sidebar for the API Reference page
-  apiSidebar: [
     {
       type: 'category',
       label: 'API Reference',
       items: [
-        'api/graph-executor-util'
-      ]
-    }
-  ]
+        'api-reference/overview',
+        'api-reference/examples',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Best Practices',
+      items: [
+        'best-practices/organization',
+        'best-practices/performance',
+        'best-practices/mobile-considerations',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Troubleshooting',
+      items: [
+        'troubleshooting/common-issues',
+        'troubleshooting/debug-mode',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Quick Reference',
+      items: [
+        'quick-reference/animation-types',
+        'quick-reference/easing-curves',
+        'quick-reference/keyboard-shortcuts',
+      ],
+    },
+  ],
 };
 
-export default sidebars;
+module.exports = sidebars;

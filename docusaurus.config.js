@@ -1,9 +1,13 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Animatix Pro',
-  tagline: 'Professional Animation System for Unity',
+  title: 'Animatix Pro Documentation',
+  tagline: 'Unity\'s most powerful visual animation system',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,13 +19,12 @@ const config = {
   organizationName: 'oodestudios',
   projectName: 'animatix-pro-docs',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  trailingSlash: false,
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -33,12 +36,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/oodestudios/animatix-pro-docs/tree/main/',
+        },
+        blog: {
+          showReadingTime: true,
           editUrl: 'https://github.com/oodestudios/animatix-pro-docs/tree/main/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -57,24 +63,13 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'getting-started/introduction',
             position: 'left',
             label: 'Documentation',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'apiSidebar',
-            position: 'left',
-            label: 'API Reference',
-          },
-          {
-            to: '/examples',
-            label: 'Examples',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/oodestudios/animatix-pro',
+            href: 'https://github.com/oodestudios/animatix-pro-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,15 +79,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/getting-started',
+                to: '/docs/getting-started/introduction',
               },
               {
                 label: 'API Reference',
-                to: '/docs/api/graph-executor-util',
+                to: '/docs/api-reference/overview',
               },
             ],
           },
@@ -100,21 +95,21 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/animatix-pro',
+                label: 'GitHub',
+                href: 'https://github.com/oodestudios/animatix-pro-docs',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/animatixpro',
+                label: 'Unity Asset Store',
+                href: 'https://assetstore.unity.com/packages/tools/animation/animatix-pro',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Support',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/oodestudios/animatix-pro',
+                label: 'Contact',
+                href: 'mailto:oode.contact@gmail.com',
               },
             ],
           },
@@ -122,19 +117,11 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} OODE Studios. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-        additionalLanguages: ['csharp', 'json', 'bash'],
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+        additionalLanguages: ['csharp'],
       },
-      // algolia: {
-      //   appId: 'YOUR_APP_ID',
-      //   apiKey: 'YOUR_SEARCH_API_KEY',
-      //   indexName: 'animatix-pro',
-      //   contextualSearch: true,
-      //   searchParameters: {},
-      //   searchPagePath: 'search',
-      // },
     }),
 };
 
-export default config;
+module.exports = config;

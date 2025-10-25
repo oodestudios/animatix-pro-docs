@@ -1,85 +1,92 @@
 # Animatix Pro Documentation
 
-<div align="center">
+This is the Docusaurus documentation site for Animatix Pro, Unity's most powerful visual animation system.
 
-# 🎨 Animatix Pro
-## Professional Animation System for Unity
+## Setup Instructions
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://oodestudios.github.io/animatix-pro-docs/)
-[![Unity](https://img.shields.io/badge/Unity-2021.3%2B-blue)](https://unity.com/)
-[![License](https://img.shields.io/badge/License-Proprietary-red)]()
+### 1. Install Dependencies
 
-</div>
-
----
-
-## 🚀 Quick Start
-
-Create stunning UI and camera animations with ease using our powerful visual graph-based system. No coding required, but full programmatic control when you need it.
-
-### ✨ Key Features
-
-- **🎨 Visual Graph Editor** - Create complex animations using our intuitive node-based editor
-- **⚡ High Performance** - Optimized for mobile and desktop with efficient animation execution  
-- **🔧 Programmatic Control** - Full API access for advanced users who need script control
-- **🎯 Production Ready** - Used by professional game developers worldwide
-
-### 📚 Documentation
-
-- **[Getting Started](docs/getting-started/installation.md)** - Installation and setup guide
-- **[Quick Start](docs/getting-started/quick-start.md)** - Create your first animation in 5 minutes
-- **[API Reference](docs/api/graph-executor-util.md)** - Complete API documentation
-- **[Examples](docs/examples.md)** - Real-world code examples and patterns
-
-### 🎮 Usage Example
-
-```csharp
-using AnimatixPro.GraphFlow;
-
-public class MyGameController : MonoBehaviour
-{
-    void Start()
-    {
-        // Play animation by name
-        GraphExecutorUtil.RunGraph("IntroAnimation");
-    }
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            // Trigger animation on key press
-            GraphExecutorUtil.RunGraph("JumpAnimation");
-        }
-    }
-}
+```bash
+npm install
 ```
 
-### 🛠️ Installation
+### 2. Add Screenshots
 
-1. Download from Unity Asset Store
-2. Import into your Unity project
-3. Create a GraphFlow Asset
-4. Add GraphExecutor component
-5. Start creating amazing animations!
+Download the screenshots from the Google Drive folder and place them in the following structure:
 
-### 📖 Learn More
+```
+static/img/
+├── getting-started/
+│   ├── 01-unity-asset-store-import.png
+│   ├── 02-creating-graphflow-asset.png
+│   ├── 03-basic-node-connection.png
+│   ├── 04-fade-node-settings.png
+│   ├── 05-graph-executor-component.png
+│   ├── 06-graphflow-editor-interface.png
+│   └── 07-inspector-window-properties.png
+├── core-concepts/
+│   ├── 08-example-graph-flow.png
+│   ├── 09-node-types-visual-representation.png
+│   ├── 10-graph-executor-inspector.png
+│   ├── 11-graph-executor-all-properties.png
+│   ├── 12-trigger-animation-action-flow.png
+│   └── 13-parallel-execution-example.png
+├── animation-modules/
+│   ├── 14-ui-animation-node-settings.png
+│   ├── 15-text-animation-character-word-modes.png
+│   ├── 16-3d-object-animation-inspector.png
+│   ├── 17-camera-animation-movement-effects.png
+│   ├── 18-audio-animation-volume-pitch.png
+│   ├── 19-material-animation-color-fade.png
+│   └── 20-particle-system-emission-tween.png
+├── events-actions/
+│   ├── 21-trigger-node-settings.png
+│   ├── 22-action-node-settings.png
+│   ├── 23-event-node-settings.png
+│   └── 24-condition-node-settings.png
+└── api-reference/
+    └── 25-api-reference-example.png
+```
 
-- **Documentation**: Complete guides and tutorials
-- **API Reference**: Detailed method documentation  
-- **Examples**: Real-world implementation examples
-- **Community**: Join our Discord for support
+### 3. Run Development Server
 
----
+```bash
+npm start
+```
 
-<div align="center">
+### 4. Build for Production
 
-**Ready to create amazing animations?** 🚀
+```bash
+npm run build
+```
 
-[Get Started Now](docs/getting-started/installation.md) | [View Examples](docs/examples.md) | [API Reference](docs/api/graph-executor-util.md)
+### 5. Deploy to GitHub Pages
 
----
+```bash
+npm run deploy
+```
 
-*Built with ❤️ by OODE Studios*
+## Screenshot Download Instructions
 
-</div>
+1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1bbb447-HpfjXdRloaLp3PlFkPvDiScVz?usp=sharing)
+2. Download all 25 screenshots
+3. Rename them to match the structure above (remove the extra .png extension)
+4. Place them in the correct folders as shown above
+
+## Documentation Structure
+
+- **Getting Started** - Introduction, installation, and quick start
+- **Core Concepts** - GraphFlow system, node types, and GraphExecutor
+- **Animation Modules** - UI, text, 3D, camera, audio, materials, and particles
+- **Events & Actions** - Triggers, actions, events, and conditions
+- **API Reference** - Developer tools and runtime control
+- **Best Practices** - Organization, performance, and mobile optimization
+- **Troubleshooting** - Common issues and debug techniques
+- **Quick Reference** - Complete lists and shortcuts
+
+## Contact
+
+For technical support, feature requests, or community discussions:
+
+**Email:** oode.contact@gmail.com
+**Website:** https://oodestudios.github.io/animatix-pro-docs/

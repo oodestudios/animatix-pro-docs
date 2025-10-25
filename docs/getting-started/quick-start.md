@@ -1,225 +1,87 @@
-# Quick Start
+---
+sidebar_position: 3
+title: Quick Start
+description: Create your first animation in under 5 minutes with this step-by-step guide.
+---
 
-Create your first animation in just 5 minutes! This guide will walk you through creating a simple UI button animation using Animatix Pro's visual graph editor.
+# Quick Start: Your First Animation
 
-## 🎯 What We'll Create
+Let's create a simple button fade-in animation in under 5 minutes.
 
-We'll create an interactive button animation that:
-- **Scales up** when hovered (1.0 → 1.2)
-- **Scales down** when clicked (1.2 → 0.9)
-- **Returns to normal** when released (0.9 → 1.0)
-- **Includes smooth easing** for professional feel
+## Step 1: Create the Graph
 
-## 📋 Prerequisites
+1. Right-click in the Project Window → Create → Animatix Pro → GraphFlow Asset
+2. Name it `ButtonFadeIn`
+3. Double-click to open the GraphFlow Editor
 
-Before we start, make sure you have:
-- ✅ **Unity 2021.3+** installed
-- ✅ **Animatix Pro** imported in your project
-- ✅ **A UI Button** in your scene (we'll create one if needed)
-- ✅ **Basic Unity knowledge** (creating GameObjects, using Inspector)
+![Creating a New GraphFlow Asset](/img/getting-started/02-creating-graphflow-asset.png)
 
-## 🚀 Let's Get Started!
+## Step 2: Add Nodes
 
-### Step 0: Create a UI Button (if needed)
+1. Right-click in the graph → Add Node → Trigger → On Start
+2. Right-click again → Add Node → Animation → Fade
+3. Right-click again → Add Node → Action → Play Animation
+4. Drag from the On Start node's output port to the Fade node's input port.
 
-If you don't have a UI button in your scene yet:
+![Basic Node Connection in GraphFlow Editor](/img/getting-started/03-basic-node-connection.png)
 
-1. **Right-click** in the Hierarchy window
-2. **Select UI > Button**
-3. **Position it** in the center of your Canvas
-4. **Rename it** to "MyButton" for clarity
+## Step 3: Configure the Animation
 
-> **💡 Tip:** Make sure you have a Canvas in your scene. If not, right-click in Hierarchy → UI → Canvas.
+1. Select the Fade node.
+2. In the Inspector, set:
+   - **Duration:** 1.0 seconds
+   - **Fade Start:** 0 (invisible)
+   - **Fade End:** 1 (fully visible)
+   - **Easing:** Ease In Out
 
-## Step 1: Create a GraphFlow Asset
+![Fade Node Settings in Inspector](/img/getting-started/04-fade-node-settings.png)
 
-1. **Right-click** in the Project window
-2. **Select Create > Animatix Pro > GraphFlow Asset**
-3. **Name it** "ButtonAnimation"
-4. **Double-click** to open the GraphFlow Editor
+## Step 4: Attach GraphExecutor to Target
 
-## Step 2: Add Animation Nodes
+1. Select your UI button in the scene.
+2. Add the GraphExecutor component to the button.
+3. Assign the `ButtonFadeIn` asset to the Graph Asset field.
 
-### Add a Scale Animation Node
-
-1. **Right-click** in the graph area
-2. **Select Add Node > Animation > Scale Animation**
-3. **Position it** in the center of the graph
-
-### Add a Trigger Node
-
-1. **Right-click** in the graph area
-2. **Select Add Node > Trigger > On Button Click**
-3. **Position it** to the left of the Scale Animation node
-
-## Step 3: Connect the Nodes
-
-1. **Click and drag** from the Trigger node's output
-2. **Connect it** to the Scale Animation node's input
-3. **You should see** a connection line between them
-
-## Step 4: Configure the Animation
-
-### Set Up the Scale Animation
-
-1. **Select the Scale Animation node**
-2. **In the Inspector panel:**
-   - **Target Object**: Drag your button GameObject here
-   - **Start Scale**: (1, 1, 1)
-   - **End Scale**: (1.2, 1.2, 1.2)
-   - **Duration**: 0.3 seconds
-   - **Easing**: Ease Out Back
-
-### Set Up the Trigger
-
-1. **Select the On Button Click node**
-2. **In the Inspector panel:**
-   - **Target Button**: Drag your button GameObject here
-   - **Trigger Type**: On Click
+![GraphExecutor Component with Assigned GraphFlow Asset](/img/getting-started/05-graph-executor-component.png)
 
 ## Step 5: Test the Animation
 
-### Preview in Editor
+1. Press Play in Unity.
+2. Watch your button fade in automatically!
 
-1. **Click the Play button** in the GraphFlow Editor
-2. **Click your button** in the Scene view
-3. **Watch the animation** play in real-time
+🎉 **Congratulations!** You've created your first Animatix Pro animation — the button now fades in smoothly when the scene starts.
 
-### Test in Play Mode
+## Interface Overview
 
-1. **Click Play** in Unity
-2. **Click the button** in the Game view
-3. **Verify the animation** works correctly
+Animatix Pro uses two main interfaces that work together:
 
-## Step 6: Add More Complexity
+### GraphFlow Editor
+- **Purpose:** Visual node-based animation creation
+- **Location:** Opens when you double-click a GraphFlow Asset
+- **Features:**
+  - Drag-and-drop node creation
+  - Visual connection system
+  - Real-time preview
+  - Zoom and pan controls
 
-### Add a Return Animation
+![GraphFlow Editor Interface](/img/getting-started/06-graphflow-editor-interface.png)
 
-1. **Add another Scale Animation node**
-2. **Connect it** to the first Scale Animation node
-3. **Configure it:**
-   - **Start Scale**: (1.2, 1.2, 1.2)
-   - **End Scale**: (1, 1, 1)
-   - **Duration**: 0.2 seconds
-   - **Easing**: Ease In Back
+### Inspector Window
+- **Purpose:** Configure individual node properties
+- **Location:** Unity's standard Inspector panel
+- **Features:**
+  - Detailed property editing
+  - Animation curve editor
+  - Target object assignment
 
-### Add a Delay
+![Inspector Window with Node Properties](/img/getting-started/07-inspector-window-properties.png)
 
-1. **Add a Wait node** between the animations
-2. **Set Duration**: 0.1 seconds
-3. **This creates** a pause between scale up and scale down
+## Key Interface Elements
 
-## Step 7: Save and Use
-
-### Save the Graph
-
-1. **Press Ctrl+S** (or Cmd+S on Mac)
-2. **The graph is automatically saved**
-
-### Use in Your Scene
-
-1. **Select a GameObject** in your scene
-2. **Add Component > Animatix Pro > GraphExecutor**
-3. **Assign your GraphFlow Asset** to the Graph Flow Asset field
-4. **The animation will play** when the trigger is activated
-
-## Code Integration
-
-### Trigger from Script
-
-You can also trigger animations from code:
-
-```csharp
-using AnimatixPro.GraphFlow;
-
-public class ButtonController : MonoBehaviour
-{
-    public GraphFlowAsset buttonAnimation;
-    
-    void Start()
-    {
-        // Trigger the animation
-        GraphExecutorUtil.RunGraph(buttonAnimation);
-    }
-}
-```
-
-### Listen for Events
-
-```csharp
-using AnimatixPro.GraphFlow;
-
-public class AnimationListener : MonoBehaviour
-{
-    void OnEnable()
-    {
-        GraphExecutor.OnAnimationComplete += OnAnimationComplete;
-    }
-    
-    void OnDisable()
-    {
-        GraphExecutor.OnAnimationComplete -= OnAnimationComplete;
-    }
-    
-    void OnAnimationComplete(string animationName)
-    {
-        Debug.Log($"Animation {animationName} completed!");
-    }
-}
-```
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-**Animation doesn't play:**
-- Check that the GraphExecutor component is attached
-- Verify the GraphFlow Asset is assigned
-- Ensure the button GameObject is set in the trigger node
-
-**Button doesn't respond:**
-- Make sure the button has a Button component
-- Check that the button is interactive (not disabled)
-- Verify the trigger node is connected to the animation node
-
-**Animation looks choppy:**
-- Try different easing curves
-- Adjust the duration values
-- Check your target framerate
-
-### Getting Help
-
-If you run into issues:
-- **Check the Console** for error messages
-- **Review the Inspector** settings for each node
-- **Test in Play Mode** to see real-time behavior
-- **Join our Discord** for community support
-
-## 🎉 What's Next?
-
-Congratulations! You've created your first animation. Here's what to explore next:
-
-### **📚 Learn More**
-- **[Getting Started Overview](getting-started/overview)** - Complete setup guide
-- **[GraphFlow Editor](visual-editor/graphflow-overview)** - Master the interface
-- **[Animation Types](animation-types/ui-animations)** - Explore different animations
-
-### **⚙️ Advanced Topics**
-- **[Custom Actions](programming/custom-actions)** - Create your own functionality
-- **[Performance Optimization](advanced-features/performance-optimization)** - Optimize your animations
-- **[API Reference](api/graph-executor-util)** - Full technical documentation
-
-### **🎯 Examples**
-- **[UI/UX Animations](examples/ui-ux-animations)** - Complete UI examples
-- **[Camera Animations](examples/gameplay-sequences)** - Cinematic sequences
-- **[Real-world Projects](examples/real-world-projects)** - Professional examples
-
----
-
-<div align="center">
-
-**🎊 Great job!** You've successfully created your first Animatix Pro animation!
-
-**Ready to learn more?** Check out the [Getting Started Overview](getting-started/overview) guide!
-
-</div>
+| Element | Purpose | Location |
+|---------|---------|----------|
+| Node Palette | Add new nodes | Right-click in GraphFlow Editor |
+| Connection Ports | Link nodes together | Small circles on node edges |
+| Inspector Panel | Edit node properties | Unity's Inspector window |
+| Preview Controls | Test animations | Inspector window |
+| Graph Executor | Run animations & auto-detect target | Scene GameObject component |
