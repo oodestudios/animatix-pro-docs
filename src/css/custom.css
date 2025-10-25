@@ -41,8 +41,9 @@
   padding: 0 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 70px;
+  gap: 2rem;
 }
 
 .navbar__brand {
@@ -67,6 +68,8 @@
   border-radius: 10px;
   transition: transform 0.2s ease;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  display: block;
+  flex-shrink: 0;
 }
 
 .navbar__logo:hover {
@@ -87,6 +90,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-left: auto;
 }
 
 .navbar__item {

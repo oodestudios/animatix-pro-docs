@@ -70,6 +70,7 @@ const config = {
           width: 40,
           height: 40,
         },
+        hideOnScroll: false,
         items: [
           {
             type: 'doc',
@@ -80,7 +81,8 @@ const config = {
           {
             href: 'https://github.com/oodestudios/animatix-pro-docs',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
+            className: 'navbar__item--github',
           },
         ],
       },
