@@ -17,7 +17,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Getting Started',
+      label: '🚀 Getting Started',
       items: [
         'getting-started/introduction',
         'getting-started/installation',
@@ -26,7 +26,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Core Concepts',
+      label: '⚙️ Core Concepts',
       items: [
         'core-concepts/graphflow-system',
         'core-concepts/node-types',
@@ -35,7 +35,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Animation Modules',
+      label: '🎬 Animation Modules',
       items: [
         'animation-modules/ui-animations',
         'animation-modules/text-animations',
@@ -48,7 +48,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Events & Actions',
+      label: '🔗 Events & Actions',
       items: [
         'events-actions/triggers',
         'events-actions/actions',
@@ -58,7 +58,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'API Reference',
+      label: '📚 API Reference',
       items: [
         'api-reference/overview',
         'api-reference/examples',
@@ -66,7 +66,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Best Practices',
+      label: '⭐ Best Practices',
       items: [
         'best-practices/organization',
         'best-practices/performance',
@@ -75,7 +75,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Troubleshooting',
+      label: '🔧 Troubleshooting',
       items: [
         'troubleshooting/common-issues',
         'troubleshooting/debug-mode',
@@ -83,7 +83,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Quick Reference',
+      label: '📋 Quick Reference',
       items: [
         'quick-reference/animation-types',
         'quick-reference/easing-curves',

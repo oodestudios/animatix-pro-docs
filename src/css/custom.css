@@ -1,192 +1,164 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Professional Animatix Pro Documentation Styling */
 
-/* You can override the default Infima variables here. */
+/* Custom color scheme */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-/* Animatix Pro Custom Styles */
-.hero-banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 4rem 2rem;
-  text-align: center;
-  border-radius: 12px;
-  margin: 2rem 0;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  opacity: 0.9;
-}
-
-.hero-description {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  opacity: 0.8;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.hero-buttons .button {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.hero-buttons .button--primary {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  color: white;
-}
-
-.hero-buttons .button--primary:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
-  transform: translateY(-2px);
-}
-
-.hero-buttons .button--secondary {
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  color: white;
-}
-
-.hero-buttons .button--secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.7);
-  transform: translateY(-2px);
-}
-
-.cta-section {
-  background: #f8f9fa;
-  padding: 3rem 2rem;
-  text-align: center;
-  border-radius: 12px;
-  margin: 3rem 0;
-}
-
-.cta-section h2 {
-  color: #2e8555;
-  margin-bottom: 1rem;
-}
-
-.cta-section p {
-  color: #666;
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
-}
-
-.cta-section .button {
-  padding: 1rem 2rem;
+/* Professional header styling */
+.navbar__brand {
+  font-weight: 700;
   font-size: 1.2rem;
+}
+
+/* Enhanced card styling for better visual hierarchy */
+.card {
+  border: 1px solid #e1e5e9;
   border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
 }
 
-.cta-section .button--primary {
-  background: #2e8555;
-  color: white;
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Professional button styling */
+.button--primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.cta-section .button--primary:hover {
-  background: #25c2a0;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(46, 133, 85, 0.3);
+.button--primary:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-1px);
 }
 
-/* Code block enhancements */
+/* Enhanced typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* Professional sidebar styling */
+.menu__link {
+  font-weight: 500;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  color: #2563eb;
+  background-color: #f3f4f6;
+}
+
+.menu__link--active {
+  color: #2563eb;
+  background-color: #eff6ff;
+  font-weight: 600;
+}
+
+/* Enhanced code blocks */
 .prism-code {
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Feature cards */
-.feature-card {
-  background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+/* Professional table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
   margin: 1rem 0;
 }
 
-.feature-card:hover {
-  transform: translateY(-4px);
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
 }
 
-.feature-card h3 {
-  color: #2e8555;
-  margin-bottom: 1rem;
+th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #374151;
 }
 
-.feature-card p {
-  color: #666;
+/* Enhanced list styling */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
   line-height: 1.6;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.2rem;
-  }
-  
-  .hero-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-buttons .button {
-    width: 100%;
-    max-width: 300px;
-  }
+/* Professional footer */
+.footer {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: #d1d5db;
+}
+
+/* Enhanced image styling */
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 1rem 0;
+}
+
+/* Professional alert boxes */
+.alert {
+  border-radius: 8px;
+  border-left: 4px solid;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.alert--info {
+  background-color: #eff6ff;
+  border-left-color: #2563eb;
+  color: #1e40af;
+}
+
+.alert--success {
+  background-color: #f0fdf4;
+  border-left-color: #16a34a;
+  color: #166534;
+}
+
+.alert--warning {
+  background-color: #fffbeb;
+  border-left-color: #f59e0b;
+  color: #92400e;
+}
+
+.alert--danger {
+  background-color: #fef2f2;
+  border-left-color: #dc2626;
+  color: #991b1b;
 }

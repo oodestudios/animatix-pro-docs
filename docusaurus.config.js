@@ -119,6 +119,24 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['csharp'],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      announcementBar: {
+        id: 'support_us',
+        content: '🎉 Animatix Pro is now available on Unity Asset Store! <a target="_blank" rel="noopener noreferrer" href="https://assetstore.unity.com/packages/tools/animation/animatix-pro">Get it now</a>',
+        backgroundColor: '#2563eb',
+        textColor: '#ffffff',
+        isCloseable: true,
+      },
     }),
 };
 
