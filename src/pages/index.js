@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageHero from '@site/src/components/HomepageHero';
 
 import styles from './index.module.css';
 
@@ -17,18 +18,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/getting-started/overview">
+            to="/docs/getting-started/introduction">
             Get Started - 5min ⏱️
-          </Link>
-          <Link
-            className="button button--outline button--lg"
-            to="/api/graph-executor-util">
-            API Reference
-          </Link>
-          <Link
-            className="button button--outline button--lg"
-            to="/examples/ui-ux-animations">
-            Examples
           </Link>
         </div>
       </div>
@@ -40,8 +31,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Professional Animation System for Unity`}
-      description="Create stunning UI and camera animations with ease using our powerful visual graph-based system. No coding required, but full programmatic control when you need it.">
+      title={`${siteConfig.title} - Professional Animation System`}
+      description="Unity's most powerful visual animation system for professional developers. Create stunning UI, 3D, and cinematic animations with ease.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -39,14 +39,23 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/oodestudios/animatix-pro-docs/tree/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
