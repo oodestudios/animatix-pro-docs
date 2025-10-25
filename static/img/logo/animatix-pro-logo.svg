@@ -1,0 +1,27 @@
+<svg width="525" height="525" viewBox="0 0 525 525" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background play button shape with rounded corners -->
+  <path d="M50 100C50 75.1472 70.1472 55 95 55H430C454.853 55 475 75.1472 475 100V425C475 449.853 454.853 470 430 470H95C70.1472 470 50 449.853 50 425V100Z" fill="#b34a4a" rx="20" ry="20"/>
+  
+  <!-- Play button triangle -->
+  <path d="M200 150L200 375L350 262.5L200 150Z" fill="white"/>
+  
+  <!-- GraphFlow nodes and connections -->
+  <!-- Top-center node -->
+  <circle cx="262.5" cy="150" r="15" fill="white"/>
+  
+  <!-- Bottom-left node -->
+  <circle cx="150" cy="375" r="15" fill="white"/>
+  
+  <!-- Mid-right node -->
+  <circle cx="375" cy="300" r="15" fill="white"/>
+  
+  <!-- Connections -->
+  <!-- Vertical line from top-center to bottom-left -->
+  <line x1="262.5" y1="165" x2="150" y2="360" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Curved line from top-center to mid-right -->
+  <path d="M262.5 165 Q320 200 375 285" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Curved line extending from mid-right -->
+  <path d="M390 300 Q420 280 450 250" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

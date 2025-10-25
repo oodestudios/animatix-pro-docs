@@ -66,7 +66,9 @@ const config = {
         title: 'Animatix Pro',
         logo: {
           alt: 'Animatix Pro Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo/animatix-pro-logo-small.svg',
+          width: 40,
+          height: 40,
         },
         items: [
           {
