@@ -1,21 +1,21 @@
 /* Professional Animatix Pro Documentation Styling */
 
-/* Custom color scheme - Professional Blue Theme */
+/* Custom color scheme - Animatix Pro Red Theme */
 :root {
-  --ifm-color-primary: #1e40af;
-  --ifm-color-primary-dark: #1e3a8a;
-  --ifm-color-primary-darker: #1e3a8a;
-  --ifm-color-primary-darkest: #1e3a8a;
-  --ifm-color-primary-light: #3b82f6;
-  --ifm-color-primary-lighter: #60a5fa;
-  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-color-primary: #b34a4a;
+  --ifm-color-primary-dark: #a03d3d;
+  --ifm-color-primary-darker: #973737;
+  --ifm-color-primary-darkest: #7c2d2d;
+  --ifm-color-primary-light: #c65757;
+  --ifm-color-primary-lighter: #d16464;
+  --ifm-color-primary-lightest: #dc7171;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   
   /* Professional gradients */
-  --gradient-primary: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  --gradient-primary: linear-gradient(135deg, #b34a4a 0%, #d16464 100%);
   --gradient-secondary: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-  --gradient-accent: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --gradient-accent: linear-gradient(135deg, #2d1b1b 0%, #3d2525 100%);
   
   /* Professional shadows */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -457,13 +457,13 @@ img:hover {
 
 /* Professional Dark Mode Support */
 [data-theme='dark'] {
-  --ifm-color-primary: #60a5fa;
-  --ifm-color-primary-dark: #3b82f6;
-  --ifm-color-primary-darker: #2563eb;
-  --ifm-color-primary-darkest: #1d4ed8;
-  --ifm-color-primary-light: #93c5fd;
-  --ifm-color-primary-lighter: #bfdbfe;
-  --ifm-color-primary-lightest: #dbeafe;
+  --ifm-color-primary: #d16464;
+  --ifm-color-primary-dark: #c65757;
+  --ifm-color-primary-darker: #b34a4a;
+  --ifm-color-primary-darkest: #a03d3d;
+  --ifm-color-primary-light: #dc7171;
+  --ifm-color-primary-lighter: #e77e7e;
+  --ifm-color-primary-lightest: #f28b8b;
 }
 
 [data-theme='dark'] .card {
@@ -476,8 +476,8 @@ img:hover {
 }
 
 [data-theme='dark'] .menu__link:hover {
-  color: #60a5fa;
-  background-color: rgba(96, 165, 250, 0.1);
+  color: #d16464;
+  background-color: rgba(209, 100, 100, 0.1);
 }
 
 [data-theme='dark'] .menu__link--active {
