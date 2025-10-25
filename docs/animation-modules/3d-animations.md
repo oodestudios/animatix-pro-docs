@@ -17,4 +17,4 @@ Each includes duration, easing, and world/local space control.
 - On Start → Move 3D Camera (3 s) → Look At Target (1 s)
 - On Trigger → Scale 3D Object (0.5 s) → Rotate 3D (1 s)
 
-![3D Object Animation Inspector View](/img/animation-modules/16-3d-object-animation-inspector.png)
+<!-- ![\1](\2) -->

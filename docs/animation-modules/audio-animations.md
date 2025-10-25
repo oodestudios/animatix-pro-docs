@@ -16,4 +16,4 @@ Each node supports runtime mixing, fading, and dynamic pitch changes.
 - On Click → Play Click Sound → Scale Button
 - On Scene Change → Volume Tween Down (2 s) → Stop Music → Play New Track
 
-![Audio Animation Node Inspector – Volume and Pitch Controls](/img/animation-modules/18-audio-animation-volume-pitch.png)
+<!-- ![\1](\2) -->

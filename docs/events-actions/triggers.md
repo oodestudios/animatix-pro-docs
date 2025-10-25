@@ -70,4 +70,4 @@ Trigger nodes are the starting points of your animations. They detect when somet
    - Trigger the condition (click button, press key, etc.)
    - Watch the animation play
 
-![Trigger node settings in Inspector](/img/events-actions/21-trigger-node-settings.png)
+<!-- ![\1](\2) -->

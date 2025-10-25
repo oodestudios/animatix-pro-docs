@@ -27,4 +27,4 @@ Camera animations create cinematic immersion and smooth scene flow.
 - On Explosion → Camera Shake (0.5 s) → Punch Position (0.2 s)
 - On Start → Orbit Around Object (4 s) → Follow Target (continuous)
 
-![Camera Animation Node – Movement and Effects](/img/animation-modules/17-camera-animation-movement-effects.png)
+<!-- ![\1](\2) -->

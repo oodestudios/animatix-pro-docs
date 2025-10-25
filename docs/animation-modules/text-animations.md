@@ -24,4 +24,4 @@ Text animations make dialogue dynamic, menus expressive, and words memorable.
 - On Start → Typewriter (2.0 s) → Fade Out (0.5 s)
 - On Error → Character Shake (0.5 s)
 
-![Text Animation Node Settings – Character and Word Modes](/img/animation-modules/15-text-animation-character-word-modes.png)
+<!-- ![\1](\2) -->

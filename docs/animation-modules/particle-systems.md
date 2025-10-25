@@ -14,4 +14,4 @@ Control Unity's particle systems directly through animation nodes.
 - On Explosion → Play Particles (2 s) → Stop Particles → Wait (1 s)
 - On Start → Loop Particles (infinite) → Emission Rate Tween Up (3 s)
 
-![Particle System Control Node Inspector – Emission Tween](/img/animation-modules/20-particle-system-emission-tween.png)
+<!-- ![\1](\2) -->

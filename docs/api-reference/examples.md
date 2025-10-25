@@ -54,4 +54,4 @@ public class AnimatixProAPIReference : MonoBehaviour
 }
 ```
 
-![API Reference example in action](/img/api-reference/25-api-reference-example.png)
+<!-- ![\1](\2) -->

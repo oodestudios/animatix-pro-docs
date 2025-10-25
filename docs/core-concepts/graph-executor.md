@@ -30,7 +30,7 @@ public bool LoopAnimation = false;       // Repeat the animation
 public float PlaybackSpeed = 1.0f;       // Speed multiplier
 ```
 
-![GraphExecutor Inspector Showing Correct Settings](/img/core-concepts/10-graph-executor-inspector.png)
+<!-- ![\1](\2) -->
 (Graph Asset assigned, Play On Start enabled, Loop Animation off, Playback Speed 1.0, auto-target recognition visible)
 
 ## Runtime Control
@@ -50,7 +50,7 @@ bool isPlaying = GraphExecutorUtil.IsPlaying("MyAnimation");
 float progress = GraphExecutorUtil.GetProgress("MyAnimation");
 ```
 
-![GraphExecutor Component in Inspector (All Properties Displayed)](/img/core-concepts/11-graph-executor-all-properties.png)
+<!-- ![\1](\2) -->
 
 ## Events & Actions System
 
@@ -93,7 +93,7 @@ Button Click → On Click → Fade Out → Play Sound → Custom Event → Event
 | Wait | Pauses execution | Timing control |
 | Trigger Animation | Starts other graphs | Complex sequences |
 
-![Example Graph Showing Trigger → Animation → Action Flow](/img/core-concepts/12-trigger-animation-action-flow.png)
+<!-- ![\1](\2) -->
 
 ## Parallel Execution & Delays
 
@@ -141,4 +141,4 @@ Slide In Next Screen (1.0s duration)
 
 This creates a polished button interaction with audio feedback, smooth transitions, and properly timed pacing.
 
-![Parallel Execution Example in GraphFlow Editor](/img/core-concepts/13-parallel-execution-example.png)
+<!-- ![\1](\2) -->

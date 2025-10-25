@@ -77,4 +77,4 @@ Action nodes perform side effects during your animations. They don't create visu
    - Trigger the animation
    - Verify the action executes
 
-![Action node settings in Inspector](/img/events-actions/22-action-node-settings.png)
+<!-- ![\1](\2) -->

@@ -16,4 +16,4 @@ All support duration, property targeting, and easing.
 - On Damage → Color Tween to Red (0.2 s) → Tween Back (1.0 s)
 - On Death → Material Fade Out (2 s) → Deactivate Object
 
-![Material Animation Node Inspector – Color and Fade Settings](/img/animation-modules/19-material-animation-color-fade.png)
+<!-- ![\1](\2) -->

@@ -25,4 +25,4 @@ description: Learn how to install and set up Animatix Pro in your Unity project.
 - Add the GraphExecutor component to it.
 - **Important:** The GraphExecutor automatically recognizes the GameObject it's attached to as the animation target.
 
-![Unity Asset Store Import Process](/img/getting-started/01-unity-asset-store-import.png)
+<!-- ![\1](\2) -->

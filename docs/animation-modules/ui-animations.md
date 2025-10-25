@@ -65,4 +65,4 @@ UI Animations are the foundation of modern interfaces. They make your menus feel
 - On Start → Fade In Menu (1.0 s)
 - On Click → Scale Down (0.1 s) → Scale Up (0.2 s)
 
-![UI Animation Node Settings in Inspector](/img/animation-modules/14-ui-animation-node-settings.png)
+<!-- ![\1](\2) -->

@@ -50,4 +50,4 @@ Animatix Pro includes six primary node types, each serving a unique purpose.
 - **Outputs:** 1+ connection ports
 - **When to Use:** Timing control and pacing adjustments
 
-![Visual Representation of All Node Types with Their Colors](/img/core-concepts/09-node-types-visual-representation.png)
+<!-- ![\1](\2) -->

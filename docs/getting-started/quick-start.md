@@ -14,7 +14,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
 2. Name it `ButtonFadeIn`
 3. Double-click to open the GraphFlow Editor
 
-![Creating a New GraphFlow Asset](/img/getting-started/02-creating-graphflow-asset.png)
+<!-- ![\1](\2) -->
 
 ## Step 2: Add Nodes
 
@@ -23,7 +23,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
 3. Right-click again → Add Node → Action → Play Animation
 4. Drag from the On Start node's output port to the Fade node's input port.
 
-![Basic Node Connection in GraphFlow Editor](/img/getting-started/03-basic-node-connection.png)
+<!-- ![\1](\2) -->
 
 ## Step 3: Configure the Animation
 
@@ -34,7 +34,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
    - **Fade End:** 1 (fully visible)
    - **Easing:** Ease In Out
 
-![Fade Node Settings in Inspector](/img/getting-started/04-fade-node-settings.png)
+<!-- ![\1](\2) -->
 
 ## Step 4: Attach GraphExecutor to Target
 
@@ -42,7 +42,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
 2. Add the GraphExecutor component to the button.
 3. Assign the `ButtonFadeIn` asset to the Graph Asset field.
 
-![GraphExecutor Component with Assigned GraphFlow Asset](/img/getting-started/05-graph-executor-component.png)
+<!-- ![\1](\2) -->
 
 ## Step 5: Test the Animation
 
@@ -64,7 +64,7 @@ Animatix Pro uses two main interfaces that work together:
   - Real-time preview
   - Zoom and pan controls
 
-![GraphFlow Editor Interface](/img/getting-started/06-graphflow-editor-interface.png)
+<!-- ![\1](\2) -->
 
 ### Inspector Window
 - **Purpose:** Configure individual node properties
@@ -74,7 +74,7 @@ Animatix Pro uses two main interfaces that work together:
   - Animation curve editor
   - Target object assignment
 
-![Inspector Window with Node Properties](/img/getting-started/07-inspector-window-properties.png)
+<!-- ![\1](\2) -->
 
 ## Key Interface Elements
 

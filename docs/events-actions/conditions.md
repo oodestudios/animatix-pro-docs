@@ -50,4 +50,4 @@ Condition nodes add logic to your animations, allowing them to make decisions ba
    - Change the condition state
    - Verify correct branch executes
 
-![Condition node settings in Inspector](/img/events-actions/24-condition-node-settings.png)
+<!-- ![\1](\2) -->

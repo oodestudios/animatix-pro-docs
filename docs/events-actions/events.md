@@ -50,4 +50,4 @@ Event nodes integrate with Unity's event system, allowing you to trigger custom 
    - Trigger the event
    - Verify the event system responds automatically
 
-![Event node settings in Inspector](/img/events-actions/23-event-node-settings.png)
+<!-- ![\1](\2) -->

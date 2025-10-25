@@ -33,4 +33,4 @@ Trigger → Animation → Action → Event
 - **Event Nodes:** Custom events for other systems
 - **End Point:** Animation completes or loops back
 
-![Example Graph Showing Flow from Trigger to Multiple Animations](/img/core-concepts/08-example-graph-flow.png)
+<!-- ![\1](\2) -->
