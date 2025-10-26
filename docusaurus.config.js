@@ -202,7 +202,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '🎉 Animatix Pro is now available on Unity Asset Store! <a target="_blank" rel="noopener noreferrer" href="https://assetstore.unity.com/packages/tools/animation/animatix-pro">Get it now</a>',
-        backgroundColor: '#b34a4a',
+        backgroundColor: 'rgba(139, 58, 58, 0.9)',
         textColor: '#ffffff',
         isCloseable: true,
       },
