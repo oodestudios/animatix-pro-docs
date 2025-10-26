@@ -71,7 +71,7 @@ Trigger nodes are the starting points of your animations. They detect when somet
    - Trigger the condition (click button, press key, etc.)
    - Watch the animation play
 
-**📸 [Screenshot Placeholder: Trigger node settings in Inspector]**
+![Trigger node settings in Inspector](/img/screenshots/21-trigger-node-settings.png)
 
 ---
 
@@ -147,7 +147,7 @@ Action nodes perform side effects during your animations. They don't create visu
    - Trigger the animation
    - Verify the action executes
 
-**📸 [Screenshot Placeholder: Action node settings in Inspector]**
+![Action node settings in Inspector](/img/screenshots/22-action-node-settings.png)
 
 ---
 
@@ -196,7 +196,7 @@ Event nodes integrate with Unity's event system, allowing you to trigger custom 
    - Trigger the event
    - Verify the event system responds automatically
 
-**📸 [Screenshot Placeholder: Event node settings in Inspector]**
+![Event node settings in Inspector](/img/screenshots/23-event-node-settings.png)
 
 ---
 
@@ -245,4 +245,4 @@ Condition nodes add logic to your animations, allowing them to make decisions ba
    - Change the condition state
    - Verify correct branch executes
 
-**📸 [Screenshot Placeholder: Condition node settings in Inspector]**
+![Condition node settings in Inspector](/img/screenshots/24-condition-node-settings.png)

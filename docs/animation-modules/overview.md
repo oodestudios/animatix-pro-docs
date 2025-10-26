@@ -71,7 +71,7 @@ UI Animations are the foundation of modern interfaces. They make your menus feel
 - On Start → Fade In Menu (1.0 s)
 - On Click → Scale Down (0.1 s) → Scale Up (0.2 s)
 
-**📸 [Screenshot Placeholder: UI Animation Node Settings in Inspector]**
+![UI Animation Node Settings in Inspector](/img/screenshots/14-ui-animation-node-settings.png)
 
 ---
 
@@ -95,7 +95,7 @@ Text animations make dialogue dynamic, menus expressive, and words memorable.
 - On Start → Typewriter (2.0 s) → Fade Out (0.5 s)
 - On Error → Character Shake (0.5 s)
 
-**📸 [Screenshot Placeholder: Text Animation Node Settings – Character and Word Modes]**
+![Text Animation Node Settings](/img/screenshots/15-text-animation-character-word-modes.png)
 
 ---
 
@@ -112,7 +112,7 @@ Each includes duration, easing, and world/local space control.
 - On Start → Move 3D Camera (3 s) → Look At Target (1 s)
 - On Trigger → Scale 3D Object (0.5 s) → Rotate 3D (1 s)
 
-**📸 [Screenshot Placeholder: 3D Object Animation Inspector View]**
+![3D Object Animation Inspector View](/img/screenshots/16-3d-object-animation-inspector.png)
 
 ---
 
@@ -139,7 +139,7 @@ Camera animations create cinematic immersion and smooth scene flow.
 - On Explosion → Camera Shake (0.5 s) → Punch Position (0.2 s)
 - On Start → Orbit Around Object (4 s) → Follow Target (continuous)
 
-**📸 [Screenshot Placeholder: Camera Animation Node – Movement and Effects]**
+![Camera Animation Node](/img/screenshots/17-camera-animation-movement-effects.png)
 
 ---
 
@@ -155,7 +155,7 @@ Each node supports runtime mixing, fading, and dynamic pitch changes.
 - On Click → Play Click Sound → Scale Button
 - On Scene Change → Volume Tween Down (2 s) → Stop Music → Play New Track
 
-**📸 [Screenshot Placeholder: Audio Animation Node Inspector – Volume and Pitch Controls]**
+![Audio Animation Node](/img/screenshots/18-audio-animation-volume-pitch.png)
 
 ---
 
@@ -171,7 +171,7 @@ All support duration, property targeting, and easing.
 - On Damage → Color Tween to Red (0.2 s) → Tween Back (1.0 s)
 - On Death → Material Fade Out (2 s) → Deactivate Object
 
-**📸 [Screenshot Placeholder: Material Animation Node Inspector – Color and Fade Settings]**
+![Material Animation Node](/img/screenshots/19-material-animation-color-fade.png)
 
 ---
 
@@ -185,4 +185,4 @@ Control Unity's particle systems directly through animation nodes.
 - On Explosion → Play Particles (2 s) → Stop Particles → Wait (1 s)
 - On Start → Loop Particles (infinite) → Emission Rate Tween Up (3 s)
 
-**📸 [Screenshot Placeholder: Particle System Control Node Inspector – Emission Tween]**
+![Particle System Control Node](/img/screenshots/20-particle-system-emission-tween.png)

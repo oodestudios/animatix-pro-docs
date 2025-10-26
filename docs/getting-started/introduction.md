@@ -77,7 +77,7 @@ Animatix Pro is Unity's most powerful visual animation system that lets you crea
 - Add the GraphExecutor component to it.
 - **Important:** The GraphExecutor automatically recognizes the GameObject it's attached to as the animation target.
 
-**📸 [Screenshot Placeholder – Unity Asset Store Import Process]**
+![Unity Asset Store Import Process](/img/screenshots/01-unity-asset-store-import.png)
 
 ---
 
@@ -90,7 +90,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
 2. Name it `ButtonFadeIn`
 3. Double-click to open the GraphFlow Editor
 
-**📸 [Screenshot Placeholder – Creating a New GraphFlow Asset]**
+![Creating a New GraphFlow Asset](/img/screenshots/02-creating-graphflow-asset.png)
 
 ### Step 2: Add Nodes
 1. Right-click in the graph → Add Node → Trigger → On Start
@@ -98,7 +98,7 @@ Let's create a simple button fade-in animation in under 5 minutes.
 3. Right-click again → Add Node → Action → Play Animation
 4. Drag from the On Start node's output port to the Fade node's input port.
 
-**📸 [Screenshot Placeholder – Basic Node Connection in GraphFlow Editor]**
+![Basic Node Connection in GraphFlow Editor](/img/screenshots/03-basic-node-connection.png)
 
 ### Step 3: Configure the Animation
 1. Select the Fade node.
@@ -108,14 +108,14 @@ Let's create a simple button fade-in animation in under 5 minutes.
    - **Fade End:** 1 (fully visible)
    - **Easing:** Ease In Out
 
-**📸 [Screenshot Placeholder – Fade Node Settings in Inspector]**
+![Fade Node Settings in Inspector](/img/screenshots/04-fade-node-settings.png)
 
 ### Step 4: Attach GraphExecutor to Target
 1. Select your UI button in the scene.
 2. Add the GraphExecutor component to the button.
 3. Assign the `ButtonFadeIn` asset to the Graph Asset field.
 
-**📸 [Screenshot Placeholder – GraphExecutor Component with Assigned GraphFlow Asset]**
+![GraphExecutor Component with Assigned GraphFlow Asset](/img/screenshots/05-graph-executor-component.png)
 
 ### Step 5: Test the Animation
 1. Press Play in Unity.
@@ -138,7 +138,7 @@ Animatix Pro uses two main interfaces that work together:
   - Real-time preview
   - Zoom and pan controls
 
-**📸 [Screenshot Placeholder – GraphFlow Editor Interface]**
+![GraphFlow Editor Interface](/img/screenshots/06-graphflow-editor-interface.png)
 
 ### Inspector Window
 - **Purpose:** Configure individual node properties
@@ -148,7 +148,7 @@ Animatix Pro uses two main interfaces that work together:
   - Animation curve editor
   - Target object assignment
 
-**📸 [Screenshot Placeholder – Inspector Window with Node Properties]**
+![Inspector Window with Node Properties](/img/screenshots/07-inspector-window-properties.png)
 
 ### Key Interface Elements
 

@@ -226,4 +226,4 @@ public class AnimatixProAPIReference : MonoBehaviour
 4. **Runtime Modification** — Modify node properties during gameplay
 5. **Error Handling** — Always check for null references and valid states
 
-**📸 [Screenshot Placeholder: API Reference example in action]**
+![API Reference example in action](/img/screenshots/25-api-reference-example.png)

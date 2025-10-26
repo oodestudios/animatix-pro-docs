@@ -35,7 +35,7 @@ Trigger → Animation → Action → Event
 - **Event Nodes:** Custom events for other systems
 - **End Point:** Animation completes or loops back
 
-**📸 [Screenshot Placeholder – Example Graph Showing Flow from Trigger to Multiple Animations]**
+![Example Graph Showing Flow from Trigger to Multiple Animations](/img/screenshots/08-example-graph-flow.png)
 
 ---
 
@@ -85,7 +85,7 @@ Animatix Pro includes six primary node types, each serving a unique purpose.
 - **Outputs:** 1+ connection ports
 - **When to Use:** Timing control and pacing adjustments
 
-**📸 [Screenshot Placeholder – Visual Representation of All Node Types with Their Colors]**
+![Visual Representation of All Node Types with Their Colors](/img/screenshots/09-node-types-visual-representation.png)
 
 ---
 
@@ -115,7 +115,8 @@ public bool LoopAnimation = false;       // Repeat the animation
 public float PlaybackSpeed = 1.0f;       // Speed multiplier
 ```
 
-**📸 [Screenshot Placeholder – GraphExecutor Inspector Showing Correct Settings]**
+![GraphExecutor Inspector Showing Correct Settings](/img/screenshots/10-graph-executor-inspector.png)
+
 (Graph Asset assigned, Play On Start enabled, Loop Animation off, Playback Speed 1.0, auto-target recognition visible)
 
 ### Runtime Control
@@ -135,7 +136,7 @@ bool isPlaying = GraphExecutorUtil.IsPlaying("MyAnimation");
 float progress = GraphExecutorUtil.GetProgress("MyAnimation");
 ```
 
-**📸 [Screenshot Placeholder – GraphExecutor Component in Inspector (All Properties Displayed)]**
+![GraphExecutor Component in Inspector](/img/screenshots/11-graph-executor-all-properties.png)
 
 ---
 
@@ -180,7 +181,7 @@ Button Click → On Click → Fade Out → Play Sound → Custom Event → Event
 | Wait | Pauses execution | Timing control |
 | Trigger Animation | Starts other graphs | Complex sequences |
 
-**📸 [Screenshot Placeholder – Example Graph Showing Trigger → Animation → Action Flow]**
+![Example Graph Showing Trigger → Animation → Action Flow](/img/screenshots/12-trigger-animation-action-flow.png)
 
 ---
 
@@ -230,4 +231,4 @@ Slide In Next Screen (1.0s duration)
 
 This creates a polished button interaction with audio feedback, smooth transitions, and properly timed pacing.
 
-**📸 [Screenshot Placeholder – Parallel Execution Example in GraphFlow Editor]**
+![Parallel Execution Example in GraphFlow Editor](/img/screenshots/13-parallel-execution-example.png)
