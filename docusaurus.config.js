@@ -79,15 +79,55 @@ const config = {
             label: 'Documentation',
           },
           {
+            type: 'dropdown',
+            label: 'API Reference',
+            position: 'left',
+            items: [
+              {
+                label: 'Core Classes',
+                to: '/docs/api-reference/overview',
+              },
+              {
+                label: 'Examples',
+                to: '/docs/api-reference/examples',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Resources',
+            position: 'left',
+            items: [
+              {
+                label: 'Community',
+                to: '/docs/community/contact-support',
+              },
+              {
+                label: 'FAQ',
+                to: '/docs/community/faq',
+              },
+              {
+                label: 'Troubleshooting',
+                to: '/docs/troubleshooting/common-issues',
+              },
+            ],
+          },
+          {
             href: 'https://github.com/oodestudios/animatix-pro-docs',
             label: 'GitHub',
-            position: 'left',
+            position: 'right',
             className: 'navbar__item--github',
           },
         ],
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Animatix Pro Logo',
+          src: 'img/logo/animatix-pro-logo-small.svg',
+          width: 32,
+          height: 32,
+        },
         links: [
           {
             title: 'Documentation',
@@ -97,8 +137,29 @@ const config = {
                 to: '/docs/getting-started/introduction',
               },
               {
+                label: 'Core Concepts',
+                to: '/docs/core-concepts/graphflow-system',
+              },
+              {
                 label: 'API Reference',
                 to: '/docs/api-reference/overview',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Examples',
+                to: '/docs/examples/ui-ux-animations',
+              },
+              {
+                label: 'Best Practices',
+                to: '/docs/best-practices/organization',
+              },
+              {
+                label: 'Troubleshooting',
+                to: '/docs/troubleshooting/common-issues',
               },
             ],
           },
@@ -113,13 +174,8 @@ const config = {
                 label: 'Unity Asset Store',
                 href: 'https://assetstore.unity.com/packages/tools/animation/animatix-pro',
               },
-            ],
-          },
-          {
-            title: 'Support',
-            items: [
               {
-                label: 'Contact',
+                label: 'Support',
                 href: 'mailto:oode.contact@gmail.com',
               },
             ],
@@ -146,7 +202,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '🎉 Animatix Pro is now available on Unity Asset Store! <a target="_blank" rel="noopener noreferrer" href="https://assetstore.unity.com/packages/tools/animation/animatix-pro">Get it now</a>',
-        backgroundColor: '#2563eb',
+        backgroundColor: '#b34a4a',
         textColor: '#ffffff',
         isCloseable: true,
       },
