@@ -4,7 +4,7 @@ title: Camera Animations
 description: Learn about camera animations that create cinematic immersion and smooth scene flow.
 ---
 
-# 🟩 Camera Animations
+# Camera Animations
 
 Camera animations create cinematic immersion and smooth scene flow.
 

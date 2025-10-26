@@ -4,7 +4,7 @@ title: Audio Animations
 description: Learn how to synchronize sound with motion for total immersion.
 ---
 
-# 🟧 Audio Animations
+# Audio Animations
 
 Synchronize sound with motion for total immersion.
 

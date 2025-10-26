@@ -4,7 +4,7 @@ title: Particle System Control
 description: Learn how to control Unity's particle systems directly through animation nodes.
 ---
 
-# 🟫 Particle System Control
+# Particle System Control
 
 Control Unity's particle systems directly through animation nodes.
 

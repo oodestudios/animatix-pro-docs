@@ -4,7 +4,7 @@ title: Text Animations
 description: Learn about text animations that make dialogue dynamic, menus expressive, and words memorable.
 ---
 
-# 🟨 Text Animations
+# Text Animations
 
 Text animations make dialogue dynamic, menus expressive, and words memorable.
 

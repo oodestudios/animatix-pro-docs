@@ -4,7 +4,7 @@ title: UI Animations
 description: Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive.
 ---
 
-# 🟦 UI Animations
+# UI Animations
 
 UI Animations are the foundation of modern interfaces. They make your menus feel responsive, your buttons clickable, and your interface alive.
 

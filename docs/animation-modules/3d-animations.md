@@ -4,7 +4,7 @@ title: 3D Object Animations
 description: Learn how to bring 3D objects to life with smooth transformations and cinematic motion.
 ---
 
-# 🟥 3D Object Animations
+# 3D Object Animations
 
 Bring 3D objects to life with smooth transformations and cinematic motion.
 

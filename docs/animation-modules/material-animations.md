@@ -4,7 +4,7 @@ title: Material Animations
 description: Learn how to change surface look and feel dynamically to match game events.
 ---
 
-# 🟪 Material Animations
+# Material Animations
 
 Change surface look and feel dynamically to match game events.
 
