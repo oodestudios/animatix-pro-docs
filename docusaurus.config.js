@@ -93,25 +93,25 @@ const config = {
               },
             ],
           },
-          {
-            type: 'dropdown',
-            label: 'Resources',
-            position: 'left',
-            items: [
-              {
-                label: 'Community',
-                to: '/docs/community/contact-support',
-              },
-              {
-                label: 'FAQ',
-                to: '/docs/community/faq',
-              },
-              {
-                label: 'Troubleshooting',
-                to: '/docs/troubleshooting/common-issues',
-              },
-            ],
-          },
+                // {
+                //   type: 'dropdown',
+                //   label: 'Resources',
+                //   position: 'left',
+                //   items: [
+                //     {
+                //       label: 'Community',
+                //       to: '/docs/community/contact-support',
+                //     },
+                //     {
+                //       label: 'FAQ',
+                //       to: '/docs/community/faq',
+                //     },
+                //     {
+                //       label: 'Troubleshooting',
+                //       to: '/docs/troubleshooting/common-issues',
+                //     },
+                //   ],
+                // },
           {
             href: 'https://github.com/oodestudios/animatix-pro-docs',
             label: 'GitHub',

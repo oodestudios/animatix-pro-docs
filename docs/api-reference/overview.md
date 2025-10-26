@@ -1,19 +1,17 @@
 ---
 sidebar_position: 1
-title: API Overview for Developers
-description: Learn about the comprehensive API for runtime control and integration with your game systems.
 ---
 
 # API Overview for Developers
 
-Animatix Pro provides a comprehensive API for runtime control and integration with your game systems.
-
 ## Main Classes
 
+Animatix Pro provides a comprehensive API for runtime control and integration with your game systems.
+
 ### GraphExecutor
-- **Purpose:** Main component that runs GraphFlow animations
-- **Location:** MonoBehaviour component on GameObjects
-- **Key Properties:**
+- **Purpose**: Main component that runs GraphFlow animations
+- **Location**: MonoBehaviour component on GameObjects
+- **Key Properties**:
 ```csharp
 public GraphFlowAsset GraphAsset;        // Animation graph to run
 public bool PlayOnStart = true;          // Auto-play when scene starts
@@ -22,9 +20,9 @@ public float PlaybackSpeed = 1.0f;       // Speed multiplier
 ```
 
 ### GraphExecutorUtil
-- **Purpose:** Static utility class for runtime control
-- **Location:** Static methods accessible from anywhere
-- **Key Methods:**
+- **Purpose**: Static utility class for runtime control
+- **Location**: Static methods accessible from anywhere
+- **Key Methods**:
 ```csharp
 // Control animations
 GraphExecutorUtil.RunByName(string name);
@@ -38,9 +36,9 @@ float progress = GraphExecutorUtil.GetProgress(string name);
 ```
 
 ### GraphFlowAsset
-- **Purpose:** ScriptableObject containing animation graph data
-- **Location:** Asset files in your project
-- **Key Properties:**
+- **Purpose**: ScriptableObject containing animation graph data
+- **Location**: Asset files in your project
+- **Key Properties**:
 ```csharp
 public List<GraphNode> Nodes;            // All nodes in the graph
 public List<GraphConnection> Connections; // Connections between nodes
@@ -49,9 +47,9 @@ public GraphCategory Category;           // Organization category
 ```
 
 ### GraphNode Types
-- **Purpose:** Base class for all animation nodes
-- **Location:** Abstract base class
-- **Key Properties:**
+- **Purpose**: Base class for all animation nodes
+- **Location**: Abstract base class
+- **Key Properties**:
 ```csharp
 public string ID;                         // Unique identifier
 public string Title;                      // Display name
@@ -163,10 +161,62 @@ connection.TargetNodeID = newNode.ID;
 graph.AddConnection(connection);
 ```
 
-## Key API Patterns
+## API Reference Example
+
+The AnimatixProAPIReference.cs file demonstrates common API usage patterns:
+
+```csharp
+public class AnimatixProAPIReference : MonoBehaviour
+{
+    [Header("Settings")]
+    public string animationName = "MyAnimation";
+    public bool showUI = true;
+
+    void Update()
+    {
+        // SPACE - Start/Stop
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (GraphExecutorUtil.IsPlaying(animationName))
+            {
+                GraphExecutorUtil.StopByName(animationName);
+            }
+            else
+            {
+                StartAnimation();
+            }
+        }
+        
+        // P - Pause
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            GraphExecutorUtil.PauseByName(animationName);
+        }
+        
+        // R - Resume
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GraphExecutorUtil.ResumeByName(animationName);
+        }
+    }
+
+    void StartAnimation()
+    {
+        // Trigger API call for OnApiCallTrigger
+        TriggerApiCall();
+        
+        // Start animation
+        GraphExecutorUtil.RunByName(animationName);
+    }
+}
+```
+
+### Key API Patterns:
 
 1. **Event-Driven Control** — Use triggers to start animations based on game events
 2. **Status Monitoring** — Check animation status before performing actions
 3. **Callback Integration** — Use callbacks for complex sequences
 4. **Runtime Modification** — Modify node properties during gameplay
 5. **Error Handling** — Always check for null references and valid states
+
+<!-- ![Screenshot Placeholder: API Reference example in action](/static/img/api-reference/25.png) -->

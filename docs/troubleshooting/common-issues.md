@@ -1,36 +1,36 @@
 ---
 sidebar_position: 1
-title: Common Issues & Fixes
-description: Learn how to troubleshoot common issues with Animatix Pro animations.
 ---
 
-# Common Issues & Fixes
+# Troubleshooting
 
-## Animation Not Playing
+## Common Issues & Fixes
+
+### Animation Not Playing
 - **Check GraphExecutor** — Ensure GraphExecutor component is attached
 - **Verify Graph Asset** — Make sure GraphFlow Asset is assigned
 - **Check Play On Start** — Ensure "Play On Start" is enabled
 - **Verify Trigger** — Make sure trigger conditions are met
 
-## Nodes Not Connecting
+### Nodes Not Connecting
 - **Check Node Types** — Ensure compatible node types are being connected
 - **Verify Ports** — Make sure you're connecting to the correct ports
 - **Check Node State** — Ensure nodes are properly initialized
 - **Refresh Graph** — Try refreshing the graph in the editor
 
-## Animation Playing Too Fast/Slow
+### Animation Playing Too Fast/Slow
 - **Check Playback Speed** — Adjust Playback Speed in GraphExecutor
 - **Verify Duration** — Check animation duration settings
 - **Check Easing** — Ensure easing curves are properly set
 - **Test on Device** — Performance may vary on different hardware
 
-## Audio Not Playing
+### Audio Not Playing
 - **Check Audio Source** — Ensure AudioSource component is attached
 - **Verify Audio Clip** — Make sure audio clip is assigned
 - **Check Volume** — Ensure volume is not muted
 - **Verify Audio Settings** — Check Unity's audio settings
 
-## Particles Not Showing
+### Particles Not Showing
 - **Check Particle System** — Ensure ParticleSystem component is attached
 - **Verify Emission** — Make sure emission is enabled
 - **Check Material** — Ensure particle material is assigned
@@ -94,3 +94,36 @@ description: Learn how to troubleshoot common issues with Animatix Pro animation
 - **Verify Target Components** — Make sure target has required components
 - **Check Target State** — Ensure target is active and visible
 - **Refresh Graph** — Try refreshing the graph in the editor
+
+## Debug Mode & Logging
+
+### Enable Debug Logging
+- **In GraphExecutor** — Check "Enable Debug Logging" checkbox
+- **In Animation Nodes** — Enable "Debug Mode" for specific nodes
+- **In Action Nodes** — Enable "Log Message" actions for debugging
+- **In Event Nodes** — Enable "Debug Log" for event tracking
+
+### Debug Information
+- **Animation Status** — Shows when animations start/stop
+- **Node Execution** — Shows which nodes are executing
+- **Connection Flow** — Shows how connections are being followed
+- **Error Messages** — Shows detailed error information
+
+### Console Output
+- **Animation Events** — Shows animation start/stop events
+- **Node Execution** — Shows which nodes are executing
+- **Connection Flow** — Shows how connections are being followed
+- **Error Messages** — Shows detailed error information
+
+### Performance Debugging
+- **Frame Rate** — Monitor frame rate during animations
+- **Memory Usage** — Check memory usage during animations
+- **CPU Usage** — Monitor CPU usage during animations
+- **GPU Usage** — Check GPU usage during animations
+
+### Common Debug Messages
+- **"Animation started"** — Animation has begun
+- **"Animation completed"** — Animation has finished
+- **"Node executing"** — A node is currently executing
+- **"Connection followed"** — A connection is being followed
+- **"Error: [message]"** — An error has occurred
