@@ -33,6 +33,13 @@ const sidebars = {
       label: 'Animation Modules',
       items: [
         'animation-modules/overview',
+        'animation-modules/ui-animations',
+        'animation-modules/text-animations',
+        'animation-modules/3d-animations',
+        'animation-modules/camera-animations',
+        'animation-modules/audio-animations',
+        'animation-modules/material-animations',
+        'animation-modules/particle-systems',
       ],
     },
     {
