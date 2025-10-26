@@ -63,13 +63,13 @@ const config = {
       // Replace with your project's social card
       image: 'img/animatix-pro-social-card.jpg',
       navbar: {
-        title: 'Animatix Pro',
+        title: '',
         logo: {
           alt: 'Animatix Pro Logo',
           src: 'img/logo/animatix-pro-logo-small.svg',
           width: 40,
           height: 40,
-          href: 'docs/getting-started/introduction',
+          href: '#',
         },
         hideOnScroll: false,
         items: [
