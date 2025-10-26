@@ -9,7 +9,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: 'Animatix Pro Documentation',
   tagline: 'Unity\'s most powerful visual animation system',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo/animatix-pro-logo-small.svg',
 
   // Set the production url of your site here
   url: 'https://oodestudios.github.io',
