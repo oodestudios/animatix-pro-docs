@@ -4,14 +4,16 @@ sidebar_position: 1
 
 # API Overview for Developers
 
-## Main Classes
+## 5️⃣ API Overview for Developers
+
+### Main Classes
 
 Animatix Pro provides a comprehensive API for runtime control and integration with your game systems.
 
-### GraphExecutor
-- **Purpose**: Main component that runs GraphFlow animations
-- **Location**: MonoBehaviour component on GameObjects
-- **Key Properties**:
+#### GraphExecutor
+- **Purpose:** Main component that runs GraphFlow animations
+- **Location:** MonoBehaviour component on GameObjects
+- **Key Properties:**
 ```csharp
 public GraphFlowAsset GraphAsset;        // Animation graph to run
 public bool PlayOnStart = true;          // Auto-play when scene starts
@@ -19,10 +21,10 @@ public bool LoopAnimation = false;       // Repeat the animation
 public float PlaybackSpeed = 1.0f;       // Speed multiplier
 ```
 
-### GraphExecutorUtil
-- **Purpose**: Static utility class for runtime control
-- **Location**: Static methods accessible from anywhere
-- **Key Methods**:
+#### GraphExecutorUtil
+- **Purpose:** Static utility class for runtime control
+- **Location:** Static methods accessible from anywhere
+- **Key Methods:**
 ```csharp
 // Control animations
 GraphExecutorUtil.RunByName(string name);
@@ -35,10 +37,10 @@ bool isPlaying = GraphExecutorUtil.IsPlaying(string name);
 float progress = GraphExecutorUtil.GetProgress(string name);
 ```
 
-### GraphFlowAsset
-- **Purpose**: ScriptableObject containing animation graph data
-- **Location**: Asset files in your project
-- **Key Properties**:
+#### GraphFlowAsset
+- **Purpose:** ScriptableObject containing animation graph data
+- **Location:** Asset files in your project
+- **Key Properties:**
 ```csharp
 public List<GraphNode> Nodes;            // All nodes in the graph
 public List<GraphConnection> Connections; // Connections between nodes
@@ -46,10 +48,10 @@ public string GraphName;                  // Name of the graph
 public GraphCategory Category;           // Organization category
 ```
 
-### GraphNode Types
-- **Purpose**: Base class for all animation nodes
-- **Location**: Abstract base class
-- **Key Properties**:
+#### GraphNode Types
+- **Purpose:** Base class for all animation nodes
+- **Location:** Abstract base class
+- **Key Properties:**
 ```csharp
 public string ID;                         // Unique identifier
 public string Title;                      // Display name
@@ -57,9 +59,11 @@ public Vector2 Position;                  // Position in editor
 public Color NodeColor;                   // Visual color
 ```
 
-## Common API Actions
+---
 
-### Starting Animations
+### Common API Actions
+
+#### Starting Animations
 ```csharp
 // Start animation by name
 GraphExecutorUtil.RunByName("MyAnimation");
@@ -73,7 +77,7 @@ GraphExecutorUtil.RunByName("MyAnimation", () => {
 GraphExecutorUtil.RunByName("MyAnimation", 2.0f); // 2x speed
 ```
 
-### Stopping Animations
+#### Stopping Animations
 ```csharp
 // Stop animation immediately
 GraphExecutorUtil.StopByName("MyAnimation");
@@ -87,7 +91,7 @@ GraphExecutorUtil.StopByName("MyAnimation", () => {
 });
 ```
 
-### Pausing and Resuming
+#### Pausing and Resuming
 ```csharp
 // Pause animation
 GraphExecutorUtil.PauseByName("MyAnimation");
@@ -99,7 +103,7 @@ GraphExecutorUtil.ResumeByName("MyAnimation");
 bool isPaused = GraphExecutorUtil.IsPaused("MyAnimation");
 ```
 
-### Status Checking
+#### Status Checking
 ```csharp
 // Check if animation is playing
 bool isPlaying = GraphExecutorUtil.IsPlaying("MyAnimation");
@@ -114,9 +118,11 @@ float duration = GraphExecutorUtil.GetDuration("MyAnimation");
 float remaining = GraphExecutorUtil.GetRemainingTime("MyAnimation");
 ```
 
-## Accessing and Modifying Nodes at Runtime
+---
 
-### Finding Nodes
+### Accessing and Modifying Nodes at Runtime
+
+#### Finding Nodes
 ```csharp
 // Get GraphExecutor component
 GraphExecutor executor = GetComponent<GraphExecutor>();
@@ -131,7 +137,7 @@ GraphNode node = graph.GetNodeByID("node_123");
 AnimationNode animNode = graph.Nodes.OfType<AnimationNode>().FirstOrDefault();
 ```
 
-### Modifying Node Properties
+#### Modifying Node Properties
 ```csharp
 // Cast to specific node type
 AnimationNode animNode = node as AnimationNode;
@@ -144,7 +150,7 @@ animNode.EasingCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 executor.RefreshGraph();
 ```
 
-### Runtime Node Creation
+#### Runtime Node Creation
 ```csharp
 // Create new animation node
 AnimationNode newNode = ScriptableObject.CreateInstance<AnimationNode>();
@@ -161,7 +167,9 @@ connection.TargetNodeID = newNode.ID;
 graph.AddConnection(connection);
 ```
 
-## API Reference Example
+---
+
+### API Reference Example
 
 The AnimatixProAPIReference.cs file demonstrates common API usage patterns:
 
@@ -211,12 +219,11 @@ public class AnimatixProAPIReference : MonoBehaviour
 }
 ```
 
-### Key API Patterns:
-
+**Key API Patterns:**
 1. **Event-Driven Control** — Use triggers to start animations based on game events
 2. **Status Monitoring** — Check animation status before performing actions
 3. **Callback Integration** — Use callbacks for complex sequences
 4. **Runtime Modification** — Modify node properties during gameplay
 5. **Error Handling** — Always check for null references and valid states
 
-<!-- ![Screenshot Placeholder: API Reference example in action](/static/img/api-reference/25.png) -->
+**📸 [Screenshot Placeholder: API Reference example in action]**

@@ -4,9 +4,11 @@ sidebar_position: 1
 
 # Quick Reference
 
-## Complete Animation Type List
+## 8️⃣ Quick Reference
 
-### UI Animations
+### Complete Animation Type List
+
+#### UI Animations
 
 | Category | Animation | Description | Duration |
 |----------|-----------|-------------|----------|
@@ -25,7 +27,7 @@ sidebar_position: 1
 | | Shake | Random movement | 0.2-1.0s |
 | | Elastic Scale | Overshoot scale | 0.3-1.0s |
 
-### Text Animations
+#### Text Animations
 
 | Category | Animation | Description | Duration |
 |----------|-----------|-------------|----------|
@@ -59,7 +61,7 @@ sidebar_position: 1
 | | Text Flicker | Text flicker effect | 0.2-1.0s |
 | | Blinking | Text blinking effect | 0.5-2.0s |
 
-### 3D Object Animations
+#### 3D Object Animations
 
 | Animation | Description | Duration |
 |-----------|-------------|----------|
@@ -69,7 +71,7 @@ sidebar_position: 1
 | Scale 3D | 3D scaling | 0.5-3.0s |
 | Look At 3D | Face target object | 0.5-2.0s |
 
-### Camera Animations
+#### Camera Animations
 
 | Category | Animation | Description | Duration |
 |----------|-----------|-------------|----------|
@@ -89,7 +91,7 @@ sidebar_position: 1
 | | Bob Motion | Up/down bobbing | 1.0-3.0s |
 | | Drift Motion | Slow directional drift | 2.0-10.0s |
 
-### Audio Animations
+#### Audio Animations
 
 | Animation | Description | Duration |
 |-----------|-------------|----------|
@@ -98,7 +100,7 @@ sidebar_position: 1
 | Volume Tween | Change volume over time | 0.5-3.0s |
 | Pitch Tween | Change pitch over time | 0.5-3.0s |
 
-### Material Animations
+#### Material Animations
 
 | Animation | Description | Duration |
 |-----------|-------------|----------|
@@ -107,7 +109,7 @@ sidebar_position: 1
 | Texture Swap | Change material texture | Instant |
 | Material Fade | Change material transparency | 0.5-3.0s |
 
-### Particle System Control
+#### Particle System Control
 
 | Animation | Description | Duration |
 |-----------|-------------|----------|
@@ -117,59 +119,63 @@ sidebar_position: 1
 | Emission Rate Tween | Change emission rate | 0.5-3.0s |
 | Simulate Particles | Advance particle simulation | Variable |
 
-## Supported Easing Curves
+---
 
-### Linear
-- **Description**: Constant speed, no acceleration
-- **Use Case**: Mechanical movement, simple transitions
-- **Formula**: y = x
+### Supported Easing Curves
 
-### Ease In
-- **Description**: Slow start, fast finish
-- **Use Case**: Natural acceleration, object falling
-- **Formula**: y = x²
+#### Linear
+- **Description:** Constant speed, no acceleration
+- **Use Case:** Mechanical movement, simple transitions
+- **Formula:** y = x
 
-### Ease Out
-- **Description**: Fast start, slow finish
-- **Use Case**: Natural deceleration, object stopping
-- **Formula**: y = 1 - (1 - x)²
+#### Ease In
+- **Description:** Slow start, fast finish
+- **Use Case:** Natural acceleration, object falling
+- **Formula:** y = x²
 
-### Ease In Out
-- **Description**: Slow start and finish, fast middle
-- **Use Case**: Most natural movement, smooth transitions
-- **Formula**: y = x < 0.5 ? 2x² : 1 - 2(1 - x)²
+#### Ease Out
+- **Description:** Fast start, slow finish
+- **Use Case:** Natural deceleration, object stopping
+- **Formula:** y = 1 - (1 - x)²
 
-### Ease In Back
-- **Description**: Slow start with overshoot
-- **Use Case**: Playful animations, bouncy effects
-- **Formula**: y = x²(2.7x - 1.7)
+#### Ease In Out
+- **Description:** Slow start and finish, fast middle
+- **Use Case:** Most natural movement, smooth transitions
+- **Formula:** y = x < 0.5 ? 2x² : 1 - 2(1 - x)²
 
-### Ease Out Back
-- **Description**: Fast start with overshoot
-- **Use Case**: Dramatic exits, attention-grabbing
-- **Formula**: y = 1 + (1 - x)²(2.7(1 - x) - 1.7)
+#### Ease In Back
+- **Description:** Slow start with overshoot
+- **Use Case:** Playful animations, bouncy effects
+- **Formula:** y = x²(2.7x - 1.7)
 
-### Ease In Out Back
-- **Description**: Overshoot at both ends
-- **Use Case**: Playful bounces, elastic effects
-- **Formula**: Complex cubic function
+#### Ease Out Back
+- **Description:** Fast start with overshoot
+- **Use Case:** Dramatic exits, attention-grabbing
+- **Formula:** y = 1 + (1 - x)²(2.7(1 - x) - 1.7)
 
-### Bounce
-- **Description**: Bouncing motion
-- **Use Case**: Playful animations, elastic effects
-- **Formula**: Multiple sine waves
+#### Ease In Out Back
+- **Description:** Overshoot at both ends
+- **Use Case:** Playful bounces, elastic effects
+- **Formula:** Complex cubic function
 
-### Elastic
-- **Description**: Elastic spring motion
-- **Use Case**: Spring animations, elastic effects
-- **Formula**: Exponential decay with sine waves
+#### Bounce
+- **Description:** Bouncing motion
+- **Use Case:** Playful animations, elastic effects
+- **Formula:** Multiple sine waves
 
-### Custom Curves
-- **Description**: User-defined animation curves
-- **Use Case**: Specific timing requirements, unique effects
-- **Formula**: User-defined
+#### Elastic
+- **Description:** Elastic spring motion
+- **Use Case:** Spring animations, elastic effects
+- **Formula:** Exponential decay with sine waves
 
-## Node Types Summary
+#### Custom Curves
+- **Description:** User-defined animation curves
+- **Use Case:** Specific timing requirements, unique effects
+- **Formula:** User-defined
+
+---
+
+### Node Types Summary
 
 | Node Type | Color | Inputs | Outputs | Purpose | Common Use |
 |-----------|-------|--------|---------|---------|------------|
@@ -180,27 +186,29 @@ sidebar_position: 1
 | Condition | Yellow | 1+ | 1+ | Logic decisions | State checks, conditional flow |
 | Delay | Gray | 1+ | 1+ | Timing control | Pauses, delays, pacing |
 
-## Keyboard Shortcuts & Tips
+---
 
-### GraphFlow Editor
-- **Right-click**: Open node creation menu
-- **Drag**: Pan the graph view
-- **Scroll**: Zoom in/out
-- **Ctrl+Z**: Undo last action
-- **Ctrl+Y**: Redo last action
-- **Delete**: Remove selected nodes
-- **Ctrl+A**: Select all nodes
-- **Ctrl+D**: Duplicate selected nodes
+### Keyboard Shortcuts & Tips
 
-### Inspector Window
-- **Tab**: Move between fields
-- **Enter**: Apply changes
-- **Escape**: Cancel changes
-- **Ctrl+C**: Copy values
-- **Ctrl+V**: Paste values
-- **F**: Focus on selected object
+#### GraphFlow Editor
+- **Right-click:** Open node creation menu
+- **Drag:** Pan the graph view
+- **Scroll:** Zoom in/out
+- **Ctrl+Z:** Undo last action
+- **Ctrl+Y:** Redo last action
+- **Delete:** Remove selected nodes
+- **Ctrl+A:** Select all nodes
+- **Ctrl+D:** Duplicate selected nodes
 
-### General Tips
+#### Inspector Window
+- **Tab:** Move between fields
+- **Enter:** Apply changes
+- **Escape:** Cancel changes
+- **Ctrl+C:** Copy values
+- **Ctrl+V:** Paste values
+- **F:** Focus on selected object
+
+#### General Tips
 - Use descriptive names for graphs and nodes
 - Group related nodes together visually
 - Test animations frequently during development
@@ -212,7 +220,7 @@ sidebar_position: 1
 - Use version control for animation assets
 - Backup important graphs regularly
 
-### Performance Tips
+#### Performance Tips
 - Limit particle counts on mobile devices
 - Use object pooling for frequently used objects
 - Cache frequently accessed objects and components
@@ -221,6 +229,8 @@ sidebar_position: 1
 - Use simpler animations for distant objects
 - Avoid continuous animations that drain battery
 - Profile performance regularly during development
+
+---
 
 ## Conclusion
 
@@ -241,12 +251,12 @@ Animatix Pro transforms how you create animations in Unity. With its visual grap
 5. **Optimize Performance** — Test on target hardware
 6. **Share Knowledge** — Document your animations for your team
 
-**Remember**: The best animations enhance the player experience without getting in the way. Keep animations purposeful, performant, and polished.
+**Remember:** The best animations enhance the player experience without getting in the way. Keep animations purposeful, performant, and polished.
 
 ---
 
-**Happy Animating! 🎨✨**
+## Happy Animating! 🎨✨
 
 For technical support, feature requests, or community discussions, visit the Animatix Pro documentation and support channels.
 
-**Contact email**: oode.contact@gmail.com
+**Contact email:** oode.contact@gmail.com
