@@ -69,7 +69,7 @@ const config = {
           src: 'img/logo/animatix-pro-logo-small.svg',
           width: 40,
           height: 40,
-          href: '/docs/getting-started/introduction',
+          href: '/animatix-pro-docs/docs/getting-started/introduction',
         },
         hideOnScroll: false,
         items: [
