@@ -19,14 +19,5 @@
     "sidebar_position": 6,
     "title": "Material Animations",
     "description": "Learn how to change surface look and feel dynamically to match game events."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Audio Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/audio-animations"
-  },
-  "next": {
-    "title": "Particle System Control",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/particle-systems"
   }
 }

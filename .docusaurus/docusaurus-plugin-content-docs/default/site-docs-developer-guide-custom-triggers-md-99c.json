@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757624924,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Custom Conditions",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-conditions"
-  },
-  "next": {
-    "title": "Runtime Control",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/runtime-control"
-  }
+  "frontMatter": {}
 }

@@ -1,90 +1,94 @@
 {
-  "/animatix-pro-docs/docs-438": {
+  "/animatix-pro-docs/docs-6ea": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "ea94af33"
     }
   },
-  "/animatix-pro-docs/docs-b92": {
+  "/animatix-pro-docs/docs-be2": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/animatix-pro-docs/docs-527": {
+  "/animatix-pro-docs/docs-fa8": {
     "__comp": "a94703ab"
   },
-  "/animatix-pro-docs/docs/-dcc": {
+  "/animatix-pro-docs/docs/-63a": {
     "__comp": "17896441",
     "content": "c377a04b"
   },
-  "/animatix-pro-docs/docs/advanced-features/events-actions-fbd": {
+  "/animatix-pro-docs/docs/advanced-features/events-actions-c0b": {
     "__comp": "17896441",
     "content": "463599a5"
   },
-  "/animatix-pro-docs/docs/advanced-features/loops-variables-f20": {
+  "/animatix-pro-docs/docs/advanced-features/loops-variables-5b6": {
     "__comp": "17896441",
     "content": "53aba909"
   },
-  "/animatix-pro-docs/docs/advanced-features/state-management-cd4": {
+  "/animatix-pro-docs/docs/advanced-features/state-management-535": {
     "__comp": "17896441",
     "content": "005304bd"
   },
-  "/animatix-pro-docs/docs/advanced-features/triggers-conditions-fed": {
+  "/animatix-pro-docs/docs/advanced-features/triggers-conditions-d47": {
     "__comp": "17896441",
     "content": "7aa17abe"
   },
-  "/animatix-pro-docs/docs/animation-modules/3d-animations-c73": {
+  "/animatix-pro-docs/docs/animation-modules/3d-animations-1cc": {
     "__comp": "17896441",
     "content": "bcf6756c"
   },
-  "/animatix-pro-docs/docs/animation-modules/audio-animations-fbb": {
+  "/animatix-pro-docs/docs/animation-modules/audio-animations-079": {
     "__comp": "17896441",
     "content": "1b50ccb1"
   },
-  "/animatix-pro-docs/docs/animation-modules/camera-animations-e1a": {
+  "/animatix-pro-docs/docs/animation-modules/camera-animations-42a": {
     "__comp": "17896441",
     "content": "31a6b568"
   },
-  "/animatix-pro-docs/docs/animation-modules/material-animations-5f7": {
+  "/animatix-pro-docs/docs/animation-modules/material-animations-ca1": {
     "__comp": "17896441",
     "content": "804773ba"
   },
-  "/animatix-pro-docs/docs/animation-modules/particle-systems-ae6": {
+  "/animatix-pro-docs/docs/animation-modules/overview-6d5": {
+    "__comp": "17896441",
+    "content": "ad674720"
+  },
+  "/animatix-pro-docs/docs/animation-modules/particle-systems-e57": {
     "__comp": "17896441",
     "content": "ff2e83bb"
   },
-  "/animatix-pro-docs/docs/animation-modules/text-animations-2ed": {
+  "/animatix-pro-docs/docs/animation-modules/text-animations-c01": {
     "__comp": "17896441",
     "content": "cfe410f8"
   },
-  "/animatix-pro-docs/docs/animation-modules/ui-animations-d64": {
+  "/animatix-pro-docs/docs/animation-modules/ui-animations-d81": {
     "__comp": "17896441",
     "content": "ecdb9867"
   },
-  "/animatix-pro-docs/docs/animation-types/3d-object-animations-95a": {
+  "/animatix-pro-docs/docs/animation-types/3d-object-animations-6f0": {
     "__comp": "17896441",
     "content": "836d1769"
   },
-  "/animatix-pro-docs/docs/animation-types/audio-animations-214": {
+  "/animatix-pro-docs/docs/animation-types/audio-animations-dec": {
     "__comp": "17896441",
     "content": "0e504791"
   },
-  "/animatix-pro-docs/docs/animation-types/camera-animations-48d": {
+  "/animatix-pro-docs/docs/animation-types/camera-animations-2e9": {
     "__comp": "17896441",
     "content": "3cd0a0c7"
   },
-  "/animatix-pro-docs/docs/animation-types/particle-animations-da7": {
+  "/animatix-pro-docs/docs/animation-types/particle-animations-1f8": {
     "__comp": "17896441",
     "content": "796b97ae"
   },
-  "/animatix-pro-docs/docs/animation-types/text-animations-78d": {
+  "/animatix-pro-docs/docs/animation-types/text-animations-d5e": {
     "__comp": "17896441",
     "content": "38b19063"
   },
-  "/animatix-pro-docs/docs/animation-types/ui-animations-95b": {
+  "/animatix-pro-docs/docs/animation-types/ui-animations-14d": {
     "__comp": "17896441",
     "content": "6345aac5"
   },
-  "/animatix-pro-docs/docs/api-reference/examples-1e9": {
+  "/animatix-pro-docs/docs/api-reference/examples-4f2": {
     "__comp": "17896441",
     "content": "f302aa83"
   },
@@ -92,11 +96,11 @@
     "__comp": "17896441",
     "content": "ce830d1c"
   },
-  "/animatix-pro-docs/docs/api/graph-executor-util-c74": {
+  "/animatix-pro-docs/docs/api/graph-executor-util-deb": {
     "__comp": "17896441",
     "content": "8fe10fa9"
   },
-  "/animatix-pro-docs/docs/best-practices/mobile-considerations-332": {
+  "/animatix-pro-docs/docs/best-practices/mobile-considerations-9fd": {
     "__comp": "17896441",
     "content": "197e7779"
   },
@@ -104,27 +108,27 @@
     "__comp": "17896441",
     "content": "fa02a169"
   },
-  "/animatix-pro-docs/docs/best-practices/performance-ed2": {
+  "/animatix-pro-docs/docs/best-practices/performance-721": {
     "__comp": "17896441",
     "content": "b955cbf8"
   },
-  "/animatix-pro-docs/docs/community/contact-support-a5b": {
+  "/animatix-pro-docs/docs/community/contact-support-390": {
     "__comp": "17896441",
     "content": "d4548ef5"
   },
-  "/animatix-pro-docs/docs/community/contributing-83c": {
+  "/animatix-pro-docs/docs/community/contributing-762": {
     "__comp": "17896441",
     "content": "61cc1a3d"
   },
-  "/animatix-pro-docs/docs/community/faq-edb": {
+  "/animatix-pro-docs/docs/community/faq-aaf": {
     "__comp": "17896441",
     "content": "f4971f11"
   },
-  "/animatix-pro-docs/docs/community/troubleshooting-7ba": {
+  "/animatix-pro-docs/docs/community/troubleshooting-e9d": {
     "__comp": "17896441",
     "content": "10b716fd"
   },
-  "/animatix-pro-docs/docs/core-concepts/graph-executor-ad0": {
+  "/animatix-pro-docs/docs/core-concepts/graph-executor-bcb": {
     "__comp": "17896441",
     "content": "c5aa2dc8"
   },
@@ -132,67 +136,71 @@
     "__comp": "17896441",
     "content": "28b1f172"
   },
-  "/animatix-pro-docs/docs/core-concepts/node-types-cbe": {
+  "/animatix-pro-docs/docs/core-concepts/node-types-0ee": {
     "__comp": "17896441",
     "content": "8b20ed74"
   },
-  "/animatix-pro-docs/docs/developer-guide/custom-actions-d71": {
+  "/animatix-pro-docs/docs/developer-guide/custom-actions-858": {
     "__comp": "17896441",
     "content": "1ba50bfb"
   },
-  "/animatix-pro-docs/docs/developer-guide/custom-conditions-e86": {
+  "/animatix-pro-docs/docs/developer-guide/custom-conditions-788": {
     "__comp": "17896441",
     "content": "39a80957"
   },
-  "/animatix-pro-docs/docs/developer-guide/custom-triggers-223": {
+  "/animatix-pro-docs/docs/developer-guide/custom-triggers-9cf": {
     "__comp": "17896441",
     "content": "99c974b0"
   },
-  "/animatix-pro-docs/docs/developer-guide/runtime-control-23b": {
+  "/animatix-pro-docs/docs/developer-guide/runtime-control-b15": {
     "__comp": "17896441",
     "content": "2de2b68e"
   },
-  "/animatix-pro-docs/docs/events-actions/actions-7a4": {
+  "/animatix-pro-docs/docs/events-actions/actions-e6a": {
     "__comp": "17896441",
     "content": "cc227df7"
   },
-  "/animatix-pro-docs/docs/events-actions/conditions-7b5": {
+  "/animatix-pro-docs/docs/events-actions/conditions-798": {
     "__comp": "17896441",
     "content": "aa9236af"
   },
-  "/animatix-pro-docs/docs/events-actions/events-3ad": {
+  "/animatix-pro-docs/docs/events-actions/events-4cb": {
     "__comp": "17896441",
     "content": "17d998c8"
   },
-  "/animatix-pro-docs/docs/events-actions/triggers-c27": {
+  "/animatix-pro-docs/docs/events-actions/overview-2aa": {
+    "__comp": "17896441",
+    "content": "4c2a4315"
+  },
+  "/animatix-pro-docs/docs/events-actions/triggers-be0": {
     "__comp": "17896441",
     "content": "0b5f58e7"
   },
-  "/animatix-pro-docs/docs/examples-165": {
+  "/animatix-pro-docs/docs/examples-eb5": {
     "__comp": "17896441",
     "content": "09d5ad39"
   },
-  "/animatix-pro-docs/docs/examples/cinematic-camera-c26": {
+  "/animatix-pro-docs/docs/examples/cinematic-camera-091": {
     "__comp": "17896441",
     "content": "febffe7b"
   },
-  "/animatix-pro-docs/docs/examples/gameplay-sequences-1a5": {
+  "/animatix-pro-docs/docs/examples/gameplay-sequences-8dc": {
     "__comp": "17896441",
     "content": "3282433e"
   },
-  "/animatix-pro-docs/docs/examples/ui-ux-animations-33b": {
+  "/animatix-pro-docs/docs/examples/ui-ux-animations-05e": {
     "__comp": "17896441",
     "content": "a6a542e1"
   },
-  "/animatix-pro-docs/docs/examples/vr-ar-mobile-095": {
+  "/animatix-pro-docs/docs/examples/vr-ar-mobile-a6f": {
     "__comp": "17896441",
     "content": "017ca399"
   },
-  "/animatix-pro-docs/docs/getting-started/first-animation-7dd": {
+  "/animatix-pro-docs/docs/getting-started/first-animation-890": {
     "__comp": "17896441",
     "content": "9d79e3c1"
   },
-  "/animatix-pro-docs/docs/getting-started/installation-c1d": {
+  "/animatix-pro-docs/docs/getting-started/installation-975": {
     "__comp": "17896441",
     "content": "54f44165"
   },
@@ -200,47 +208,51 @@
     "__comp": "17896441",
     "content": "9ff4038f"
   },
-  "/animatix-pro-docs/docs/getting-started/overview-315": {
+  "/animatix-pro-docs/docs/getting-started/overview-eaf": {
     "__comp": "17896441",
     "content": "7a96ca3d"
   },
-  "/animatix-pro-docs/docs/getting-started/project-setup-e60": {
+  "/animatix-pro-docs/docs/getting-started/project-setup-6cd": {
     "__comp": "17896441",
     "content": "75a5cb44"
   },
-  "/animatix-pro-docs/docs/getting-started/quick-start-e20": {
+  "/animatix-pro-docs/docs/getting-started/quick-start-0f4": {
     "__comp": "17896441",
     "content": "588bd741"
   },
-  "/animatix-pro-docs/docs/intro-095": {
+  "/animatix-pro-docs/docs/intro-3dc": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/animatix-pro-docs/docs/quick-reference/animation-types-ae8": {
+  "/animatix-pro-docs/docs/quick-reference/animation-types-0e8": {
     "__comp": "17896441",
     "content": "fc75175f"
   },
-  "/animatix-pro-docs/docs/quick-reference/easing-curves-ead": {
+  "/animatix-pro-docs/docs/quick-reference/easing-curves-27a": {
     "__comp": "17896441",
     "content": "1c496d22"
   },
-  "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts-52c": {
+  "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts-c1c": {
     "__comp": "17896441",
     "content": "837a00da"
   },
-  "/animatix-pro-docs/docs/reference/changelog-cd8": {
+  "/animatix-pro-docs/docs/quick-reference/overview-3ed": {
+    "__comp": "17896441",
+    "content": "56a7b063"
+  },
+  "/animatix-pro-docs/docs/reference/changelog-5cc": {
     "__comp": "17896441",
     "content": "3d80a749"
   },
-  "/animatix-pro-docs/docs/reference/error-codes-bd4": {
+  "/animatix-pro-docs/docs/reference/error-codes-02a": {
     "__comp": "17896441",
     "content": "33e65611"
   },
-  "/animatix-pro-docs/docs/reference/node-reference-b41": {
+  "/animatix-pro-docs/docs/reference/node-reference-98d": {
     "__comp": "17896441",
     "content": "357f9f1b"
   },
-  "/animatix-pro-docs/docs/reference/properties-reference-4c0": {
+  "/animatix-pro-docs/docs/reference/properties-reference-783": {
     "__comp": "17896441",
     "content": "1e9ad535"
   },
@@ -248,23 +260,23 @@
     "__comp": "17896441",
     "content": "5133d60e"
   },
-  "/animatix-pro-docs/docs/troubleshooting/debug-mode-3d5": {
+  "/animatix-pro-docs/docs/troubleshooting/debug-mode-b85": {
     "__comp": "17896441",
     "content": "b6af8b7b"
   },
-  "/animatix-pro-docs/docs/visual-editor/connections-flow-808": {
+  "/animatix-pro-docs/docs/visual-editor/connections-flow-f35": {
     "__comp": "17896441",
     "content": "87251341"
   },
-  "/animatix-pro-docs/docs/visual-editor/graphflow-overview-d6e": {
+  "/animatix-pro-docs/docs/visual-editor/graphflow-overview-828": {
     "__comp": "17896441",
     "content": "abc168d8"
   },
-  "/animatix-pro-docs/docs/visual-editor/interface-overview-aa0": {
+  "/animatix-pro-docs/docs/visual-editor/interface-overview-881": {
     "__comp": "17896441",
     "content": "565fc8b4"
   },
-  "/animatix-pro-docs/docs/visual-editor/node-types-d3f": {
+  "/animatix-pro-docs/docs/visual-editor/node-types-999": {
     "__comp": "17896441",
     "content": "18029823"
   },

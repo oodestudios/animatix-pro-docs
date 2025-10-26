@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757624924,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "GraphExecutor — How Animations Run",
-    "permalink": "/animatix-pro-docs/docs/core-concepts/graph-executor"
-  },
-  "next": {
-    "title": "Custom Conditions",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-conditions"
-  }
+  "frontMatter": {}
 }

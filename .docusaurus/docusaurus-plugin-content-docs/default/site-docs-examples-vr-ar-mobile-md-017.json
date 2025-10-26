@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757627886,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "UI/UX Animations",
-    "permalink": "/animatix-pro-docs/docs/examples/ui-ux-animations"
-  },
-  "next": {
-    "title": "Code Examples",
-    "permalink": "/animatix-pro-docs/docs/examples"
-  }
+  "frontMatter": {}
 }

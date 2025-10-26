@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757540188,
   "formattedLastUpdatedAt": "Sep 10, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "VR/AR & Mobile",
-    "permalink": "/animatix-pro-docs/docs/examples/vr-ar-mobile"
-  },
-  "next": {
-    "title": "What Is Animatix Pro",
-    "permalink": "/animatix-pro-docs/docs/getting-started/introduction"
-  }
+  "frontMatter": {}
 }

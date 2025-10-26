@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Action Nodes",
     "description": "Learn about action nodes that perform side effects during your animations."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Adding Trigger Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/triggers"
-  },
-  "next": {
-    "title": "Event Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/events"
   }
 }

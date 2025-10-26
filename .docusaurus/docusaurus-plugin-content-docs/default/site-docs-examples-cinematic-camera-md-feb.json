@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757627886,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Condition Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/conditions"
-  },
-  "next": {
-    "title": "Gameplay Sequences",
-    "permalink": "/animatix-pro-docs/docs/examples/gameplay-sequences"
-  }
+  "frontMatter": {}
 }

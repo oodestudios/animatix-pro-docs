@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757622760,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "State Management",
-    "permalink": "/animatix-pro-docs/docs/advanced-features/state-management"
-  },
-  "next": {
-    "title": "UI Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/ui-animations"
-  }
+  "frontMatter": {}
 }

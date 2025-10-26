@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757620081,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Overview",
-    "permalink": "/animatix-pro-docs/docs/getting-started/overview"
-  },
-  "next": {
-    "title": "Welcome to Animatix Pro",
-    "permalink": "/animatix-pro-docs/docs/intro"
-  }
+  "frontMatter": {}
 }

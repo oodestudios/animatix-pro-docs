@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757540188,
   "formattedLastUpdatedAt": "Sep 10, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Connections & Flow",
-    "permalink": "/animatix-pro-docs/docs/visual-editor/connections-flow"
-  },
-  "next": {
-    "title": "GraphFlow Editor Interface",
-    "permalink": "/animatix-pro-docs/docs/visual-editor/interface-overview"
-  }
+  "frontMatter": {}
 }

@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757637424,
   "formattedLastUpdatedAt": "Sep 12, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Error Codes",
-    "permalink": "/animatix-pro-docs/docs/reference/error-codes"
-  },
-  "next": {
-    "title": "Properties Reference",
-    "permalink": "/animatix-pro-docs/docs/reference/properties-reference"
-  }
+  "frontMatter": {}
 }

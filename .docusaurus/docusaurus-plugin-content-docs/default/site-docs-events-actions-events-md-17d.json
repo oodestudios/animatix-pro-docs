@@ -19,14 +19,5 @@
     "sidebar_position": 3,
     "title": "Event Nodes",
     "description": "Learn about event nodes that integrate with Unity's event system for custom events."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Action Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/actions"
-  },
-  "next": {
-    "title": "Condition Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/conditions"
   }
 }

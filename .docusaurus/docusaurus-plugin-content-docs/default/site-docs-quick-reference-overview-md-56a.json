@@ -1,0 +1,26 @@
+{
+  "id": "quick-reference/overview",
+  "title": "Quick Reference",
+  "description": "8️⃣ Quick Reference",
+  "source": "@site/docs/quick-reference/overview.md",
+  "sourceDirName": "quick-reference",
+  "slug": "/quick-reference/overview",
+  "permalink": "/animatix-pro-docs/docs/quick-reference/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/quick-reference/overview.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761444940,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/animatix-pro-docs/docs/troubleshooting/common-issues"
+  }
+}

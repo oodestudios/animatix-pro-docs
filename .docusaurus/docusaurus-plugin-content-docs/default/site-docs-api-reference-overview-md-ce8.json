@@ -1,7 +1,7 @@
 {
   "id": "api-reference/overview",
   "title": "API Overview for Developers",
-  "description": "Learn about the comprehensive API for runtime control and integration with your game systems.",
+  "description": "5️⃣ API Overview for Developers",
   "source": "@site/docs/api-reference/overview.md",
   "sourceDirName": "api-reference",
   "slug": "/api-reference/overview",
@@ -12,21 +12,19 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415023,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761444940,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "API Overview for Developers",
-    "description": "Learn about the comprehensive API for runtime control and integration with your game systems."
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "GraphExecutorUtil",
-    "permalink": "/animatix-pro-docs/docs/api/graph-executor-util"
+    "title": "Using Events & Actions",
+    "permalink": "/animatix-pro-docs/docs/events-actions/overview"
   },
   "next": {
-    "title": "API Reference Example",
-    "permalink": "/animatix-pro-docs/docs/api-reference/examples"
+    "title": "Best Practices",
+    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
   }
 }

@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757621808,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "3D Object Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-types/3d-object-animations"
-  },
-  "next": {
-    "title": "Camera Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-types/camera-animations"
-  }
+  "frontMatter": {}
 }

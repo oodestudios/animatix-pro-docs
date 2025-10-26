@@ -1,7 +1,7 @@
 {
   "id": "troubleshooting/common-issues",
-  "title": "Common Issues & Fixes",
-  "description": "Learn how to troubleshoot common issues with Animatix Pro animations.",
+  "title": "Troubleshooting",
+  "description": "7️⃣ Troubleshooting",
   "source": "@site/docs/troubleshooting/common-issues.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/common-issues",
@@ -12,21 +12,19 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415023,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761444940,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "Common Issues & Fixes",
-    "description": "Learn how to troubleshoot common issues with Animatix Pro animations."
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Properties Reference",
-    "permalink": "/animatix-pro-docs/docs/reference/properties-reference"
+    "title": "Best Practices",
+    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
   },
   "next": {
-    "title": "Debug Mode & Logging",
-    "permalink": "/animatix-pro-docs/docs/troubleshooting/debug-mode"
+    "title": "Quick Reference",
+    "permalink": "/animatix-pro-docs/docs/quick-reference/overview"
   }
 }

@@ -19,14 +19,5 @@
     "sidebar_position": 1,
     "title": "UI Animations",
     "description": "Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Triggers & Conditions",
-    "permalink": "/animatix-pro-docs/docs/advanced-features/triggers-conditions"
-  },
-  "next": {
-    "title": "Text Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations"
   }
 }

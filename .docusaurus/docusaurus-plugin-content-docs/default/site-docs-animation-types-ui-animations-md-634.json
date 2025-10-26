@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757621808,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Text Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-types/text-animations"
-  },
-  "next": {
-    "title": "GraphExecutorUtil",
-    "permalink": "/animatix-pro-docs/docs/api/graph-executor-util"
-  }
+  "frontMatter": {}
 }

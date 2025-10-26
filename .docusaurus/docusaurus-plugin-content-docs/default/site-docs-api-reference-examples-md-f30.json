@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "API Reference Example",
     "description": "See practical examples of how to use the Animatix Pro API in your projects."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "API Overview for Developers",
-    "permalink": "/animatix-pro-docs/docs/api-reference/overview"
-  },
-  "next": {
-    "title": "Organizing Graphs",
-    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
   }
 }

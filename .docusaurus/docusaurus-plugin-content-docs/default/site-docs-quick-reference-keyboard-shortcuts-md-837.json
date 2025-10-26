@@ -19,14 +19,5 @@
     "sidebar_position": 3,
     "title": "Keyboard Shortcuts & Tips",
     "description": "A quick reference for keyboard shortcuts and general tips for using Animatix Pro."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Supported Easing Curves",
-    "permalink": "/animatix-pro-docs/docs/quick-reference/easing-curves"
-  },
-  "next": {
-    "title": "Changelog",
-    "permalink": "/animatix-pro-docs/docs/reference/changelog"
   }
 }

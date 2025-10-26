@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Text Animations",
     "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "UI Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/ui-animations"
-  },
-  "next": {
-    "title": "3D Object Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/3d-animations"
   }
 }

@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Performance Optimization",
     "description": "Learn how to optimize your Animatix Pro animations for better performance."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Organizing Graphs",
-    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
-  },
-  "next": {
-    "title": "Mobile & WebGL Considerations",
-    "permalink": "/animatix-pro-docs/docs/best-practices/mobile-considerations"
   }
 }

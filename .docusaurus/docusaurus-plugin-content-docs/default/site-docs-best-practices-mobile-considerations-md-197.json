@@ -19,14 +19,5 @@
     "sidebar_position": 3,
     "title": "Mobile & WebGL Considerations",
     "description": "Learn how to optimize Animatix Pro for mobile and WebGL platforms."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Performance Optimization",
-    "permalink": "/animatix-pro-docs/docs/best-practices/performance"
-  },
-  "next": {
-    "title": "Contact & Support",
-    "permalink": "/animatix-pro-docs/docs/community/contact-support"
   }
 }

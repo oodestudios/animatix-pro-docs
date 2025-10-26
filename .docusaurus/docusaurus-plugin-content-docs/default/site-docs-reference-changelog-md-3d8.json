@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757637127,
   "formattedLastUpdatedAt": "Sep 12, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Keyboard Shortcuts & Tips",
-    "permalink": "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts"
-  },
-  "next": {
-    "title": "Error Codes",
-    "permalink": "/animatix-pro-docs/docs/reference/error-codes"
-  }
+  "frontMatter": {}
 }

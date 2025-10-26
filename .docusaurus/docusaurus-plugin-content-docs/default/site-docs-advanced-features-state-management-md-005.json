@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757622760,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Loops & Variables",
-    "permalink": "/animatix-pro-docs/docs/advanced-features/loops-variables"
-  },
-  "next": {
-    "title": "Triggers & Conditions",
-    "permalink": "/animatix-pro-docs/docs/advanced-features/triggers-conditions"
-  }
+  "frontMatter": {}
 }

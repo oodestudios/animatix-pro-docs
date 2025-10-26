@@ -19,14 +19,5 @@
     "sidebar_position": 1,
     "title": "Complete Animation Type List",
     "description": "A comprehensive reference of all available animation types in Animatix Pro."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Welcome to Animatix Pro",
-    "permalink": "/animatix-pro-docs/docs/intro"
-  },
-  "next": {
-    "title": "Supported Easing Curves",
-    "permalink": "/animatix-pro-docs/docs/quick-reference/easing-curves"
   }
 }

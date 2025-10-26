@@ -19,14 +19,5 @@
     "sidebar_position": 5,
     "title": "Audio Animations",
     "description": "Learn how to synchronize sound with motion for total immersion."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Camera Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/camera-animations"
-  },
-  "next": {
-    "title": "Material Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/material-animations"
   }
 }

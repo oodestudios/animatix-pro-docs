@@ -1,7 +1,7 @@
 {
   "id": "getting-started/introduction",
-  "title": "What Is Animatix Pro",
-  "description": "Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code.",
+  "title": "Animatix Pro — Complete Documentation",
+  "description": "🎯 Goal: \"Get started in 5 minutes, master it in 30.\"",
   "source": "@site/docs/getting-started/introduction.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/introduction",
@@ -12,21 +12,15 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415023,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761444940,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "What Is Animatix Pro",
-    "description": "Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code."
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Code Examples",
-    "permalink": "/animatix-pro-docs/docs/examples"
-  },
   "next": {
-    "title": "Installation",
-    "permalink": "/animatix-pro-docs/docs/getting-started/installation"
+    "title": "Core Concepts",
+    "permalink": "/animatix-pro-docs/docs/core-concepts/graphflow-system"
   }
 }

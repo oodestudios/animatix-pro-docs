@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Supported Easing Curves",
     "description": "A complete reference of all supported easing curves in Animatix Pro."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Complete Animation Type List",
-    "permalink": "/animatix-pro-docs/docs/quick-reference/animation-types"
-  },
-  "next": {
-    "title": "Keyboard Shortcuts & Tips",
-    "permalink": "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts"
   }
 }

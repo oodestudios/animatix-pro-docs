@@ -1,0 +1,30 @@
+{
+  "id": "animation-modules/overview",
+  "title": "Animation Modules",
+  "description": "3️⃣ Animation Modules",
+  "source": "@site/docs/animation-modules/overview.md",
+  "sourceDirName": "animation-modules",
+  "slug": "/animation-modules/overview",
+  "permalink": "/animatix-pro-docs/docs/animation-modules/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-modules/overview.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761445757,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/animatix-pro-docs/docs/core-concepts/graphflow-system"
+  },
+  "next": {
+    "title": "Using Events & Actions",
+    "permalink": "/animatix-pro-docs/docs/events-actions/overview"
+  }
+}

@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757624924,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Custom Actions",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-actions"
-  },
-  "next": {
-    "title": "Custom Triggers",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-triggers"
-  }
+  "frontMatter": {}
 }

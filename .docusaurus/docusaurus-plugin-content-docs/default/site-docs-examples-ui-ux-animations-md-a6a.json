@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1761415795,
   "formattedLastUpdatedAt": "Oct 25, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Gameplay Sequences",
-    "permalink": "/animatix-pro-docs/docs/examples/gameplay-sequences"
-  },
-  "next": {
-    "title": "VR/AR & Mobile",
-    "permalink": "/animatix-pro-docs/docs/examples/vr-ar-mobile"
-  }
+  "frontMatter": {}
 }

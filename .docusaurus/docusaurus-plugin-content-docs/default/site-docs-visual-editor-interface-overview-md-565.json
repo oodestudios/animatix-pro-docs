@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757620081,
   "formattedLastUpdatedAt": "Sep 11, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "GraphFlow Editor Overview",
-    "permalink": "/animatix-pro-docs/docs/visual-editor/graphflow-overview"
-  },
-  "next": {
-    "title": "Node Types Reference",
-    "permalink": "/animatix-pro-docs/docs/visual-editor/node-types"
-  }
+  "frontMatter": {}
 }

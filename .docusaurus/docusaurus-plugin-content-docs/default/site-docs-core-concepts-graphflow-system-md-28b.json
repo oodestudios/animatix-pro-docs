@@ -1,7 +1,7 @@
 {
   "id": "core-concepts/graphflow-system",
-  "title": "How the GraphFlow System Works",
-  "description": "Learn how the GraphFlow System functions like a flowchart for animations.",
+  "title": "Core Concepts",
+  "description": "2️⃣ Core Concepts",
   "source": "@site/docs/core-concepts/graphflow-system.md",
   "sourceDirName": "core-concepts",
   "slug": "/core-concepts/graphflow-system",
@@ -12,21 +12,19 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761445757,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "How the GraphFlow System Works",
-    "description": "Learn how the GraphFlow System functions like a flowchart for animations."
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Troubleshooting",
-    "permalink": "/animatix-pro-docs/docs/community/troubleshooting"
+    "title": "Animatix Pro — Complete Documentation",
+    "permalink": "/animatix-pro-docs/docs/getting-started/introduction"
   },
   "next": {
-    "title": "Node Types Overview",
-    "permalink": "/animatix-pro-docs/docs/core-concepts/node-types"
+    "title": "Animation Modules",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/overview"
   }
 }

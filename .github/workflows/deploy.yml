@@ -27,9 +27,14 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm ci
+          npm install --legacy-peer-deps
         
-      - name: Build
+      - name: Fix permissions
+        run: chmod +x node_modules/.bin/*
+        
+      - name: Build Docusaurus
         run: npm run build
         
       - name: Setup Pages

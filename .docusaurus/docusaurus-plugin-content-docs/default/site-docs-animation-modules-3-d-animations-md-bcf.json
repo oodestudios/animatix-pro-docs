@@ -19,14 +19,5 @@
     "sidebar_position": 3,
     "title": "3D Object Animations",
     "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Text Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations"
-  },
-  "next": {
-    "title": "Camera Animations",
-    "permalink": "/animatix-pro-docs/docs/animation-modules/camera-animations"
   }
 }

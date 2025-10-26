@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757637424,
   "formattedLastUpdatedAt": "Sep 12, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Node Reference",
-    "permalink": "/animatix-pro-docs/docs/reference/node-reference"
-  },
-  "next": {
-    "title": "Common Issues & Fixes",
-    "permalink": "/animatix-pro-docs/docs/troubleshooting/common-issues"
-  }
+  "frontMatter": {}
 }

@@ -19,10 +19,5 @@
     "sidebar_position": 0,
     "title": "Welcome to Animatix Pro",
     "description": "Unity's most powerful visual animation system"
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Events & Actions",
-    "permalink": "/animatix-pro-docs/docs/advanced-features/events-actions"
   }
 }

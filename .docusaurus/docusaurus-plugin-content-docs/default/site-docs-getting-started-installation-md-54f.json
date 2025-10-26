@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Installation",
     "description": "Learn how to install and set up Animatix Pro in your Unity project."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "What Is Animatix Pro",
-    "permalink": "/animatix-pro-docs/docs/getting-started/introduction"
-  },
-  "next": {
-    "title": "Quick Start",
-    "permalink": "/animatix-pro-docs/docs/getting-started/quick-start"
   }
 }

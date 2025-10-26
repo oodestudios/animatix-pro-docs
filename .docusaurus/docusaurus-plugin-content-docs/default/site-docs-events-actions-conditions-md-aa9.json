@@ -19,14 +19,5 @@
     "sidebar_position": 4,
     "title": "Condition Nodes",
     "description": "Learn about condition nodes that add logic to your animations for decision-based flows."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Event Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/events"
-  },
-  "next": {
-    "title": "Cinematic Camera",
-    "permalink": "/animatix-pro-docs/docs/examples/cinematic-camera"
   }
 }

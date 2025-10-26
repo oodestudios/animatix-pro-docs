@@ -19,14 +19,5 @@
     "sidebar_position": 2,
     "title": "Debug Mode & Logging",
     "description": "Learn how to use debug mode and logging to troubleshoot your Animatix Pro animations."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Common Issues & Fixes",
-    "permalink": "/animatix-pro-docs/docs/troubleshooting/common-issues"
-  },
-  "next": {
-    "title": "Connections & Flow",
-    "permalink": "/animatix-pro-docs/docs/visual-editor/connections-flow"
   }
 }

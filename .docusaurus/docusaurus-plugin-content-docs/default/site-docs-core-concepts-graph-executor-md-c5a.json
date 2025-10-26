@@ -19,14 +19,5 @@
     "sidebar_position": 3,
     "title": "GraphExecutor — How Animations Run",
     "description": "Learn how the GraphExecutor reads your graph and executes animations in real time."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Node Types Overview",
-    "permalink": "/animatix-pro-docs/docs/core-concepts/node-types"
-  },
-  "next": {
-    "title": "Custom Actions",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-actions"
   }
 }

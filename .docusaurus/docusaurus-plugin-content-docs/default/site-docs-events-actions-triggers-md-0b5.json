@@ -19,14 +19,5 @@
     "sidebar_position": 1,
     "title": "Adding Trigger Nodes",
     "description": "Learn about trigger nodes that detect when something happens and start animation sequences."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Runtime Control",
-    "permalink": "/animatix-pro-docs/docs/developer-guide/runtime-control"
-  },
-  "next": {
-    "title": "Action Nodes",
-    "permalink": "/animatix-pro-docs/docs/events-actions/actions"
   }
 }

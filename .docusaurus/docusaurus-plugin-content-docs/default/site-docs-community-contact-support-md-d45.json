@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757637127,
   "formattedLastUpdatedAt": "Sep 12, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Mobile & WebGL Considerations",
-    "permalink": "/animatix-pro-docs/docs/best-practices/mobile-considerations"
-  },
-  "next": {
-    "title": "Contributing",
-    "permalink": "/animatix-pro-docs/docs/community/contributing"
-  }
+  "frontMatter": {}
 }

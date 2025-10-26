@@ -14,14 +14,5 @@
   "lastUpdatedBy": "OODE Studios",
   "lastUpdatedAt": 1757637127,
   "formattedLastUpdatedAt": "Sep 12, 2025",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Contact & Support",
-    "permalink": "/animatix-pro-docs/docs/community/contact-support"
-  },
-  "next": {
-    "title": "FAQ",
-    "permalink": "/animatix-pro-docs/docs/community/faq"
-  }
+  "frontMatter": {}
 }

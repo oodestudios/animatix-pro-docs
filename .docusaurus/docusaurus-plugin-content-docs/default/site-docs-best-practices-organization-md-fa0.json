@@ -1,7 +1,7 @@
 {
   "id": "best-practices/organization",
-  "title": "Organizing Graphs",
-  "description": "Learn best practices for organizing your Animatix Pro graphs and assets.",
+  "title": "Best Practices",
+  "description": "6️⃣ Best Practices",
   "source": "@site/docs/best-practices/organization.md",
   "sourceDirName": "best-practices",
   "slug": "/best-practices/organization",
@@ -12,21 +12,19 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415023,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761444940,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "Organizing Graphs",
-    "description": "Learn best practices for organizing your Animatix Pro graphs and assets."
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API Reference Example",
-    "permalink": "/animatix-pro-docs/docs/api-reference/examples"
+    "title": "API Overview for Developers",
+    "permalink": "/animatix-pro-docs/docs/api-reference/overview"
   },
   "next": {
-    "title": "Performance Optimization",
-    "permalink": "/animatix-pro-docs/docs/best-practices/performance"
+    "title": "Troubleshooting",
+    "permalink": "/animatix-pro-docs/docs/troubleshooting/common-issues"
   }
 }
