@@ -1,0 +1,27 @@
+{
+  "id": "visual-editor/connections-flow",
+  "title": "Connections & Flow",
+  "description": "Master the art of connecting nodes to create complex, flowing animation sequences. Learn about different connection types, flow control, and advanced connection techniques.",
+  "source": "@site/docs/visual-editor/connections-flow.md",
+  "sourceDirName": "visual-editor",
+  "slug": "/visual-editor/connections-flow",
+  "permalink": "/animatix-pro-docs/docs/visual-editor/connections-flow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/visual-editor/connections-flow.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757620081,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debug Mode & Logging",
+    "permalink": "/animatix-pro-docs/docs/troubleshooting/debug-mode"
+  },
+  "next": {
+    "title": "GraphFlow Editor Overview",
+    "permalink": "/animatix-pro-docs/docs/visual-editor/graphflow-overview"
+  }
+}

@@ -1,53 +1,333 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/animatix-pro-docs/",
+      "path": "/animatix-pro-docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/animatix-pro-docs/",
-          "mainDocId": "intro",
+          "path": "/animatix-pro-docs/docs",
+          "mainDocId": "index",
           "docs": [
             {
+              "id": "advanced-features/events-actions",
+              "path": "/animatix-pro-docs/docs/advanced-features/events-actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced-features/loops-variables",
+              "path": "/animatix-pro-docs/docs/advanced-features/loops-variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced-features/state-management",
+              "path": "/animatix-pro-docs/docs/advanced-features/state-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced-features/triggers-conditions",
+              "path": "/animatix-pro-docs/docs/advanced-features/triggers-conditions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/3d-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/3d-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/audio-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/audio-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/camera-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/camera-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/material-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/material-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/particle-systems",
+              "path": "/animatix-pro-docs/docs/animation-modules/particle-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/text-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/text-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-modules/ui-animations",
+              "path": "/animatix-pro-docs/docs/animation-modules/ui-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/3d-object-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/3d-object-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/audio-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/audio-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/camera-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/camera-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/particle-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/particle-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/text-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/text-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "animation-types/ui-animations",
+              "path": "/animatix-pro-docs/docs/animation-types/ui-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/examples",
+              "path": "/animatix-pro-docs/docs/api-reference/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/overview",
+              "path": "/animatix-pro-docs/docs/api-reference/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "api/graph-executor-util",
-              "path": "/animatix-pro-docs/api/graph-executor-util",
-              "sidebar": "apiSidebar"
+              "path": "/animatix-pro-docs/docs/api/graph-executor-util",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "best-practices/mobile-considerations",
+              "path": "/animatix-pro-docs/docs/best-practices/mobile-considerations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "best-practices/organization",
+              "path": "/animatix-pro-docs/docs/best-practices/organization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "best-practices/performance",
+              "path": "/animatix-pro-docs/docs/best-practices/performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/contact-support",
+              "path": "/animatix-pro-docs/docs/community/contact-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/contributing",
+              "path": "/animatix-pro-docs/docs/community/contributing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/faq",
+              "path": "/animatix-pro-docs/docs/community/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/troubleshooting",
+              "path": "/animatix-pro-docs/docs/community/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/graph-executor",
+              "path": "/animatix-pro-docs/docs/core-concepts/graph-executor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/graphflow-system",
+              "path": "/animatix-pro-docs/docs/core-concepts/graphflow-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "core-concepts/node-types",
+              "path": "/animatix-pro-docs/docs/core-concepts/node-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-guide/custom-actions",
+              "path": "/animatix-pro-docs/docs/developer-guide/custom-actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-guide/custom-conditions",
+              "path": "/animatix-pro-docs/docs/developer-guide/custom-conditions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-guide/custom-triggers",
+              "path": "/animatix-pro-docs/docs/developer-guide/custom-triggers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-guide/runtime-control",
+              "path": "/animatix-pro-docs/docs/developer-guide/runtime-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events-actions/actions",
+              "path": "/animatix-pro-docs/docs/events-actions/actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events-actions/conditions",
+              "path": "/animatix-pro-docs/docs/events-actions/conditions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events-actions/events",
+              "path": "/animatix-pro-docs/docs/events-actions/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events-actions/triggers",
+              "path": "/animatix-pro-docs/docs/events-actions/triggers",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "examples",
-              "path": "/animatix-pro-docs/examples",
+              "path": "/animatix-pro-docs/docs/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/cinematic-camera",
+              "path": "/animatix-pro-docs/docs/examples/cinematic-camera",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/gameplay-sequences",
+              "path": "/animatix-pro-docs/docs/examples/gameplay-sequences",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "examples/ui-ux-animations",
-              "path": "/animatix-pro-docs/examples/ui-ux-animations",
+              "path": "/animatix-pro-docs/docs/examples/ui-ux-animations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/vr-ar-mobile",
+              "path": "/animatix-pro-docs/docs/examples/vr-ar-mobile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/first-animation",
+              "path": "/animatix-pro-docs/docs/getting-started/first-animation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/installation",
-              "path": "/animatix-pro-docs/getting-started/installation",
+              "path": "/animatix-pro-docs/docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/introduction",
+              "path": "/animatix-pro-docs/docs/getting-started/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/overview",
-              "path": "/animatix-pro-docs/getting-started/overview",
+              "path": "/animatix-pro-docs/docs/getting-started/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/project-setup",
+              "path": "/animatix-pro-docs/docs/getting-started/project-setup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/quick-start",
-              "path": "/animatix-pro-docs/getting-started/quick-start",
+              "path": "/animatix-pro-docs/docs/getting-started/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/animatix-pro-docs/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/animatix-pro-docs/intro",
+              "path": "/animatix-pro-docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-reference/animation-types",
+              "path": "/animatix-pro-docs/docs/quick-reference/animation-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-reference/easing-curves",
+              "path": "/animatix-pro-docs/docs/quick-reference/easing-curves",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-reference/keyboard-shortcuts",
+              "path": "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/changelog",
+              "path": "/animatix-pro-docs/docs/reference/changelog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/error-codes",
+              "path": "/animatix-pro-docs/docs/reference/error-codes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/node-reference",
+              "path": "/animatix-pro-docs/docs/reference/node-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/properties-reference",
+              "path": "/animatix-pro-docs/docs/reference/properties-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting/common-issues",
+              "path": "/animatix-pro-docs/docs/troubleshooting/common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting/debug-mode",
+              "path": "/animatix-pro-docs/docs/troubleshooting/debug-mode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "visual-editor/connections-flow",
+              "path": "/animatix-pro-docs/docs/visual-editor/connections-flow",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "visual-editor/graphflow-overview",
-              "path": "/animatix-pro-docs/visual-editor/graphflow-overview",
+              "path": "/animatix-pro-docs/docs/visual-editor/graphflow-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "visual-editor/interface-overview",
+              "path": "/animatix-pro-docs/docs/visual-editor/interface-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "visual-editor/node-types",
+              "path": "/animatix-pro-docs/docs/visual-editor/node-types",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -55,14 +335,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/animatix-pro-docs/intro",
-                "label": "intro"
-              }
-            },
-            "apiSidebar": {
-              "link": {
-                "path": "/animatix-pro-docs/api/graph-executor-util",
-                "label": "api/graph-executor-util"
+                "path": "/animatix-pro-docs/docs/",
+                "label": "index"
               }
             }
           }

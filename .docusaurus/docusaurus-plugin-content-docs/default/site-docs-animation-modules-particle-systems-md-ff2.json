@@ -1,0 +1,32 @@
+{
+  "id": "animation-modules/particle-systems",
+  "title": "Particle System Control",
+  "description": "Learn how to control Unity's particle systems directly through animation nodes.",
+  "source": "@site/docs/animation-modules/particle-systems.md",
+  "sourceDirName": "animation-modules",
+  "slug": "/animation-modules/particle-systems",
+  "permalink": "/animatix-pro-docs/docs/animation-modules/particle-systems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-modules/particle-systems.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Particle System Control",
+    "description": "Learn how to control Unity's particle systems directly through animation nodes."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Material Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/material-animations"
+  },
+  "next": {
+    "title": "3D Object Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-types/3d-object-animations"
+  }
+}

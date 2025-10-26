@@ -1,0 +1,27 @@
+{
+  "id": "animation-types/camera-animations",
+  "title": "Camera Animations",
+  "description": "Master the art of camera animation to create cinematic sequences, smooth transitions, and engaging gameplay experiences. This comprehensive guide covers all aspects of camera animation with Animatix Pro.",
+  "source": "@site/docs/animation-types/camera-animations.md",
+  "sourceDirName": "animation-types",
+  "slug": "/animation-types/camera-animations",
+  "permalink": "/animatix-pro-docs/docs/animation-types/camera-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-types/camera-animations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757621808,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Audio Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-types/audio-animations"
+  },
+  "next": {
+    "title": "Particle Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-types/particle-animations"
+  }
+}

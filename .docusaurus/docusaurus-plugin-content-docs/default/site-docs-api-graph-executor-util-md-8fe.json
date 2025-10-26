@@ -5,12 +5,23 @@
   "source": "@site/docs/api/graph-executor-util.md",
   "sourceDirName": "api",
   "slug": "/api/graph-executor-util",
-  "permalink": "/animatix-pro-docs/api/graph-executor-util",
+  "permalink": "/animatix-pro-docs/docs/api/graph-executor-util",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/api/graph-executor-util.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
   "frontMatter": {},
-  "sidebar": "apiSidebar"
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UI Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-types/ui-animations"
+  },
+  "next": {
+    "title": "API Overview for Developers",
+    "permalink": "/animatix-pro-docs/docs/api-reference/overview"
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "advanced-features/state-management",
+  "title": "State Management",
+  "description": "Master the art of managing complex animation states to create sophisticated, responsive systems. This comprehensive guide covers all aspects of state management in Animatix Pro.",
+  "source": "@site/docs/advanced-features/state-management.md",
+  "sourceDirName": "advanced-features",
+  "slug": "/advanced-features/state-management",
+  "permalink": "/animatix-pro-docs/docs/advanced-features/state-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/advanced-features/state-management.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757622760,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loops & Variables",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/loops-variables"
+  },
+  "next": {
+    "title": "Triggers & Conditions",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/triggers-conditions"
+  }
+}

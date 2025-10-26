@@ -1,0 +1,27 @@
+{
+  "id": "developer-guide/custom-triggers",
+  "title": "Custom Triggers",
+  "description": "Learn how to create custom triggers that extend Animatix Pro's trigger system. This comprehensive guide covers all aspects of custom trigger development.",
+  "source": "@site/docs/developer-guide/custom-triggers.md",
+  "sourceDirName": "developer-guide",
+  "slug": "/developer-guide/custom-triggers",
+  "permalink": "/animatix-pro-docs/docs/developer-guide/custom-triggers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/developer-guide/custom-triggers.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757624924,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Conditions",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-conditions"
+  },
+  "next": {
+    "title": "Runtime Control",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/runtime-control"
+  }
+}

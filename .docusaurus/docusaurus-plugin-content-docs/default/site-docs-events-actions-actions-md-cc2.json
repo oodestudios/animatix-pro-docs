@@ -1,0 +1,32 @@
+{
+  "id": "events-actions/actions",
+  "title": "Action Nodes",
+  "description": "Learn about action nodes that perform side effects during your animations.",
+  "source": "@site/docs/events-actions/actions.md",
+  "sourceDirName": "events-actions",
+  "slug": "/events-actions/actions",
+  "permalink": "/animatix-pro-docs/docs/events-actions/actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/events-actions/actions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Action Nodes",
+    "description": "Learn about action nodes that perform side effects during your animations."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Adding Trigger Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/triggers"
+  },
+  "next": {
+    "title": "Event Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/events"
+  }
+}

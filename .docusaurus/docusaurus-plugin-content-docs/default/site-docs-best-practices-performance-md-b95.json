@@ -1,0 +1,32 @@
+{
+  "id": "best-practices/performance",
+  "title": "Performance Optimization",
+  "description": "Learn how to optimize your Animatix Pro animations for better performance.",
+  "source": "@site/docs/best-practices/performance.md",
+  "sourceDirName": "best-practices",
+  "slug": "/best-practices/performance",
+  "permalink": "/animatix-pro-docs/docs/best-practices/performance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/best-practices/performance.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415023,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Performance Optimization",
+    "description": "Learn how to optimize your Animatix Pro animations for better performance."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Organizing Graphs",
+    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
+  },
+  "next": {
+    "title": "Mobile & WebGL Considerations",
+    "permalink": "/animatix-pro-docs/docs/best-practices/mobile-considerations"
+  }
+}

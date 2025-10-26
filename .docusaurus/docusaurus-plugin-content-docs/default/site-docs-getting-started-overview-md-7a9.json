@@ -5,20 +5,23 @@
   "source": "@site/docs/getting-started/overview.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/overview",
-  "permalink": "/animatix-pro-docs/getting-started/overview",
+  "permalink": "/animatix-pro-docs/docs/getting-started/overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/getting-started/overview.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757540188,
+  "formattedLastUpdatedAt": "Sep 10, 2025",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Quick Start",
-    "permalink": "/animatix-pro-docs/getting-started/quick-start"
+    "title": "Your First Animation",
+    "permalink": "/animatix-pro-docs/docs/getting-started/first-animation"
   },
   "next": {
-    "title": "Installation",
-    "permalink": "/animatix-pro-docs/getting-started/installation"
+    "title": "Project Setup",
+    "permalink": "/animatix-pro-docs/docs/getting-started/project-setup"
   }
 }

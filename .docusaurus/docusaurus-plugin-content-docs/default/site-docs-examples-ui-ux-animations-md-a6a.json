@@ -1,20 +1,27 @@
 {
   "id": "examples/ui-ux-animations",
   "title": "UI/UX Animations",
-  "description": "This section provides comprehensive examples of UI and UX animations created with Animatix Pro.",
+  "description": "Complete examples and tutorials for creating stunning UI/UX animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for common UI animation patterns.",
   "source": "@site/docs/examples/ui-ux-animations.md",
   "sourceDirName": "examples",
   "slug": "/examples/ui-ux-animations",
-  "permalink": "/animatix-pro-docs/examples/ui-ux-animations",
+  "permalink": "/animatix-pro-docs/docs/examples/ui-ux-animations",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/examples/ui-ux-animations.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Code Examples",
-    "permalink": "/animatix-pro-docs/examples"
+    "title": "Gameplay Sequences",
+    "permalink": "/animatix-pro-docs/docs/examples/gameplay-sequences"
+  },
+  "next": {
+    "title": "VR/AR & Mobile",
+    "permalink": "/animatix-pro-docs/docs/examples/vr-ar-mobile"
   }
 }

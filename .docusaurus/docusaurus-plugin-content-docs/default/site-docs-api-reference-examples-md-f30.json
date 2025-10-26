@@ -1,0 +1,32 @@
+{
+  "id": "api-reference/examples",
+  "title": "API Reference Example",
+  "description": "See practical examples of how to use the Animatix Pro API in your projects.",
+  "source": "@site/docs/api-reference/examples.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/examples",
+  "permalink": "/animatix-pro-docs/docs/api-reference/examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/api-reference/examples.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "API Reference Example",
+    "description": "See practical examples of how to use the Animatix Pro API in your projects."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Overview for Developers",
+    "permalink": "/animatix-pro-docs/docs/api-reference/overview"
+  },
+  "next": {
+    "title": "Organizing Graphs",
+    "permalink": "/animatix-pro-docs/docs/best-practices/organization"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/changelog",
+  "title": "Changelog",
+  "description": "Complete version history and updates for Animatix Pro. This comprehensive changelog tracks all features, improvements, bug fixes, and breaking changes across all versions.",
+  "source": "@site/docs/reference/changelog.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/changelog",
+  "permalink": "/animatix-pro-docs/docs/reference/changelog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/reference/changelog.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757637127,
+  "formattedLastUpdatedAt": "Sep 12, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Keyboard Shortcuts & Tips",
+    "permalink": "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts"
+  },
+  "next": {
+    "title": "Error Codes",
+    "permalink": "/animatix-pro-docs/docs/reference/error-codes"
+  }
+}

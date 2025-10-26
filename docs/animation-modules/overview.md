@@ -10,7 +10,7 @@ Animatix Pro offers a complete suite of animation modules designed to bring ever
 
 Each module is modular, stackable, and fully compatible with the GraphFlow System, Event System, and GraphExecutor runtime engine.
 
-### 🟦 UI Animations
+### UI Animations
 
 UI Animations are the foundation of modern interfaces. They make your menus feel responsive, your buttons clickable, and your interface alive.
 
@@ -75,7 +75,7 @@ UI Animations are the foundation of modern interfaces. They make your menus feel
 
 ---
 
-### 🟨 Text Animations
+### Text Animations
 
 Text animations make dialogue dynamic, menus expressive, and words memorable.
 
@@ -99,7 +99,7 @@ Text animations make dialogue dynamic, menus expressive, and words memorable.
 
 ---
 
-### 🟥 3D Object Animations
+### 3D Object Animations
 
 Bring 3D objects to life with smooth transformations and cinematic motion.
 
@@ -116,7 +116,7 @@ Each includes duration, easing, and world/local space control.
 
 ---
 
-### 🟩 Camera Animations
+### Camera Animations
 
 Camera animations create cinematic immersion and smooth scene flow.
 
@@ -143,7 +143,7 @@ Camera animations create cinematic immersion and smooth scene flow.
 
 ---
 
-### 🟧 Audio Animations
+### Audio Animations
 
 Synchronize sound with motion for total immersion.
 
@@ -159,7 +159,7 @@ Each node supports runtime mixing, fading, and dynamic pitch changes.
 
 ---
 
-### 🟪 Material Animations
+### Material Animations
 
 Change surface look and feel dynamically to match game events.
 
@@ -175,7 +175,7 @@ All support duration, property targeting, and easing.
 
 ---
 
-### 🟫 Particle System Control
+### Particle System Control
 
 Control Unity's particle systems directly through animation nodes.
 

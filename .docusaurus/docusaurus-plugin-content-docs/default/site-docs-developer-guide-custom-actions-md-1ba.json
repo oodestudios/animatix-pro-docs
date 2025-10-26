@@ -1,0 +1,27 @@
+{
+  "id": "developer-guide/custom-actions",
+  "title": "Custom Actions",
+  "description": "Learn how to create custom actions that extend Animatix Pro's functionality. This comprehensive guide covers all aspects of custom action development.",
+  "source": "@site/docs/developer-guide/custom-actions.md",
+  "sourceDirName": "developer-guide",
+  "slug": "/developer-guide/custom-actions",
+  "permalink": "/animatix-pro-docs/docs/developer-guide/custom-actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/developer-guide/custom-actions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757624924,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GraphExecutor — How Animations Run",
+    "permalink": "/animatix-pro-docs/docs/core-concepts/graph-executor"
+  },
+  "next": {
+    "title": "Custom Conditions",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-conditions"
+  }
+}

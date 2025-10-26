@@ -1,24 +1,32 @@
 {
   "id": "getting-started/installation",
   "title": "Installation",
-  "description": "This guide will walk you through installing Animatix Pro in your Unity project.",
+  "description": "Learn how to install and set up Animatix Pro in your Unity project.",
   "source": "@site/docs/getting-started/installation.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation",
-  "permalink": "/animatix-pro-docs/getting-started/installation",
+  "permalink": "/animatix-pro-docs/docs/getting-started/installation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/getting-started/installation.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Installation",
+    "description": "Learn how to install and set up Animatix Pro in your Unity project."
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/animatix-pro-docs/getting-started/overview"
+    "title": "What Is Animatix Pro",
+    "permalink": "/animatix-pro-docs/docs/getting-started/introduction"
   },
   "next": {
-    "title": "GraphFlow Editor Overview",
-    "permalink": "/animatix-pro-docs/visual-editor/graphflow-overview"
+    "title": "Quick Start",
+    "permalink": "/animatix-pro-docs/docs/getting-started/quick-start"
   }
 }

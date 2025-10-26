@@ -1,0 +1,27 @@
+{
+  "id": "examples/cinematic-camera",
+  "title": "Cinematic Camera",
+  "description": "Complete examples and tutorials for creating cinematic camera animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for professional cinematic sequences.",
+  "source": "@site/docs/examples/cinematic-camera.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/cinematic-camera",
+  "permalink": "/animatix-pro-docs/docs/examples/cinematic-camera",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/examples/cinematic-camera.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757627886,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Condition Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/conditions"
+  },
+  "next": {
+    "title": "Gameplay Sequences",
+    "permalink": "/animatix-pro-docs/docs/examples/gameplay-sequences"
+  }
+}

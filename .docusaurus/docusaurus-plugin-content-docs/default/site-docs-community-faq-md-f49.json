@@ -1,0 +1,27 @@
+{
+  "id": "community/faq",
+  "title": "FAQ",
+  "description": "Frequently Asked Questions about Animatix Pro. This comprehensive FAQ addresses the most common questions and concerns from users.",
+  "source": "@site/docs/community/faq.md",
+  "sourceDirName": "community",
+  "slug": "/community/faq",
+  "permalink": "/animatix-pro-docs/docs/community/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/community/faq.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757637127,
+  "formattedLastUpdatedAt": "Sep 12, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contributing",
+    "permalink": "/animatix-pro-docs/docs/community/contributing"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/animatix-pro-docs/docs/community/troubleshooting"
+  }
+}

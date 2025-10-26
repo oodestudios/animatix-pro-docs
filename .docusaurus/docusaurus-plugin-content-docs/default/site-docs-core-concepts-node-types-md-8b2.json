@@ -1,0 +1,32 @@
+{
+  "id": "core-concepts/node-types",
+  "title": "Node Types Overview",
+  "description": "Learn about the six primary node types in Animatix Pro and their purposes.",
+  "source": "@site/docs/core-concepts/node-types.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/node-types",
+  "permalink": "/animatix-pro-docs/docs/core-concepts/node-types",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/core-concepts/node-types.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Node Types Overview",
+    "description": "Learn about the six primary node types in Animatix Pro and their purposes."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How the GraphFlow System Works",
+    "permalink": "/animatix-pro-docs/docs/core-concepts/graphflow-system"
+  },
+  "next": {
+    "title": "GraphExecutor — How Animations Run",
+    "permalink": "/animatix-pro-docs/docs/core-concepts/graph-executor"
+  }
+}

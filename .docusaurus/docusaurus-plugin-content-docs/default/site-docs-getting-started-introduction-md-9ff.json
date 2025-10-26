@@ -1,0 +1,32 @@
+{
+  "id": "getting-started/introduction",
+  "title": "What Is Animatix Pro",
+  "description": "Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code.",
+  "source": "@site/docs/getting-started/introduction.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/introduction",
+  "permalink": "/animatix-pro-docs/docs/getting-started/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/getting-started/introduction.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415023,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "What Is Animatix Pro",
+    "description": "Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Examples",
+    "permalink": "/animatix-pro-docs/docs/examples"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/animatix-pro-docs/docs/getting-started/installation"
+  }
+}

@@ -5,16 +5,23 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/animatix-pro-docs/intro",
+  "permalink": "/animatix-pro-docs/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Project Setup",
+    "permalink": "/animatix-pro-docs/docs/getting-started/project-setup"
+  },
   "next": {
-    "title": "Quick Start",
-    "permalink": "/animatix-pro-docs/getting-started/quick-start"
+    "title": "Complete Animation Type List",
+    "permalink": "/animatix-pro-docs/docs/quick-reference/animation-types"
   }
 }

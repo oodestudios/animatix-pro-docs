@@ -1,0 +1,32 @@
+{
+  "id": "api-reference/overview",
+  "title": "API Overview for Developers",
+  "description": "Learn about the comprehensive API for runtime control and integration with your game systems.",
+  "source": "@site/docs/api-reference/overview.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/overview",
+  "permalink": "/animatix-pro-docs/docs/api-reference/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/api-reference/overview.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415023,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "API Overview for Developers",
+    "description": "Learn about the comprehensive API for runtime control and integration with your game systems."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GraphExecutorUtil",
+    "permalink": "/animatix-pro-docs/docs/api/graph-executor-util"
+  },
+  "next": {
+    "title": "API Reference Example",
+    "permalink": "/animatix-pro-docs/docs/api-reference/examples"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "animation-modules/3d-animations",
+  "title": "3D Object Animations",
+  "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion.",
+  "source": "@site/docs/animation-modules/3d-animations.md",
+  "sourceDirName": "animation-modules",
+  "slug": "/animation-modules/3d-animations",
+  "permalink": "/animatix-pro-docs/docs/animation-modules/3d-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-modules/3d-animations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "3D Object Animations",
+    "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations"
+  },
+  "next": {
+    "title": "Camera Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/camera-animations"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "developer-guide/custom-conditions",
+  "title": "Custom Conditions",
+  "description": "Learn how to create custom conditions that extend Animatix Pro's condition system. This comprehensive guide covers all aspects of custom condition development.",
+  "source": "@site/docs/developer-guide/custom-conditions.md",
+  "sourceDirName": "developer-guide",
+  "slug": "/developer-guide/custom-conditions",
+  "permalink": "/animatix-pro-docs/docs/developer-guide/custom-conditions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/developer-guide/custom-conditions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757624924,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Actions",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-actions"
+  },
+  "next": {
+    "title": "Custom Triggers",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/custom-triggers"
+  }
+}

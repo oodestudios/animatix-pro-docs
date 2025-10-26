@@ -1,0 +1,32 @@
+{
+  "id": "events-actions/events",
+  "title": "Event Nodes",
+  "description": "Learn about event nodes that integrate with Unity's event system for custom events.",
+  "source": "@site/docs/events-actions/events.md",
+  "sourceDirName": "events-actions",
+  "slug": "/events-actions/events",
+  "permalink": "/animatix-pro-docs/docs/events-actions/events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/events-actions/events.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Event Nodes",
+    "description": "Learn about event nodes that integrate with Unity's event system for custom events."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Action Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/actions"
+  },
+  "next": {
+    "title": "Condition Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/conditions"
+  }
+}

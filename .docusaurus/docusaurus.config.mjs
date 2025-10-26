@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Animatix Pro",
-  "tagline": "Professional Animation System for Unity",
+  "title": "Animatix Pro Documentation",
+  "tagline": "Unity's most powerful visual animation system",
   "favicon": "img/favicon.ico",
   "url": "https://oodestudios.github.io",
   "baseUrl": "/animatix-pro-docs/",
@@ -13,7 +13,6 @@ export default {
   "projectName": "animatix-pro-docs",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
-  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,12 +26,22 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "routeBasePath": "/",
-          "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/"
+          "sidebarPath": "C:\\Users\\AMIR\\animatix-pro-docs\\sidebars.js",
+          "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/",
+          "showLastUpdateTime": true,
+          "showLastUpdateAuthor": true
         },
+        "blog": false,
         "theme": {
-          "customCss": "./src/css/custom.css"
+          "customCss": "C:\\Users\\AMIR\\animatix-pro-docs\\src\\css\\custom.css"
+        },
+        "sitemap": {
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/tags/**"
+          ],
+          "filename": "sitemap.xml"
         }
       }
     ]
@@ -43,47 +52,100 @@ export default {
       "title": "Animatix Pro",
       "logo": {
         "alt": "Animatix Pro Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo/animatix-pro-logo-small.svg",
+        "width": 40,
+        "height": 40
       },
+      "hideOnScroll": false,
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "type": "doc",
+          "docId": "getting-started/introduction",
           "position": "left",
           "label": "Documentation"
         },
         {
-          "type": "docSidebar",
-          "sidebarId": "apiSidebar",
+          "type": "dropdown",
+          "label": "API Reference",
           "position": "left",
-          "label": "API Reference"
+          "items": [
+            {
+              "label": "Core Classes",
+              "to": "/docs/api-reference/overview"
+            },
+            {
+              "label": "Examples",
+              "to": "/docs/api-reference/examples"
+            }
+          ]
         },
         {
-          "to": "/examples",
-          "label": "Examples",
-          "position": "left"
+          "type": "dropdown",
+          "label": "Resources",
+          "position": "left",
+          "items": [
+            {
+              "label": "Community",
+              "to": "/docs/community/contact-support"
+            },
+            {
+              "label": "FAQ",
+              "to": "/docs/community/faq"
+            },
+            {
+              "label": "Troubleshooting",
+              "to": "/docs/troubleshooting/common-issues"
+            }
+          ]
         },
         {
-          "href": "https://github.com/oodestudios/animatix-pro",
+          "href": "https://github.com/oodestudios/animatix-pro-docs",
           "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "navbar__item--github"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
       "style": "dark",
+      "logo": {
+        "alt": "Animatix Pro Logo",
+        "src": "img/logo/animatix-pro-logo-small.svg",
+        "width": 32,
+        "height": 32
+      },
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentation",
           "items": [
             {
               "label": "Getting Started",
-              "to": "/docs/getting-started"
+              "to": "/docs/getting-started/introduction"
+            },
+            {
+              "label": "Core Concepts",
+              "to": "/docs/core-concepts/graphflow-system"
             },
             {
               "label": "API Reference",
-              "to": "/docs/api/graph-executor-util"
+              "to": "/docs/api-reference/overview"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "items": [
+            {
+              "label": "Examples",
+              "to": "/docs/examples/ui-ux-animations"
+            },
+            {
+              "label": "Best Practices",
+              "to": "/docs/best-practices/organization"
+            },
+            {
+              "label": "Troubleshooting",
+              "to": "/docs/troubleshooting/common-issues"
             }
           ]
         },
@@ -91,21 +153,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Discord",
-              "href": "https://discord.gg/animatix-pro"
+              "label": "GitHub",
+              "href": "https://github.com/oodestudios/animatix-pro-docs"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/animatixpro"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
+              "label": "Unity Asset Store",
+              "href": "https://assetstore.unity.com/packages/tools/animation/animatix-pro"
+            },
             {
-              "label": "GitHub",
-              "href": "https://github.com/oodestudios/animatix-pro"
+              "label": "Support",
+              "href": "mailto:oode.contact@gmail.com"
             }
           ]
         }
@@ -305,9 +362,7 @@ export default {
         ]
       },
       "additionalLanguages": [
-        "csharp",
-        "json",
-        "bash"
+        "csharp"
       ],
       "magicComments": [
         {
@@ -320,22 +375,24 @@ export default {
         }
       ]
     },
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true
     },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
-    },
-    "blog": {
-      "sidebar": {
-        "groupByYear": true
-      }
+    "announcementBar": {
+      "id": "support_us",
+      "content": "🎉 Animatix Pro is now available on Unity Asset Store! <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://assetstore.unity.com/packages/tools/animation/animatix-pro\">Get it now</a>",
+      "backgroundColor": "rgba(139, 58, 58, 0.9)",
+      "textColor": "#ffffff",
+      "isCloseable": true
     },
     "metadata": [],
     "tableOfContents": {
@@ -344,28 +401,6 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
-  "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false
-    },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
-  },
-  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -386,9 +421,6 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
     }
   }
 };

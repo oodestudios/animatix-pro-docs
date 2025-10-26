@@ -1,0 +1,23 @@
+{
+  "id": "visual-editor/node-types",
+  "title": "Node Types Reference",
+  "description": "Complete reference guide to all available nodes in Animatix Pro. Learn about each node type, their properties, and how to use them effectively.",
+  "source": "@site/docs/visual-editor/node-types.md",
+  "sourceDirName": "visual-editor",
+  "slug": "/visual-editor/node-types",
+  "permalink": "/animatix-pro-docs/docs/visual-editor/node-types",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/visual-editor/node-types.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757620081,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GraphFlow Editor Interface",
+    "permalink": "/animatix-pro-docs/docs/visual-editor/interface-overview"
+  }
+}

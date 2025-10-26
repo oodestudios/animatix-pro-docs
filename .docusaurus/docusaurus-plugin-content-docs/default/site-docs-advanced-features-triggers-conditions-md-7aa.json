@@ -1,0 +1,27 @@
+{
+  "id": "advanced-features/triggers-conditions",
+  "title": "Triggers & Conditions",
+  "description": "Master the art of creating intelligent, responsive animations with advanced triggers and conditions. This comprehensive guide covers all aspects of trigger systems and conditional logic in Animatix Pro.",
+  "source": "@site/docs/advanced-features/triggers-conditions.md",
+  "sourceDirName": "advanced-features",
+  "slug": "/advanced-features/triggers-conditions",
+  "permalink": "/animatix-pro-docs/docs/advanced-features/triggers-conditions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/advanced-features/triggers-conditions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757622760,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "State Management",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/state-management"
+  },
+  "next": {
+    "title": "UI Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/ui-animations"
+  }
+}

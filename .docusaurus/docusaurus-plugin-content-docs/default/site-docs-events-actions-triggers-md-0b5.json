@@ -1,0 +1,32 @@
+{
+  "id": "events-actions/triggers",
+  "title": "Adding Trigger Nodes",
+  "description": "Learn about trigger nodes that detect when something happens and start animation sequences.",
+  "source": "@site/docs/events-actions/triggers.md",
+  "sourceDirName": "events-actions",
+  "slug": "/events-actions/triggers",
+  "permalink": "/animatix-pro-docs/docs/events-actions/triggers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/events-actions/triggers.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Adding Trigger Nodes",
+    "description": "Learn about trigger nodes that detect when something happens and start animation sequences."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Runtime Control",
+    "permalink": "/animatix-pro-docs/docs/developer-guide/runtime-control"
+  },
+  "next": {
+    "title": "Action Nodes",
+    "permalink": "/animatix-pro-docs/docs/events-actions/actions"
+  }
+}

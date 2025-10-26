@@ -1,54 +1,278 @@
 {
-  "/animatix-pro-docs/-0c9": {
-    "__comp": "c4f5d8e4",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/animatix-pro-docs/-1fa": {
+  "/animatix-pro-docs/docs-438": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "ea94af33"
     }
   },
-  "/animatix-pro-docs/-1e0": {
+  "/animatix-pro-docs/docs-b92": {
     "__comp": "a7bd4aaa",
-    "__props": "7cc5c8c8"
+    "version": "935f2afb"
   },
-  "/animatix-pro-docs/-041": {
+  "/animatix-pro-docs/docs-527": {
     "__comp": "a94703ab"
   },
-  "/animatix-pro-docs/api/graph-executor-util-b1c": {
+  "/animatix-pro-docs/docs/-dcc": {
+    "__comp": "17896441",
+    "content": "c377a04b"
+  },
+  "/animatix-pro-docs/docs/advanced-features/events-actions-fbd": {
+    "__comp": "17896441",
+    "content": "463599a5"
+  },
+  "/animatix-pro-docs/docs/advanced-features/loops-variables-f20": {
+    "__comp": "17896441",
+    "content": "53aba909"
+  },
+  "/animatix-pro-docs/docs/advanced-features/state-management-cd4": {
+    "__comp": "17896441",
+    "content": "005304bd"
+  },
+  "/animatix-pro-docs/docs/advanced-features/triggers-conditions-fed": {
+    "__comp": "17896441",
+    "content": "7aa17abe"
+  },
+  "/animatix-pro-docs/docs/animation-modules/3d-animations-c73": {
+    "__comp": "17896441",
+    "content": "bcf6756c"
+  },
+  "/animatix-pro-docs/docs/animation-modules/audio-animations-fbb": {
+    "__comp": "17896441",
+    "content": "1b50ccb1"
+  },
+  "/animatix-pro-docs/docs/animation-modules/camera-animations-e1a": {
+    "__comp": "17896441",
+    "content": "31a6b568"
+  },
+  "/animatix-pro-docs/docs/animation-modules/material-animations-5f7": {
+    "__comp": "17896441",
+    "content": "804773ba"
+  },
+  "/animatix-pro-docs/docs/animation-modules/particle-systems-ae6": {
+    "__comp": "17896441",
+    "content": "ff2e83bb"
+  },
+  "/animatix-pro-docs/docs/animation-modules/text-animations-2ed": {
+    "__comp": "17896441",
+    "content": "cfe410f8"
+  },
+  "/animatix-pro-docs/docs/animation-modules/ui-animations-d64": {
+    "__comp": "17896441",
+    "content": "ecdb9867"
+  },
+  "/animatix-pro-docs/docs/animation-types/3d-object-animations-95a": {
+    "__comp": "17896441",
+    "content": "836d1769"
+  },
+  "/animatix-pro-docs/docs/animation-types/audio-animations-214": {
+    "__comp": "17896441",
+    "content": "0e504791"
+  },
+  "/animatix-pro-docs/docs/animation-types/camera-animations-48d": {
+    "__comp": "17896441",
+    "content": "3cd0a0c7"
+  },
+  "/animatix-pro-docs/docs/animation-types/particle-animations-da7": {
+    "__comp": "17896441",
+    "content": "796b97ae"
+  },
+  "/animatix-pro-docs/docs/animation-types/text-animations-78d": {
+    "__comp": "17896441",
+    "content": "38b19063"
+  },
+  "/animatix-pro-docs/docs/animation-types/ui-animations-95b": {
+    "__comp": "17896441",
+    "content": "6345aac5"
+  },
+  "/animatix-pro-docs/docs/api-reference/examples-1e9": {
+    "__comp": "17896441",
+    "content": "f302aa83"
+  },
+  "/animatix-pro-docs/docs/api-reference/overview-698": {
+    "__comp": "17896441",
+    "content": "ce830d1c"
+  },
+  "/animatix-pro-docs/docs/api/graph-executor-util-c74": {
     "__comp": "17896441",
     "content": "8fe10fa9"
   },
-  "/animatix-pro-docs/examples-f3e": {
+  "/animatix-pro-docs/docs/best-practices/mobile-considerations-332": {
+    "__comp": "17896441",
+    "content": "197e7779"
+  },
+  "/animatix-pro-docs/docs/best-practices/organization-62d": {
+    "__comp": "17896441",
+    "content": "fa02a169"
+  },
+  "/animatix-pro-docs/docs/best-practices/performance-ed2": {
+    "__comp": "17896441",
+    "content": "b955cbf8"
+  },
+  "/animatix-pro-docs/docs/community/contact-support-a5b": {
+    "__comp": "17896441",
+    "content": "d4548ef5"
+  },
+  "/animatix-pro-docs/docs/community/contributing-83c": {
+    "__comp": "17896441",
+    "content": "61cc1a3d"
+  },
+  "/animatix-pro-docs/docs/community/faq-edb": {
+    "__comp": "17896441",
+    "content": "f4971f11"
+  },
+  "/animatix-pro-docs/docs/community/troubleshooting-7ba": {
+    "__comp": "17896441",
+    "content": "10b716fd"
+  },
+  "/animatix-pro-docs/docs/core-concepts/graph-executor-ad0": {
+    "__comp": "17896441",
+    "content": "c5aa2dc8"
+  },
+  "/animatix-pro-docs/docs/core-concepts/graphflow-system-9f7": {
+    "__comp": "17896441",
+    "content": "28b1f172"
+  },
+  "/animatix-pro-docs/docs/core-concepts/node-types-cbe": {
+    "__comp": "17896441",
+    "content": "8b20ed74"
+  },
+  "/animatix-pro-docs/docs/developer-guide/custom-actions-d71": {
+    "__comp": "17896441",
+    "content": "1ba50bfb"
+  },
+  "/animatix-pro-docs/docs/developer-guide/custom-conditions-e86": {
+    "__comp": "17896441",
+    "content": "39a80957"
+  },
+  "/animatix-pro-docs/docs/developer-guide/custom-triggers-223": {
+    "__comp": "17896441",
+    "content": "99c974b0"
+  },
+  "/animatix-pro-docs/docs/developer-guide/runtime-control-23b": {
+    "__comp": "17896441",
+    "content": "2de2b68e"
+  },
+  "/animatix-pro-docs/docs/events-actions/actions-7a4": {
+    "__comp": "17896441",
+    "content": "cc227df7"
+  },
+  "/animatix-pro-docs/docs/events-actions/conditions-7b5": {
+    "__comp": "17896441",
+    "content": "aa9236af"
+  },
+  "/animatix-pro-docs/docs/events-actions/events-3ad": {
+    "__comp": "17896441",
+    "content": "17d998c8"
+  },
+  "/animatix-pro-docs/docs/events-actions/triggers-c27": {
+    "__comp": "17896441",
+    "content": "0b5f58e7"
+  },
+  "/animatix-pro-docs/docs/examples-165": {
     "__comp": "17896441",
     "content": "09d5ad39"
   },
-  "/animatix-pro-docs/examples/ui-ux-animations-9ae": {
+  "/animatix-pro-docs/docs/examples/cinematic-camera-c26": {
+    "__comp": "17896441",
+    "content": "febffe7b"
+  },
+  "/animatix-pro-docs/docs/examples/gameplay-sequences-1a5": {
+    "__comp": "17896441",
+    "content": "3282433e"
+  },
+  "/animatix-pro-docs/docs/examples/ui-ux-animations-33b": {
     "__comp": "17896441",
     "content": "a6a542e1"
   },
-  "/animatix-pro-docs/getting-started/installation-363": {
+  "/animatix-pro-docs/docs/examples/vr-ar-mobile-095": {
+    "__comp": "17896441",
+    "content": "017ca399"
+  },
+  "/animatix-pro-docs/docs/getting-started/first-animation-7dd": {
+    "__comp": "17896441",
+    "content": "9d79e3c1"
+  },
+  "/animatix-pro-docs/docs/getting-started/installation-c1d": {
     "__comp": "17896441",
     "content": "54f44165"
   },
-  "/animatix-pro-docs/getting-started/overview-f96": {
+  "/animatix-pro-docs/docs/getting-started/introduction-c7b": {
+    "__comp": "17896441",
+    "content": "9ff4038f"
+  },
+  "/animatix-pro-docs/docs/getting-started/overview-315": {
     "__comp": "17896441",
     "content": "7a96ca3d"
   },
-  "/animatix-pro-docs/getting-started/quick-start-9d9": {
+  "/animatix-pro-docs/docs/getting-started/project-setup-e60": {
+    "__comp": "17896441",
+    "content": "75a5cb44"
+  },
+  "/animatix-pro-docs/docs/getting-started/quick-start-e20": {
     "__comp": "17896441",
     "content": "588bd741"
   },
-  "/animatix-pro-docs/intro-129": {
+  "/animatix-pro-docs/docs/intro-095": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/animatix-pro-docs/visual-editor/graphflow-overview-ca5": {
+  "/animatix-pro-docs/docs/quick-reference/animation-types-ae8": {
+    "__comp": "17896441",
+    "content": "fc75175f"
+  },
+  "/animatix-pro-docs/docs/quick-reference/easing-curves-ead": {
+    "__comp": "17896441",
+    "content": "1c496d22"
+  },
+  "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts-52c": {
+    "__comp": "17896441",
+    "content": "837a00da"
+  },
+  "/animatix-pro-docs/docs/reference/changelog-cd8": {
+    "__comp": "17896441",
+    "content": "3d80a749"
+  },
+  "/animatix-pro-docs/docs/reference/error-codes-bd4": {
+    "__comp": "17896441",
+    "content": "33e65611"
+  },
+  "/animatix-pro-docs/docs/reference/node-reference-b41": {
+    "__comp": "17896441",
+    "content": "357f9f1b"
+  },
+  "/animatix-pro-docs/docs/reference/properties-reference-4c0": {
+    "__comp": "17896441",
+    "content": "1e9ad535"
+  },
+  "/animatix-pro-docs/docs/troubleshooting/common-issues-b1e": {
+    "__comp": "17896441",
+    "content": "5133d60e"
+  },
+  "/animatix-pro-docs/docs/troubleshooting/debug-mode-3d5": {
+    "__comp": "17896441",
+    "content": "b6af8b7b"
+  },
+  "/animatix-pro-docs/docs/visual-editor/connections-flow-808": {
+    "__comp": "17896441",
+    "content": "87251341"
+  },
+  "/animatix-pro-docs/docs/visual-editor/graphflow-overview-d6e": {
     "__comp": "17896441",
     "content": "abc168d8"
+  },
+  "/animatix-pro-docs/docs/visual-editor/interface-overview-aa0": {
+    "__comp": "17896441",
+    "content": "565fc8b4"
+  },
+  "/animatix-pro-docs/docs/visual-editor/node-types-d3f": {
+    "__comp": "17896441",
+    "content": "18029823"
+  },
+  "/animatix-pro-docs/-341": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "fa08fd44"
+    },
+    "config": "5e9f5e1a"
   }
 }

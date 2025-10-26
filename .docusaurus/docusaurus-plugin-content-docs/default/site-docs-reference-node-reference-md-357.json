@@ -1,0 +1,27 @@
+{
+  "id": "reference/node-reference",
+  "title": "Node Reference",
+  "description": "Complete reference guide for all Animatix Pro nodes. This comprehensive guide provides detailed information about every node type, their properties, and usage examples.",
+  "source": "@site/docs/reference/node-reference.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/node-reference",
+  "permalink": "/animatix-pro-docs/docs/reference/node-reference",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/reference/node-reference.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757637424,
+  "formattedLastUpdatedAt": "Sep 12, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Codes",
+    "permalink": "/animatix-pro-docs/docs/reference/error-codes"
+  },
+  "next": {
+    "title": "Properties Reference",
+    "permalink": "/animatix-pro-docs/docs/reference/properties-reference"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "advanced-features/loops-variables",
+  "title": "Loops & Variables",
+  "description": "Master the art of creating dynamic, data-driven animations with loops and variables. This comprehensive guide covers all aspects of loop control and variable management in Animatix Pro.",
+  "source": "@site/docs/advanced-features/loops-variables.md",
+  "sourceDirName": "advanced-features",
+  "slug": "/advanced-features/loops-variables",
+  "permalink": "/animatix-pro-docs/docs/advanced-features/loops-variables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/advanced-features/loops-variables.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757622760,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events & Actions",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/events-actions"
+  },
+  "next": {
+    "title": "State Management",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/state-management"
+  }
+}

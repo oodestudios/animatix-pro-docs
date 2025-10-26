@@ -5,20 +5,23 @@
   "source": "@site/docs/visual-editor/graphflow-overview.md",
   "sourceDirName": "visual-editor",
   "slug": "/visual-editor/graphflow-overview",
-  "permalink": "/animatix-pro-docs/visual-editor/graphflow-overview",
+  "permalink": "/animatix-pro-docs/docs/visual-editor/graphflow-overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/visual-editor/graphflow-overview.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757540188,
+  "formattedLastUpdatedAt": "Sep 10, 2025",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Installation",
-    "permalink": "/animatix-pro-docs/getting-started/installation"
+    "title": "Connections & Flow",
+    "permalink": "/animatix-pro-docs/docs/visual-editor/connections-flow"
   },
   "next": {
-    "title": "GraphExecutorUtil",
-    "permalink": "/animatix-pro-docs/api/graph-executor-util"
+    "title": "GraphFlow Editor Interface",
+    "permalink": "/animatix-pro-docs/docs/visual-editor/interface-overview"
   }
 }

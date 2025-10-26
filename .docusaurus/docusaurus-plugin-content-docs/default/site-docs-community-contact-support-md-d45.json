@@ -1,0 +1,27 @@
+{
+  "id": "community/contact-support",
+  "title": "Contact & Support",
+  "description": "Get help and support for Animatix Pro. This guide provides all the ways to contact our team, get assistance, and find resources to help you succeed.",
+  "source": "@site/docs/community/contact-support.md",
+  "sourceDirName": "community",
+  "slug": "/community/contact-support",
+  "permalink": "/animatix-pro-docs/docs/community/contact-support",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/community/contact-support.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757637127,
+  "formattedLastUpdatedAt": "Sep 12, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mobile & WebGL Considerations",
+    "permalink": "/animatix-pro-docs/docs/best-practices/mobile-considerations"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/animatix-pro-docs/docs/community/contributing"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/error-codes",
+  "title": "Error Codes",
+  "description": "Complete reference guide for all Animatix Pro error codes and troubleshooting solutions. This comprehensive guide provides detailed information about every error, their causes, and step-by-step solutions.",
+  "source": "@site/docs/reference/error-codes.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/error-codes",
+  "permalink": "/animatix-pro-docs/docs/reference/error-codes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/reference/error-codes.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757637424,
+  "formattedLastUpdatedAt": "Sep 12, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Changelog",
+    "permalink": "/animatix-pro-docs/docs/reference/changelog"
+  },
+  "next": {
+    "title": "Node Reference",
+    "permalink": "/animatix-pro-docs/docs/reference/node-reference"
+  }
+}

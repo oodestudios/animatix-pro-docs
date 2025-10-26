@@ -1,0 +1,32 @@
+{
+  "id": "animation-modules/material-animations",
+  "title": "Material Animations",
+  "description": "Learn how to change surface look and feel dynamically to match game events.",
+  "source": "@site/docs/animation-modules/material-animations.md",
+  "sourceDirName": "animation-modules",
+  "slug": "/animation-modules/material-animations",
+  "permalink": "/animatix-pro-docs/docs/animation-modules/material-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-modules/material-animations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Material Animations",
+    "description": "Learn how to change surface look and feel dynamically to match game events."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Audio Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/audio-animations"
+  },
+  "next": {
+    "title": "Particle System Control",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/particle-systems"
+  }
+}

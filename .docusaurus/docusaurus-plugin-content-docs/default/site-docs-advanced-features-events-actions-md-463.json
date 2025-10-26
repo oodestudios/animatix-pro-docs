@@ -1,0 +1,27 @@
+{
+  "id": "advanced-features/events-actions",
+  "title": "Events & Actions",
+  "description": "Master the event system to create responsive, interconnected animations that communicate and coordinate seamlessly. This comprehensive guide covers all aspects of events and actions in Animatix Pro.",
+  "source": "@site/docs/advanced-features/events-actions.md",
+  "sourceDirName": "advanced-features",
+  "slug": "/advanced-features/events-actions",
+  "permalink": "/animatix-pro-docs/docs/advanced-features/events-actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/advanced-features/events-actions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757622760,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to Animatix Pro",
+    "permalink": "/animatix-pro-docs/docs/"
+  },
+  "next": {
+    "title": "Loops & Variables",
+    "permalink": "/animatix-pro-docs/docs/advanced-features/loops-variables"
+  }
+}

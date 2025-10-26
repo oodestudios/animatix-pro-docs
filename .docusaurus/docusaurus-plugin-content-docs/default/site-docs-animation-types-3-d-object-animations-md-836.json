@@ -1,0 +1,27 @@
+{
+  "id": "animation-types/3d-object-animations",
+  "title": "3D Object Animations",
+  "description": "Create stunning 3D object animations that bring your scenes to life. This comprehensive guide covers everything from simple rotations to complex cinematic sequences.",
+  "source": "@site/docs/animation-types/3d-object-animations.md",
+  "sourceDirName": "animation-types",
+  "slug": "/animation-types/3d-object-animations",
+  "permalink": "/animatix-pro-docs/docs/animation-types/3d-object-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-types/3d-object-animations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1757621808,
+  "formattedLastUpdatedAt": "Sep 11, 2025",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Particle System Control",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/particle-systems"
+  },
+  "next": {
+    "title": "Audio Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-types/audio-animations"
+  }
+}

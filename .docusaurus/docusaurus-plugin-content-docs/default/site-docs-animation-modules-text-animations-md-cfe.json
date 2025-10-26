@@ -1,0 +1,32 @@
+{
+  "id": "animation-modules/text-animations",
+  "title": "Text Animations",
+  "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable.",
+  "source": "@site/docs/animation-modules/text-animations.md",
+  "sourceDirName": "animation-modules",
+  "slug": "/animation-modules/text-animations",
+  "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/oodestudios/animatix-pro-docs/tree/main/docs/animation-modules/text-animations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "OODE Studios",
+  "lastUpdatedAt": 1761415795,
+  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Text Animations",
+    "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UI Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/ui-animations"
+  },
+  "next": {
+    "title": "3D Object Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/3d-animations"
+  }
+}

@@ -1,0 +1,976 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Welcome to Animatix Pro",
+        "href": "/animatix-pro-docs/docs/",
+        "docId": "index",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "advanced-features",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Events & Actions",
+            "href": "/animatix-pro-docs/docs/advanced-features/events-actions",
+            "docId": "advanced-features/events-actions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Loops & Variables",
+            "href": "/animatix-pro-docs/docs/advanced-features/loops-variables",
+            "docId": "advanced-features/loops-variables",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "State Management",
+            "href": "/animatix-pro-docs/docs/advanced-features/state-management",
+            "docId": "advanced-features/state-management",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Triggers & Conditions",
+            "href": "/animatix-pro-docs/docs/advanced-features/triggers-conditions",
+            "docId": "advanced-features/triggers-conditions",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "animation-modules",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "UI Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/ui-animations",
+            "docId": "animation-modules/ui-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Text Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/text-animations",
+            "docId": "animation-modules/text-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "3D Object Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/3d-animations",
+            "docId": "animation-modules/3d-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Camera Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/camera-animations",
+            "docId": "animation-modules/camera-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Audio Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/audio-animations",
+            "docId": "animation-modules/audio-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Material Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/material-animations",
+            "docId": "animation-modules/material-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Particle System Control",
+            "href": "/animatix-pro-docs/docs/animation-modules/particle-systems",
+            "docId": "animation-modules/particle-systems",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "animation-types",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "3D Object Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/3d-object-animations",
+            "docId": "animation-types/3d-object-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Audio Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/audio-animations",
+            "docId": "animation-types/audio-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Camera Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/camera-animations",
+            "docId": "animation-types/camera-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Particle Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/particle-animations",
+            "docId": "animation-types/particle-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Text Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/text-animations",
+            "docId": "animation-types/text-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "UI Animations",
+            "href": "/animatix-pro-docs/docs/animation-types/ui-animations",
+            "docId": "animation-types/ui-animations",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "api",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "GraphExecutorUtil",
+            "href": "/animatix-pro-docs/docs/api/graph-executor-util",
+            "docId": "api/graph-executor-util",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "api-reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "API Overview for Developers",
+            "href": "/animatix-pro-docs/docs/api-reference/overview",
+            "docId": "api-reference/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "API Reference Example",
+            "href": "/animatix-pro-docs/docs/api-reference/examples",
+            "docId": "api-reference/examples",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "best-practices",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Organizing Graphs",
+            "href": "/animatix-pro-docs/docs/best-practices/organization",
+            "docId": "best-practices/organization",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Performance Optimization",
+            "href": "/animatix-pro-docs/docs/best-practices/performance",
+            "docId": "best-practices/performance",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Mobile & WebGL Considerations",
+            "href": "/animatix-pro-docs/docs/best-practices/mobile-considerations",
+            "docId": "best-practices/mobile-considerations",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "community",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Contact & Support",
+            "href": "/animatix-pro-docs/docs/community/contact-support",
+            "docId": "community/contact-support",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Contributing",
+            "href": "/animatix-pro-docs/docs/community/contributing",
+            "docId": "community/contributing",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "FAQ",
+            "href": "/animatix-pro-docs/docs/community/faq",
+            "docId": "community/faq",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Troubleshooting",
+            "href": "/animatix-pro-docs/docs/community/troubleshooting",
+            "docId": "community/troubleshooting",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "core-concepts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "How the GraphFlow System Works",
+            "href": "/animatix-pro-docs/docs/core-concepts/graphflow-system",
+            "docId": "core-concepts/graphflow-system",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Node Types Overview",
+            "href": "/animatix-pro-docs/docs/core-concepts/node-types",
+            "docId": "core-concepts/node-types",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "GraphExecutor — How Animations Run",
+            "href": "/animatix-pro-docs/docs/core-concepts/graph-executor",
+            "docId": "core-concepts/graph-executor",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "developer-guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Custom Actions",
+            "href": "/animatix-pro-docs/docs/developer-guide/custom-actions",
+            "docId": "developer-guide/custom-actions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Conditions",
+            "href": "/animatix-pro-docs/docs/developer-guide/custom-conditions",
+            "docId": "developer-guide/custom-conditions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Triggers",
+            "href": "/animatix-pro-docs/docs/developer-guide/custom-triggers",
+            "docId": "developer-guide/custom-triggers",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Runtime Control",
+            "href": "/animatix-pro-docs/docs/developer-guide/runtime-control",
+            "docId": "developer-guide/runtime-control",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "events-actions",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Adding Trigger Nodes",
+            "href": "/animatix-pro-docs/docs/events-actions/triggers",
+            "docId": "events-actions/triggers",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Action Nodes",
+            "href": "/animatix-pro-docs/docs/events-actions/actions",
+            "docId": "events-actions/actions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Event Nodes",
+            "href": "/animatix-pro-docs/docs/events-actions/events",
+            "docId": "events-actions/events",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Condition Nodes",
+            "href": "/animatix-pro-docs/docs/events-actions/conditions",
+            "docId": "events-actions/conditions",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "examples",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Cinematic Camera",
+            "href": "/animatix-pro-docs/docs/examples/cinematic-camera",
+            "docId": "examples/cinematic-camera",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Gameplay Sequences",
+            "href": "/animatix-pro-docs/docs/examples/gameplay-sequences",
+            "docId": "examples/gameplay-sequences",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "UI/UX Animations",
+            "href": "/animatix-pro-docs/docs/examples/ui-ux-animations",
+            "docId": "examples/ui-ux-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "VR/AR & Mobile",
+            "href": "/animatix-pro-docs/docs/examples/vr-ar-mobile",
+            "docId": "examples/vr-ar-mobile",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Code Examples",
+        "href": "/animatix-pro-docs/docs/examples",
+        "docId": "examples",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "getting-started",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "What Is Animatix Pro",
+            "href": "/animatix-pro-docs/docs/getting-started/introduction",
+            "docId": "getting-started/introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/animatix-pro-docs/docs/getting-started/installation",
+            "docId": "getting-started/installation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Quick Start",
+            "href": "/animatix-pro-docs/docs/getting-started/quick-start",
+            "docId": "getting-started/quick-start",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Your First Animation",
+            "href": "/animatix-pro-docs/docs/getting-started/first-animation",
+            "docId": "getting-started/first-animation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/animatix-pro-docs/docs/getting-started/overview",
+            "docId": "getting-started/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Project Setup",
+            "href": "/animatix-pro-docs/docs/getting-started/project-setup",
+            "docId": "getting-started/project-setup",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Welcome to Animatix Pro",
+        "href": "/animatix-pro-docs/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "quick-reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Complete Animation Type List",
+            "href": "/animatix-pro-docs/docs/quick-reference/animation-types",
+            "docId": "quick-reference/animation-types",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Supported Easing Curves",
+            "href": "/animatix-pro-docs/docs/quick-reference/easing-curves",
+            "docId": "quick-reference/easing-curves",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Keyboard Shortcuts & Tips",
+            "href": "/animatix-pro-docs/docs/quick-reference/keyboard-shortcuts",
+            "docId": "quick-reference/keyboard-shortcuts",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Changelog",
+            "href": "/animatix-pro-docs/docs/reference/changelog",
+            "docId": "reference/changelog",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Error Codes",
+            "href": "/animatix-pro-docs/docs/reference/error-codes",
+            "docId": "reference/error-codes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Node Reference",
+            "href": "/animatix-pro-docs/docs/reference/node-reference",
+            "docId": "reference/node-reference",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Properties Reference",
+            "href": "/animatix-pro-docs/docs/reference/properties-reference",
+            "docId": "reference/properties-reference",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "troubleshooting",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Common Issues & Fixes",
+            "href": "/animatix-pro-docs/docs/troubleshooting/common-issues",
+            "docId": "troubleshooting/common-issues",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Debug Mode & Logging",
+            "href": "/animatix-pro-docs/docs/troubleshooting/debug-mode",
+            "docId": "troubleshooting/debug-mode",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "visual-editor",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Connections & Flow",
+            "href": "/animatix-pro-docs/docs/visual-editor/connections-flow",
+            "docId": "visual-editor/connections-flow",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "GraphFlow Editor Overview",
+            "href": "/animatix-pro-docs/docs/visual-editor/graphflow-overview",
+            "docId": "visual-editor/graphflow-overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "GraphFlow Editor Interface",
+            "href": "/animatix-pro-docs/docs/visual-editor/interface-overview",
+            "docId": "visual-editor/interface-overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Node Types Reference",
+            "href": "/animatix-pro-docs/docs/visual-editor/node-types",
+            "docId": "visual-editor/node-types",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "advanced-features/events-actions": {
+      "id": "advanced-features/events-actions",
+      "title": "Events & Actions",
+      "description": "Master the event system to create responsive, interconnected animations that communicate and coordinate seamlessly. This comprehensive guide covers all aspects of events and actions in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "advanced-features/loops-variables": {
+      "id": "advanced-features/loops-variables",
+      "title": "Loops & Variables",
+      "description": "Master the art of creating dynamic, data-driven animations with loops and variables. This comprehensive guide covers all aspects of loop control and variable management in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "advanced-features/state-management": {
+      "id": "advanced-features/state-management",
+      "title": "State Management",
+      "description": "Master the art of managing complex animation states to create sophisticated, responsive systems. This comprehensive guide covers all aspects of state management in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "advanced-features/triggers-conditions": {
+      "id": "advanced-features/triggers-conditions",
+      "title": "Triggers & Conditions",
+      "description": "Master the art of creating intelligent, responsive animations with advanced triggers and conditions. This comprehensive guide covers all aspects of trigger systems and conditional logic in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/3d-animations": {
+      "id": "animation-modules/3d-animations",
+      "title": "3D Object Animations",
+      "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/audio-animations": {
+      "id": "animation-modules/audio-animations",
+      "title": "Audio Animations",
+      "description": "Learn how to synchronize sound with motion for total immersion.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/camera-animations": {
+      "id": "animation-modules/camera-animations",
+      "title": "Camera Animations",
+      "description": "Learn about camera animations that create cinematic immersion and smooth scene flow.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/material-animations": {
+      "id": "animation-modules/material-animations",
+      "title": "Material Animations",
+      "description": "Learn how to change surface look and feel dynamically to match game events.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/particle-systems": {
+      "id": "animation-modules/particle-systems",
+      "title": "Particle System Control",
+      "description": "Learn how to control Unity's particle systems directly through animation nodes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/text-animations": {
+      "id": "animation-modules/text-animations",
+      "title": "Text Animations",
+      "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-modules/ui-animations": {
+      "id": "animation-modules/ui-animations",
+      "title": "UI Animations",
+      "description": "Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/3d-object-animations": {
+      "id": "animation-types/3d-object-animations",
+      "title": "3D Object Animations",
+      "description": "Create stunning 3D object animations that bring your scenes to life. This comprehensive guide covers everything from simple rotations to complex cinematic sequences.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/audio-animations": {
+      "id": "animation-types/audio-animations",
+      "title": "Audio Animations",
+      "description": "Create immersive audio experiences that enhance your animations with sound effects, music, and dynamic audio. This comprehensive guide covers all aspects of audio animation with Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/camera-animations": {
+      "id": "animation-types/camera-animations",
+      "title": "Camera Animations",
+      "description": "Master the art of camera animation to create cinematic sequences, smooth transitions, and engaging gameplay experiences. This comprehensive guide covers all aspects of camera animation with Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/particle-animations": {
+      "id": "animation-types/particle-animations",
+      "title": "Particle Animations",
+      "description": "Create stunning particle effects that bring your scenes to life with fire, smoke, magic, and more. This comprehensive guide covers all aspects of particle animation with Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/text-animations": {
+      "id": "animation-types/text-animations",
+      "title": "Text Animations",
+      "description": "Create engaging text animations that bring your typography to life. This guide covers everything from simple fade-ins to complex typewriter effects.",
+      "sidebar": "tutorialSidebar"
+    },
+    "animation-types/ui-animations": {
+      "id": "animation-types/ui-animations",
+      "title": "UI Animations",
+      "description": "Create stunning UI animations that enhance user experience and bring your interfaces to life. This comprehensive guide covers all aspects of UI animation with Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/examples": {
+      "id": "api-reference/examples",
+      "title": "API Reference Example",
+      "description": "See practical examples of how to use the Animatix Pro API in your projects.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/overview": {
+      "id": "api-reference/overview",
+      "title": "API Overview for Developers",
+      "description": "Learn about the comprehensive API for runtime control and integration with your game systems.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/graph-executor-util": {
+      "id": "api/graph-executor-util",
+      "title": "GraphExecutorUtil",
+      "description": "The GraphExecutorUtil class provides static utility methods for controlling Animatix Pro animations programmatically. This is the main API for integrating Animatix Pro with your Unity scripts.",
+      "sidebar": "tutorialSidebar"
+    },
+    "best-practices/mobile-considerations": {
+      "id": "best-practices/mobile-considerations",
+      "title": "Mobile & WebGL Considerations",
+      "description": "Learn how to optimize Animatix Pro for mobile and WebGL platforms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "best-practices/organization": {
+      "id": "best-practices/organization",
+      "title": "Organizing Graphs",
+      "description": "Learn best practices for organizing your Animatix Pro graphs and assets.",
+      "sidebar": "tutorialSidebar"
+    },
+    "best-practices/performance": {
+      "id": "best-practices/performance",
+      "title": "Performance Optimization",
+      "description": "Learn how to optimize your Animatix Pro animations for better performance.",
+      "sidebar": "tutorialSidebar"
+    },
+    "community/contact-support": {
+      "id": "community/contact-support",
+      "title": "Contact & Support",
+      "description": "Get help and support for Animatix Pro. This guide provides all the ways to contact our team, get assistance, and find resources to help you succeed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "community/contributing": {
+      "id": "community/contributing",
+      "title": "Contributing",
+      "description": "Help us improve Animatix Pro! This guide explains how you can contribute to the project, whether through code, documentation, examples, or community support.",
+      "sidebar": "tutorialSidebar"
+    },
+    "community/faq": {
+      "id": "community/faq",
+      "title": "FAQ",
+      "description": "Frequently Asked Questions about Animatix Pro. This comprehensive FAQ addresses the most common questions and concerns from users.",
+      "sidebar": "tutorialSidebar"
+    },
+    "community/troubleshooting": {
+      "id": "community/troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Comprehensive troubleshooting guide for Animatix Pro. This guide helps you diagnose and fix common issues, performance problems, and technical difficulties.",
+      "sidebar": "tutorialSidebar"
+    },
+    "core-concepts/graph-executor": {
+      "id": "core-concepts/graph-executor",
+      "title": "GraphExecutor — How Animations Run",
+      "description": "Learn how the GraphExecutor reads your graph and executes animations in real time.",
+      "sidebar": "tutorialSidebar"
+    },
+    "core-concepts/graphflow-system": {
+      "id": "core-concepts/graphflow-system",
+      "title": "How the GraphFlow System Works",
+      "description": "Learn how the GraphFlow System functions like a flowchart for animations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "core-concepts/node-types": {
+      "id": "core-concepts/node-types",
+      "title": "Node Types Overview",
+      "description": "Learn about the six primary node types in Animatix Pro and their purposes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-guide/custom-actions": {
+      "id": "developer-guide/custom-actions",
+      "title": "Custom Actions",
+      "description": "Learn how to create custom actions that extend Animatix Pro's functionality. This comprehensive guide covers all aspects of custom action development.",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-guide/custom-conditions": {
+      "id": "developer-guide/custom-conditions",
+      "title": "Custom Conditions",
+      "description": "Learn how to create custom conditions that extend Animatix Pro's condition system. This comprehensive guide covers all aspects of custom condition development.",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-guide/custom-triggers": {
+      "id": "developer-guide/custom-triggers",
+      "title": "Custom Triggers",
+      "description": "Learn how to create custom triggers that extend Animatix Pro's trigger system. This comprehensive guide covers all aspects of custom trigger development.",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-guide/runtime-control": {
+      "id": "developer-guide/runtime-control",
+      "title": "Runtime Control",
+      "description": "Master the art of controlling animations at runtime to create dynamic, responsive experiences. This comprehensive guide covers all aspects of runtime animation control in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "events-actions/actions": {
+      "id": "events-actions/actions",
+      "title": "Action Nodes",
+      "description": "Learn about action nodes that perform side effects during your animations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "events-actions/conditions": {
+      "id": "events-actions/conditions",
+      "title": "Condition Nodes",
+      "description": "Learn about condition nodes that add logic to your animations for decision-based flows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "events-actions/events": {
+      "id": "events-actions/events",
+      "title": "Event Nodes",
+      "description": "Learn about event nodes that integrate with Unity's event system for custom events.",
+      "sidebar": "tutorialSidebar"
+    },
+    "events-actions/triggers": {
+      "id": "events-actions/triggers",
+      "title": "Adding Trigger Nodes",
+      "description": "Learn about trigger nodes that detect when something happens and start animation sequences.",
+      "sidebar": "tutorialSidebar"
+    },
+    "examples": {
+      "id": "examples",
+      "title": "Code Examples",
+      "description": "Real-world examples showing how to use Animatix Pro in your Unity projects.",
+      "sidebar": "tutorialSidebar"
+    },
+    "examples/cinematic-camera": {
+      "id": "examples/cinematic-camera",
+      "title": "Cinematic Camera",
+      "description": "Complete examples and tutorials for creating cinematic camera animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for professional cinematic sequences.",
+      "sidebar": "tutorialSidebar"
+    },
+    "examples/gameplay-sequences": {
+      "id": "examples/gameplay-sequences",
+      "title": "Gameplay Sequences",
+      "description": "Complete examples and tutorials for creating engaging gameplay animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for common gameplay animation patterns.",
+      "sidebar": "tutorialSidebar"
+    },
+    "examples/ui-ux-animations": {
+      "id": "examples/ui-ux-animations",
+      "title": "UI/UX Animations",
+      "description": "Complete examples and tutorials for creating stunning UI/UX animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for common UI animation patterns.",
+      "sidebar": "tutorialSidebar"
+    },
+    "examples/vr-ar-mobile": {
+      "id": "examples/vr-ar-mobile",
+      "title": "VR/AR & Mobile",
+      "description": "Complete examples and tutorials for creating VR/AR and mobile animations with Animatix Pro. This comprehensive guide provides ready-to-use examples for immersive and mobile experiences.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/first-animation": {
+      "id": "getting-started/first-animation",
+      "title": "Your First Animation",
+      "description": "Learn how to create your first animation using Animatix Pro's visual graph editor. This guide will walk you through creating a simple but impressive UI animation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/installation": {
+      "id": "getting-started/installation",
+      "title": "Installation",
+      "description": "Learn how to install and set up Animatix Pro in your Unity project.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/introduction": {
+      "id": "getting-started/introduction",
+      "title": "What Is Animatix Pro",
+      "description": "Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/overview": {
+      "id": "getting-started/overview",
+      "title": "Overview",
+      "description": "Welcome to Animatix Pro - the professional animation system for Unity that revolutionizes how you create stunning UI and camera animations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/project-setup": {
+      "id": "getting-started/project-setup",
+      "title": "Project Setup",
+      "description": "Configure your Unity project for optimal Animatix Pro performance and workflow. This guide covers project settings, folder structure, and best practices.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/quick-start": {
+      "id": "getting-started/quick-start",
+      "title": "Quick Start",
+      "description": "Create your first animation in under 5 minutes with this step-by-step guide.",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Welcome to Animatix Pro",
+      "description": "Unity's most powerful visual animation system",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Welcome to Animatix Pro",
+      "description": "Professional Animation System for Unity",
+      "sidebar": "tutorialSidebar"
+    },
+    "quick-reference/animation-types": {
+      "id": "quick-reference/animation-types",
+      "title": "Complete Animation Type List",
+      "description": "A comprehensive reference of all available animation types in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "quick-reference/easing-curves": {
+      "id": "quick-reference/easing-curves",
+      "title": "Supported Easing Curves",
+      "description": "A complete reference of all supported easing curves in Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "quick-reference/keyboard-shortcuts": {
+      "id": "quick-reference/keyboard-shortcuts",
+      "title": "Keyboard Shortcuts & Tips",
+      "description": "A quick reference for keyboard shortcuts and general tips for using Animatix Pro.",
+      "sidebar": "tutorialSidebar"
+    },
+    "reference/changelog": {
+      "id": "reference/changelog",
+      "title": "Changelog",
+      "description": "Complete version history and updates for Animatix Pro. This comprehensive changelog tracks all features, improvements, bug fixes, and breaking changes across all versions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "reference/error-codes": {
+      "id": "reference/error-codes",
+      "title": "Error Codes",
+      "description": "Complete reference guide for all Animatix Pro error codes and troubleshooting solutions. This comprehensive guide provides detailed information about every error, their causes, and step-by-step solutions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "reference/node-reference": {
+      "id": "reference/node-reference",
+      "title": "Node Reference",
+      "description": "Complete reference guide for all Animatix Pro nodes. This comprehensive guide provides detailed information about every node type, their properties, and usage examples.",
+      "sidebar": "tutorialSidebar"
+    },
+    "reference/properties-reference": {
+      "id": "reference/properties-reference",
+      "title": "Properties Reference",
+      "description": "Complete reference guide for all Animatix Pro properties and settings. This comprehensive guide provides detailed information about every property, their types, ranges, and usage examples.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting/common-issues": {
+      "id": "troubleshooting/common-issues",
+      "title": "Common Issues & Fixes",
+      "description": "Learn how to troubleshoot common issues with Animatix Pro animations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting/debug-mode": {
+      "id": "troubleshooting/debug-mode",
+      "title": "Debug Mode & Logging",
+      "description": "Learn how to use debug mode and logging to troubleshoot your Animatix Pro animations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "visual-editor/connections-flow": {
+      "id": "visual-editor/connections-flow",
+      "title": "Connections & Flow",
+      "description": "Master the art of connecting nodes to create complex, flowing animation sequences. Learn about different connection types, flow control, and advanced connection techniques.",
+      "sidebar": "tutorialSidebar"
+    },
+    "visual-editor/graphflow-overview": {
+      "id": "visual-editor/graphflow-overview",
+      "title": "GraphFlow Editor Overview",
+      "description": "The GraphFlow Editor is the heart of Animatix Pro - a powerful visual interface for creating complex animations through an intuitive node-based system.",
+      "sidebar": "tutorialSidebar"
+    },
+    "visual-editor/interface-overview": {
+      "id": "visual-editor/interface-overview",
+      "title": "GraphFlow Editor Interface",
+      "description": "Master the GraphFlow Editor interface to create professional animations efficiently. This guide covers all the tools, panels, and features you need to know.",
+      "sidebar": "tutorialSidebar"
+    },
+    "visual-editor/node-types": {
+      "id": "visual-editor/node-types",
+      "title": "Node Types Reference",
+      "description": "Complete reference guide to all available nodes in Animatix Pro. Learn about each node type, their properties, and how to use them effectively.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
