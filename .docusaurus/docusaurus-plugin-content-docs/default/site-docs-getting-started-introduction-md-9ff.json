@@ -12,12 +12,9 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761444940,
-  "formattedLastUpdatedAt": "Oct 26, 2025",
-  "sidebarPosition": 1,
-  "frontMatter": {
-    "sidebar_position": 1
-  },
+  "lastUpdatedAt": 1761605813,
+  "formattedLastUpdatedAt": "Oct 27, 2025",
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Core Concepts",

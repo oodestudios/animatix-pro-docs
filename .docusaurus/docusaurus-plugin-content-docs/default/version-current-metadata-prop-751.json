@@ -49,6 +49,55 @@
             "href": "/animatix-pro-docs/docs/animation-modules/overview",
             "docId": "animation-modules/overview",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "UI Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/ui-animations",
+            "docId": "animation-modules/ui-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Text Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/text-animations",
+            "docId": "animation-modules/text-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "3D Object Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/3d-animations",
+            "docId": "animation-modules/3d-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Camera Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/camera-animations",
+            "docId": "animation-modules/camera-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Audio Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/audio-animations",
+            "docId": "animation-modules/audio-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Material Animations",
+            "href": "/animatix-pro-docs/docs/animation-modules/material-animations",
+            "docId": "animation-modules/material-animations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Particle System Control",
+            "href": "/animatix-pro-docs/docs/animation-modules/particle-systems",
+            "docId": "animation-modules/particle-systems",
+            "unlisted": false
           }
         ],
         "collapsed": true,
@@ -155,22 +204,26 @@
     "animation-modules/3d-animations": {
       "id": "animation-modules/3d-animations",
       "title": "3D Object Animations",
-      "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion."
+      "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/audio-animations": {
       "id": "animation-modules/audio-animations",
       "title": "Audio Animations",
-      "description": "Learn how to synchronize sound with motion for total immersion."
+      "description": "Learn how to synchronize sound with motion for total immersion.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/camera-animations": {
       "id": "animation-modules/camera-animations",
       "title": "Camera Animations",
-      "description": "Learn about camera animations that create cinematic immersion and smooth scene flow."
+      "description": "Learn about camera animations that create cinematic immersion and smooth scene flow.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/material-animations": {
       "id": "animation-modules/material-animations",
       "title": "Material Animations",
-      "description": "Learn how to change surface look and feel dynamically to match game events."
+      "description": "Learn how to change surface look and feel dynamically to match game events.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/overview": {
       "id": "animation-modules/overview",
@@ -181,17 +234,20 @@
     "animation-modules/particle-systems": {
       "id": "animation-modules/particle-systems",
       "title": "Particle System Control",
-      "description": "Learn how to control Unity's particle systems directly through animation nodes."
+      "description": "Learn how to control Unity's particle systems directly through animation nodes.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/text-animations": {
       "id": "animation-modules/text-animations",
       "title": "Text Animations",
-      "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable."
+      "description": "Learn about text animations that make dialogue dynamic, menus expressive, and words memorable.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-modules/ui-animations": {
       "id": "animation-modules/ui-animations",
       "title": "UI Animations",
-      "description": "Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive."
+      "description": "Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive.",
+      "sidebar": "tutorialSidebar"
     },
     "animation-types/3d-object-animations": {
       "id": "animation-types/3d-object-animations",

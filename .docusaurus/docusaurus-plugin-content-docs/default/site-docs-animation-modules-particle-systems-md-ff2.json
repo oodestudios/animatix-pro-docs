@@ -12,12 +12,21 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761486565,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 7,
   "frontMatter": {
     "sidebar_position": 7,
     "title": "Particle System Control",
     "description": "Learn how to control Unity's particle systems directly through animation nodes."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Material Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/material-animations"
+  },
+  "next": {
+    "title": "Using Events & Actions",
+    "permalink": "/animatix-pro-docs/docs/events-actions/overview"
   }
 }

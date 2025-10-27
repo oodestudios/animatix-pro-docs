@@ -12,12 +12,21 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761486565,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
     "title": "Camera Animations",
     "description": "Learn about camera animations that create cinematic immersion and smooth scene flow."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3D Object Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/3d-animations"
+  },
+  "next": {
+    "title": "Audio Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/audio-animations"
   }
 }

@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/animatix-pro-docs/docs',
-    component: ComponentCreator('/animatix-pro-docs/docs', '6ea'),
+    component: ComponentCreator('/animatix-pro-docs/docs', '561'),
     routes: [
       {
         path: '/animatix-pro-docs/docs',
-        component: ComponentCreator('/animatix-pro-docs/docs', 'be2'),
+        component: ComponentCreator('/animatix-pro-docs/docs', '060'),
         routes: [
           {
             path: '/animatix-pro-docs/docs',
-            component: ComponentCreator('/animatix-pro-docs/docs', 'fa8'),
+            component: ComponentCreator('/animatix-pro-docs/docs', 'e65'),
             routes: [
               {
                 path: '/animatix-pro-docs/docs/',
@@ -41,23 +41,27 @@ export default [
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/3d-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/3d-animations', '1cc'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/3d-animations', 'c73'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/audio-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/audio-animations', '079'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/audio-animations', 'fbb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/camera-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/camera-animations', '42a'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/camera-animations', 'e1a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/material-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/material-animations', 'ca1'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/material-animations', '5f7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/overview',
@@ -67,18 +71,21 @@ export default [
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/particle-systems',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/particle-systems', 'e57'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/particle-systems', 'ae6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/text-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/text-animations', 'c01'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/text-animations', '2ed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-modules/ui-animations',
-                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/ui-animations', 'd81'),
-                exact: true
+                component: ComponentCreator('/animatix-pro-docs/docs/animation-modules/ui-animations', 'd64'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/animatix-pro-docs/docs/animation-types/3d-object-animations',

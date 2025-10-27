@@ -12,12 +12,21 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761486565,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
     "title": "UI Animations",
     "description": "Learn about UI animations - the foundation of modern interfaces that make your menus feel responsive and alive."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Animation Modules",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/overview"
+  },
+  "next": {
+    "title": "Text Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations"
   }
 }

@@ -12,12 +12,21 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761486565,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5,
     "title": "Audio Animations",
     "description": "Learn how to synchronize sound with motion for total immersion."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Camera Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/camera-animations"
+  },
+  "next": {
+    "title": "Material Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/material-animations"
   }
 }

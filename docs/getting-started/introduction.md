@@ -10,48 +10,61 @@
 
 Animatix Pro is Unity's most powerful visual animation system that lets you create complex, professional animations without writing a single line of code.
 
-**Think of it as a visual programming language specifically designed for animations.**
+:::tip Visual Programming
+Think of it as a visual programming language specifically designed for animations. Instead of coding animations in scripts, you drag and connect nodes in a visual graph editor.
+:::
 
 **The Magic:**
 - Instead of coding animations in scripts, you drag and connect nodes in a visual graph editor.
 - Each node represents an action (like Fade In, Play Sound, or Wait 2 seconds), and you connect them to create complete animation sequences.
 
-**Perfect For:**
-- **Game Developers** — UI animations, cutscenes, gameplay effects
-- **Artists & Designers** — No coding required, visual workflow
-- **Indie Studios** — Fast iteration, professional results
-- **Mobile Games** — Optimized performance, small file sizes
+:::info Who Is This For?
+**Game Developers** — UI animations, cutscenes, gameplay effects  
+**Artists & Designers** — No coding required, visual workflow  
+**Indie Studios** — Fast iteration, professional results  
+**Mobile Games** — Optimized performance, small file sizes
+:::
 
 ### Key Features & Why It's Different
 
-**Visual Graph System**
+:::note Visual Graph System
 - Drag-and-drop node-based workflow
 - Real-time preview in the editor
 - No coding knowledge required
+:::
 
-**Performance Optimized**
+:::success Performance Optimized
 - Built specifically for Unity's rendering pipeline
 - Efficient memory usage
 - Mobile and WebGL optimized
+:::
 
-**Comprehensive Animation Types**
-- **UI Animations:** Fade, Slide, Scale, Rotate, Color changes
-- **Text Animations:** Typewriter effects, character-by-character reveals
-- **3D Animations:** Object movement, camera controls, material changes
-- **Audio Integration:** Sound triggers, volume tweens, pitch changes
-- **Particle Systems:** Control emission rates, play/stop effects
+<details>
+<summary><strong>124 Animation Types</strong> - Click to expand</summary>
 
-**🔧 Developer-Friendly**
+**UI Animations:** Fade, Slide, Scale, Rotate, Color changes, Jelly, Blur, Impact effects  
+**Text Animations:** Typewriter effects, character-by-character reveals, Wave, Wiggle, Rainbow  
+**3D Animations:** Object movement, camera controls, material changes  
+**Camera Animations:** Move To, Zoom, Shake, Orbit, Follow  
+**Audio Integration:** Sound triggers, volume tweens, pitch changes  
+**Material Animations:** Color Tween, Float Property, Texture Swap  
+**Particle Systems:** Control emission rates, play/stop effects, simulate particles
+
+</details>
+
+:::tip Developer-Friendly
 - Full API access for runtime control
 - Custom node creation support
 - Integration with Unity Events
 - ScriptableObject-based assets
+:::
 
-**Artist-Friendly**
+:::info Artist-Friendly
 - Intuitive visual interface
 - Real-time preview
 - Preset system for common effects
 - Non-destructive editing
+:::
 
 ---
 
@@ -79,12 +92,24 @@ Animatix Pro is Unity's most powerful visual animation system that lets you crea
 
 ## Quick Start: Your First Animation
 
+:::note Time to Complete
+**Estimated:** 5 minutes  
+**Difficulty:** Beginner  
+**Result:** A fully functional button fade-in animation
+:::
+
 Let's create a simple button fade-in animation in under 5 minutes.
 
 ### Step 1: Create the Graph
+
+<details>
+<summary><strong>Visual Guide</strong> - Click to see detailed steps</summary>
+
 1. Right-click in the Project Window → Create → Animatix Pro → GraphFlow Asset
 2. Name it `ButtonFadeIn`
 3. Double-click to open the GraphFlow Editor
+
+</details>
 
 **📸 [Screenshot Placeholder – Creating a New GraphFlow Asset]**
 
@@ -117,7 +142,17 @@ Let's create a simple button fade-in animation in under 5 minutes.
 1. Press Play in Unity.
 2. Watch your button fade in automatically!
 
-🎉 **Congratulations!** You've created your first Animatix Pro animation — the button now fades in smoothly when the scene starts.
+:::success Congratulations! 🎉
+You've created your first Animatix Pro animation! The button now fades in smoothly when the scene starts.
+
+**What you've learned:**
+- How to create a GraphFlow Asset
+- How to add and connect nodes
+- How to configure animation parameters
+- How to assign the GraphExecutor component
+
+**Next Steps:** Try adding more nodes like Slide, Scale, or Play Sound to create more complex animations!
+:::
 
 ---
 
@@ -1946,7 +1981,15 @@ Assets/
 
 ## 9️⃣ Versioning & Compatibility
 
-### Unity Version Support
+:::warning Compatibility Notice
+For best results, use Unity 2021.3 LTS or later. Earlier versions may experience compatibility issues.
+:::
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="unity" label="Unity Versions" default>
 
 Animatix Pro is tested and supported on the following Unity versions:
 
@@ -1957,9 +2000,8 @@ Animatix Pro is tested and supported on the following Unity versions:
 | Unity 2023.1+ | ✅ Fully Supported | Latest features included |
 | Unity 2020.3 | ⚠️ Limited Support | Basic functionality only |
 
-**Note:** For best results, use Unity 2021.3 LTS or later. Earlier versions may experience compatibility issues.
-
-### Platform Compatibility
+</TabItem>
+<TabItem value="platforms" label="Platform Support">
 
 Animatix Pro supports all Unity-supported platforms:
 
@@ -1975,7 +2017,8 @@ Animatix Pro supports all Unity-supported platforms:
 | Xbox | ✅ Fully Supported | Console-optimized |
 | Nintendo Switch | ✅ Fully Supported | Console-optimized |
 
-### Version History
+</TabItem>
+<TabItem value="versions" label="Version History">
 
 **Animatix Pro v1.2** *(Latest)*
 - Added Material Animations module
@@ -1999,6 +2042,9 @@ Animatix Pro supports all Unity-supported platforms:
 - UI, Text, 3D, and Camera Animations
 - GraphExecutor runtime engine
 - Visual node-based workflow
+
+</TabItem>
+</Tabs>
 
 ### Migrating Between Versions
 

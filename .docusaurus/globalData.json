@@ -28,19 +28,23 @@
             },
             {
               "id": "animation-modules/3d-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/3d-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/3d-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/audio-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/audio-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/audio-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/camera-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/camera-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/camera-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/material-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/material-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/material-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/overview",
@@ -49,15 +53,18 @@
             },
             {
               "id": "animation-modules/particle-systems",
-              "path": "/animatix-pro-docs/docs/animation-modules/particle-systems"
+              "path": "/animatix-pro-docs/docs/animation-modules/particle-systems",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/text-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/text-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/text-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-modules/ui-animations",
-              "path": "/animatix-pro-docs/docs/animation-modules/ui-animations"
+              "path": "/animatix-pro-docs/docs/animation-modules/ui-animations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "animation-types/3d-object-animations",

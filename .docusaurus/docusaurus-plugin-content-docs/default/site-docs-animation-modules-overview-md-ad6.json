@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761445757,
+  "lastUpdatedAt": 1761487486,
   "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 1,
   "frontMatter": {
@@ -24,7 +24,7 @@
     "permalink": "/animatix-pro-docs/docs/core-concepts/graphflow-system"
   },
   "next": {
-    "title": "Using Events & Actions",
-    "permalink": "/animatix-pro-docs/docs/events-actions/overview"
+    "title": "UI Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/ui-animations"
   }
 }

@@ -6,7 +6,7 @@
 export default {
   "title": "Animatix Pro Documentation",
   "tagline": "Unity's most powerful visual animation system",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/logo/animatix-pro-logo-small.svg",
   "url": "https://oodestudios.github.io",
   "baseUrl": "/animatix-pro-docs/",
   "organizationName": "oodestudios",
@@ -54,7 +54,8 @@ export default {
         "alt": "Animatix Pro Logo",
         "src": "img/logo/animatix-pro-logo-small.svg",
         "width": 40,
-        "height": 40
+        "height": 40,
+        "href": "#"
       },
       "hideOnScroll": false,
       "items": [

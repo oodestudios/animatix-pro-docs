@@ -12,12 +12,21 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761415795,
-  "formattedLastUpdatedAt": "Oct 25, 2025",
+  "lastUpdatedAt": 1761486565,
+  "formattedLastUpdatedAt": "Oct 26, 2025",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
     "title": "3D Object Animations",
     "description": "Learn how to bring 3D objects to life with smooth transformations and cinematic motion."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/text-animations"
+  },
+  "next": {
+    "title": "Camera Animations",
+    "permalink": "/animatix-pro-docs/docs/animation-modules/camera-animations"
   }
 }
