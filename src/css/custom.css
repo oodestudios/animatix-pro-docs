@@ -323,7 +323,8 @@ html {
 }
 
 .theme-doc-markdown {
-  max-width: none;
+  max-width: 880px; /* GitBook-like readable width */
+  margin: 0 auto;
   padding: 2rem;
 }
 
