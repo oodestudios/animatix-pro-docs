@@ -1,7 +1,7 @@
 {
   "id": "getting-started/introduction",
-  "title": "Animatix Pro — Complete Documentation",
-  "description": "🎯 Goal: \"Get started in 5 minutes, master it in 30.\"",
+  "title": "Introduction",
+  "description": "Welcome to Animatix Pro - Unity's most powerful visual animation system",
   "source": "@site/docs/getting-started/introduction.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/introduction",
@@ -12,9 +12,14 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "OODE Studios",
-  "lastUpdatedAt": 1761605813,
+  "lastUpdatedAt": 1761607551,
   "formattedLastUpdatedAt": "Oct 27, 2025",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction",
+    "description": "Welcome to Animatix Pro - Unity's most powerful visual animation system"
+  },
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Core Concepts",

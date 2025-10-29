@@ -15,7 +15,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Animatix Pro — Complete Documentation",
+            "label": "Introduction",
             "href": "/animatix-pro-docs/docs/getting-started/introduction",
             "docId": "getting-started/introduction",
             "unlisted": false
@@ -430,8 +430,8 @@
     },
     "getting-started/introduction": {
       "id": "getting-started/introduction",
-      "title": "Animatix Pro — Complete Documentation",
-      "description": "🎯 Goal: \"Get started in 5 minutes, master it in 30.\"",
+      "title": "Introduction",
+      "description": "Welcome to Animatix Pro - Unity's most powerful visual animation system",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/overview": {

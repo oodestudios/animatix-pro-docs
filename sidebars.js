@@ -54,6 +54,7 @@ const sidebars = {
       label: 'API Reference',
       items: [
         'api-reference/overview',
+        'api-reference/cookbook',
       ],
     },
     {
@@ -68,6 +69,18 @@ const sidebars = {
       label: 'Troubleshooting',
       items: [
         'troubleshooting/common-issues',
+        'troubleshooting/matrices',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Cookbook',
+      items: [
+        'cookbook/ui-stacked-modal',
+        'cookbook/gameplay-pickup-flow',
+        'cookbook/cutscene-camera-impact',
+        'cookbook/text-typewriter-sfx',
+        'cookbook/material-damage-glow',
       ],
     },
     {
