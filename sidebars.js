@@ -90,6 +90,13 @@ const sidebars = {
         'quick-reference/overview',
       ],
     },
+    {
+      type: 'category',
+      label: 'FAQ',
+      items: [
+        'faq/overview',
+      ],
+    },
   ],
 };
 
