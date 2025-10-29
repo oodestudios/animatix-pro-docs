@@ -26,6 +26,7 @@ const sidebars = {
       label: 'Core Concepts',
       items: [
         'core-concepts/graphflow-system',
+        'core-concepts/advanced-graph-techniques',
       ],
     },
     {
@@ -47,6 +48,7 @@ const sidebars = {
       label: 'Events & Actions',
       items: [
         'events-actions/overview',
+        'events-actions/action-library',
       ],
     },
     {
@@ -62,6 +64,7 @@ const sidebars = {
       label: 'Best Practices',
       items: [
         'best-practices/organization',
+        'best-practices/performance-optimization',
       ],
     },
     {
@@ -88,6 +91,8 @@ const sidebars = {
       label: 'Quick Reference',
       items: [
         'quick-reference/overview',
+        'quick-reference/glossary',
+        'quick-reference/index',
       ],
     },
     {
