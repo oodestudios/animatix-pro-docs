@@ -1,9 +1,0 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#f0f0f0"/>
-  <circle cx="100" cy="100" r="40" fill="#61DAFB" stroke="#21A0C4" stroke-width="3"/>
-  <circle cx="100" cy="100" r="25" fill="none" stroke="#21A0C4" stroke-width="2"/>
-  <circle cx="100" cy="100" r="10" fill="#21A0C4"/>
-  <path d="M60 100 Q100 60 140 100 Q100 140 60 100" stroke="#21A0C4" stroke-width="2" fill="none"/>
-  <path d="M60 100 Q100 140 140 100 Q100 60 60 100" stroke="#21A0C4" stroke-width="2" fill="none"/>
-  <text x="100" y="180" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">API Control</text>
-</svg>

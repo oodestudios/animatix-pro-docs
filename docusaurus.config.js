@@ -79,7 +79,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'getting-started/introduction',
+            docId: 'welcome/what-is-animatix-pro',
             position: 'left',
             label: 'Documentation',
           },
@@ -139,7 +139,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/getting-started/introduction',
+                to: '/docs/welcome/what-is-animatix-pro',
               },
               {
                 label: 'Core Concepts',

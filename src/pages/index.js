@@ -3,5 +3,5 @@ import {Redirect} from '@docusaurus/router';
 
 export default function Home() {
   // Redirect homepage to documentation
-  return <Redirect to="docs/getting-started/introduction" />;
+  return <Redirect to="docs/welcome/what-is-animatix-pro" />;
 }
