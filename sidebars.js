@@ -1,108 +1,125 @@
 /**
  * Creating a sidebar enables you to:
- * - create an ordered group of docs
- * - render a sidebar for each doc of that group
- * - provide next/previous navigation
- *
- * The sidebars can be generated from the filesystem, or explicitly defined here.
- *
- * Create as many sidebars as you want.
+ - create an ordered group of docs
+ - render a sidebar for each doc of that group
+ - provide next/previous navigation
+
+ The sidebars can be generated from the filesystem, or explicitly defined here.
+
+ Create as many sidebars as you want.
  */
 
-// @ts-check
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const sidebars = {
+module.exports = {
+  // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Getting Started',
+      label: '❤️ Welcome',
       items: [
-        'getting-started/introduction',
+        'welcome/index',
+        'welcome/what-is-animatix-pro',
+        'welcome/key-features',
+        'welcome/games-showcase',
+        'welcome/quick-start',
+        'welcome/interface-overview',
       ],
     },
     {
       type: 'category',
-      label: 'Core Concepts',
+      label: '🔷 Core Concepts',
       items: [
         'core-concepts/graphflow-system',
-        'core-concepts/advanced-graph-techniques',
+        'core-concepts/graph-structure',
+        'core-concepts/graph-categories',
+        'core-concepts/connection-system',
+        'core-concepts/parallel-sequential',
       ],
     },
     {
       type: 'category',
-      label: 'Animation Modules',
+      label: '🎨 Node Types',
       items: [
-        'animation-modules/overview',
-        'animation-modules/ui-animations',
-        'animation-modules/text-animations',
-        'animation-modules/3d-animations',
-        'animation-modules/camera-animations',
-        'animation-modules/audio-animations',
-        'animation-modules/material-animations',
-        'animation-modules/particle-systems',
+        'node-types/trigger-nodes',
+        'node-types/animation-nodes',
+        'node-types/action-nodes',
+        'node-types/event-nodes',
+        'node-types/condition-nodes',
+        'node-types/delay-nodes',
       ],
     },
     {
       type: 'category',
-      label: 'Events & Actions',
+      label: '✨ Animations',
       items: [
-        'events-actions/overview',
-        'events-actions/action-library',
+        'animations/ui-animations',
+        'animations/text-animations',
+        'animations/3d-animations',
+        'animations/camera-animations',
+        'animations/audio-animations',
+        'animations/material-animations',
+        'animations/particle-systems',
+        'animations/easing-curves',
       ],
     },
     {
       type: 'category',
-      label: 'API Reference',
+      label: '🚀 Advanced',
       items: [
-        'api-reference/overview',
-        'api-reference/cookbook',
+        'advanced/complex-graphs',
+        'advanced/parallel-execution',
+        'advanced/event-architecture',
+        'advanced/looping',
+        'advanced/graph-composition',
+        'advanced/state-management',
       ],
     },
     {
       type: 'category',
-      label: 'Best Practices',
+      label: '🔧 Components',
+      items: [
+        'components/graph-executor',
+        'components/event-handler',
+        'components/event-manager',
+        'components/animator-manager',
+        'components/ui-event-system',
+      ],
+    },
+    {
+      type: 'category',
+      label: '💻 API',
+      items: [
+        'api/runtime-api',
+        'api/component-api',
+        'api/event-system',
+        'api/graph-manipulation',
+        'api/custom-nodes',
+        'api/integration-examples',
+      ],
+    },
+    {
+      type: 'category',
+      label: '📚 Best Practices',
       items: [
         'best-practices/organization',
-        'best-practices/performance-optimization',
+        'best-practices/performance',
+        'best-practices/timing',
+        'best-practices/mobile-webgl',
+        'best-practices/collaboration',
+        'best-practices/version-control',
       ],
     },
     {
       type: 'category',
-      label: 'Troubleshooting',
+      label: '❓ Troubleshooting',
       items: [
         'troubleshooting/common-issues',
-        'troubleshooting/matrices',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Cookbook',
-      items: [
-        'cookbook/ui-stacked-modal',
-        'cookbook/gameplay-pickup-flow',
-        'cookbook/cutscene-camera-impact',
-        'cookbook/text-typewriter-sfx',
-        'cookbook/material-damage-glow',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Quick Reference',
-      items: [
-        'quick-reference/overview',
-        'quick-reference/glossary',
-        'quick-reference/index',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'FAQ',
-      items: [
-        'faq/overview',
+        'troubleshooting/graph-not-playing',
+        'troubleshooting/node-errors',
+        'troubleshooting/debug-logging',
+        'troubleshooting/platform-issues',
+        'troubleshooting/getting-help',
       ],
     },
   ],
 };
 
-module.exports = sidebars;

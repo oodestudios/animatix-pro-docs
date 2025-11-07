@@ -1,234 +1,205 @@
----
-sidebar_position: 1
----
+# How the GraphFlow System Works
 
-# Core Concepts
+The GraphFlow system is built on a simple yet powerful concept: **visual flowchart logic for animations**.
 
-## 2️⃣ Core Concepts
+## Flowchart Concept: Nodes & Connections
 
-### How the GraphFlow System Works
+Think of your animation graph as a **flowchart** where:
 
-The GraphFlow System functions like a flowchart for animations.
+- **Nodes** = Individual actions or operations
+- **Connections** = Timing and execution order
+- **Flow Direction** = Left to right (output → input)
 
-Each "flow" represents a sequence of actions that happen in order (or in parallel).
+Each node performs one task — trigger, delay, condition, or action. Connections between nodes determine **when** and **in what order** these actions execute.
 
-### The Flow Concept
+![GraphFlow Flowchart Concept – Diagram showing nodes connected by arrows demonstrating left-to-right flow](/img/images/graphflow-flowchart-concept.png)
+*GraphFlow system visualized as a flowchart — nodes represent actions, connections define timing and order*
+
+**Fundamental Rules:**
+
+| **Element** | **Represents** | **Example** |
+|-------------|----------------|-------------|
+| **Node** | A single action or operation | "Fade In", "Wait 2 Seconds", "Play Sound" |
+| **Connection** | Execution order and timing | Link from "On Start" → "Fade" means "When scene starts, then fade" |
+| **Flow Direction** | Execution sequence | Always flows from left (output) to right (input) |
+
+## Standard Flow Pattern
+
+The GraphFlow system follows a predictable execution pattern:
 
 ```
 Trigger → Animation → Action → Event
-   ↓         ↓         ↓        ↓
- Start    Fade In   Play Sound  Show UI
 ```
 
-### Key Principles
+**Breaking Down Each Stage:**
 
-1. **Nodes are Actions** — Each node performs one specific operation
-2. **Connections are Timing** — Lines show the execution sequence
-3. **Flow is Directional** — Animation flows from left to right
-4. **Parallel Execution** — Multiple branches can run simultaneously
+**1. Trigger** 🟧 (Start Point)
 
-### Graph Structure
+- Initiates the animation sequence
+- Examples: `On Start`, `On Button Click`, `On Key Press`
+- No input connections needed — triggers are entry points
+- Can connect to animation nodes that use `RunWithPrevious` for parallel execution
 
-- **Start Point:** Usually a Trigger node (On Start, On Button Click, etc.)
-- **Animation Nodes:** The main visual effects (Fade, Slide, Scale, etc.)
-- **Action Nodes:** Side effects (Play Sound, Show Message, etc.)
-- **Event Nodes:** Custom events for other systems
-- **End Point:** Animation completes or loops back
+**2. Animation** 🟩 (Visual Effect)
 
-![Example Graph Showing Flow from Trigger to Multiple Animations](/img/screenshots/08-example-graph-flow.png)
+- Performs the actual visual animation
+- Examples: `Fade`, `Move`, `Scale`, `Rotate`, `Slide`
+- Takes input from Trigger or previous Animation node
+- Can chain multiple Animation nodes sequentially
+
+**3. Action** 🟦 (System Operation)
+
+- Executes non-visual operations
+- Examples: `Play Audio`, `Log Message`, `Set Active`, `Load Scene`
+- Executes after Animation completes (or in parallel)
+- Optional stage — not all flows need Actions
+
+**4. Event** 🟪 (Callback/Completion)
+
+- Handles completion or custom callbacks
+- Examples: `Event Node` with automatic listener management
+- Often used to trigger other systems or notify completion
+- Optional stage — useful for complex workflows
+
+**Visual Flow Example:**
+
+![Standard Flow Pattern – Graph showing On Start connected to Fade, which connects to Play Audio, which connects to On Complete event](/img/images/standard-flow-pattern.png)
+*Standard flow: Trigger → Animation → Action → Event*
+
+## Key Principles
+
+Understanding these core principles will help you build effective and efficient animations:
+
+### Principle 1: Nodes as Actions
+
+Every node represents a **single, atomic action**. This design keeps graphs clear, modular, and easy to understand.
+
+**Characteristics:**
+
+- Each node does **one thing** well
+- Nodes are **reusable** — same node type can be used multiple times
+- Nodes are **configurable** — properties customize behavior without creating new node types
+- Nodes are **independent** — no hidden dependencies between nodes
+
+**Example:**
+
+Instead of a single "Complex Animation" node, you use:
+- `Fade` node for transparency
+- `Scale` node for size
+- `Rotate` node for rotation
+
+This modularity gives you **complete control** and **maximum flexibility**.
+
+> **Design Philosophy:**
+>
+> GraphFlow encourages **modular thinking** — small, reusable nodes that you can combine to create complex behavior visually. This design allows you to build sophisticated animations from simple, composable building blocks.
+
+### Principle 2: Connections as Timing
+
+Connections define **when** actions execute, not just the order.
+
+**Timing Rules:**
+
+| **Connection Type** | **Timing Behavior** |
+|---------------------|---------------------|
+| **Sequential Connection** | Node B starts **after** Node A completes |
+| **Parallel Connection** | Multiple nodes start **simultaneously** from the same output |
+| **Conditional Connection** | Node B starts only **if** condition in Node A is true |
+
+**Example Scenarios:**
+
+- **Sequential:** `On Start → Wait 2s → Fade In` (waits 2 seconds, then fades)
+- **Parallel:** `On Start` connects to both `Fade In` and `Play Audio` (both start simultaneously)
+- **Conditional:** `If Condition → Fade In` (fades only if condition is met)
+
+![Timing Examples – Graph showing sequential, parallel, and conditional connection patterns](/img/images/timing-examples.png)
+*Different timing patterns: sequential (top), parallel (middle), and conditional (bottom)*
+
+### Principle 3: Directional Flow
+
+GraphFlow uses **unidirectional flow** — execution always moves from left to right (output port to input port).
+
+**Why This Matters:**
+
+- **Predictable execution** — you always know the order
+- **Clear visual flow** — easy to read and understand
+- **No circular dependencies** — prevents infinite loops
+- **Easy debugging** — execution path is visually obvious
+
+**Flow Rules:**
+
+- **Input ports** (left side) = Receives execution from previous nodes
+- **Output ports** (right side) = Sends execution to next nodes
+- **Parallel execution** = Use `RunWithPrevious` property on sequential connections (2 nodes max at once)
+- **Multiple inputs** = Not allowed for execution ports (prevents ambiguity)
+
+![Directional Flow – Diagram showing input ports on left, output ports on right, with arrows indicating left-to-right flow](/img/images/directional-flow.png)
+*Directional flow: always left to right, from output port to input port*
+
+### Principle 4: Parallel Execution
+
+Two nodes can execute **simultaneously** using the `RunWithPrevious` property on sequential connections.
+
+**Parallel Execution Benefits:**
+
+- **Efficiency** — animate two properties at once
+- **Layered effects** — combine Fade + Scale simultaneously
+- **Complex animations** — orchestrate multiple properties in sync
+- **Performance** — parallel animations don't block each other
+
+**How It Works:**
+
+Parallel execution uses sequential connections with `RunWithPrevious` enabled on the second node:
+
+```
+On Start
+  → Fade In (0 to 1)
+  → Scale (0.5 to 1.0, RunWithPrevious: true)    // Runs with Fade
+```
+
+The second animation (Scale) runs simultaneously with the first (Fade) because `RunWithPrevious` is enabled.
+
+**Parallel vs. Sequential:**
+
+| **Pattern** | **When to Use** | **Example** |
+|-------------|-----------------|-------------|
+| **Sequential** | Actions must happen in order | Wait for dialogue → Fade in menu → Play sound |
+| **Parallel** | Two actions can happen simultaneously | Fade + Scale together for layered effect (using RunWithPrevious) |
+
+![Parallel Execution – Graph showing sequential connection with On Start → Fade → Scale, where Scale has RunWithPrevious enabled](/img/images/parallel-execution.png)
+*Parallel execution: sequential connections with RunWithPrevious enabled on the second node*
+
+## Execution Model
+
+Understanding how GraphFlow executes your animation graph:
+
+**Execution Stages:**
+
+1. **Initialization:** GraphFlow loads and prepares all nodes
+2. **Trigger Activation:** Trigger node fires (e.g., scene starts, button clicked)
+3. **Node Execution:** Connected nodes execute in defined order
+4. **Parallel Processing:** Multiple nodes execute simultaneously when connected from same output
+5. **Completion:** Animation sequence completes, optional events fire
+
+**Execution Guarantees:**
+
+- **Ordered Execution:** Sequential connections always execute in order
+- **Synchronous Start:** Parallel connections start at the exact same frame
+- **Frame-Perfect Timing:** No frame drops or timing drift
+- **Resource Management:** Nodes clean up resources automatically
+
+> **Performance Note:** GraphFlow executes lightweight coroutines optimized for frame-perfect timing. Even large graphs (100+ nodes) run efficiently due to parallelized node processing and lazy resource cleanup.
 
 ---
 
-## Node Types Overview
-
-Animatix Pro includes six primary node types, each serving a unique purpose.
-
-### Trigger Nodes (Red)
-- **Purpose:** Start animations based on events
-- **Examples:** On Start, On Button Click, On Key Press, On Collision
-- **Outputs:** 1 connection port
-- **When to Use:** To begin animation sequences
-
-### Animation Nodes (Green)
-- **Purpose:** Create visual effects
-- **Examples:** Fade, Slide, Scale, Rotate, Color Change
-- **Inputs:** 1+ connection ports
-- **Outputs:** 1+ connection ports
-- **When to Use:** Main visual elements of your animation
-
-### Action Nodes (Blue)
-- **Purpose:** Perform non-visual side effects
-- **Examples:** Play Sound, Set Active, Log Message, Wait
-- **Inputs:** 1+ connection ports
-- **Outputs:** 0–1 connection ports
-- **When to Use:** Audio control, object toggling, or debugging
-
-### Event Nodes (Dark Cyan)
-- **Purpose:** Trigger Unity Events with automatic listener management
-- **Examples:** Custom events, system notifications
-- **Inputs:** 1+ connection ports
-- **Outputs:** 1+ connection ports
-- **When to Use:** Integration with Unity's Event system
-- **Key Feature:** Listeners are created automatically by the Event Manager
-
-### Condition Nodes (Yellow)
-- **Purpose:** Create decision-based animation flows
-- **Examples:** Check if a button is pressed, verify object is active
-- **Inputs:** 1+ connection ports
-- **Outputs:** 1+ connection ports
-- **When to Use:** Conditional logic or state-based animation control
-
-### Delay Nodes (Purple)
-- **Purpose:** Wait for a specified duration
-- **Examples:** Pause between animations, timed sequences
-- **Inputs:** 1+ connection ports
-- **Outputs:** 1+ connection ports
-- **When to Use:** Timing control and pacing adjustments
-
-![Visual Representation of All Node Types with Their Colors](/img/screenshots/09-node-types-visual-representation.png)
+> **Key Takeaways:**
+>
+> - **Nodes = actions** — Each node performs one specific operation
+> - **Connections = timing** — Links define when actions execute
+> - **Always flow left → right** — Execution moves from output to input ports
+> - **Use sequential for order, parallel for sync** — Choose based on timing needs
 
 ---
 
-## GraphExecutor — How Animations Run
+**Next:** [Graph Structure](./graph-structure)
 
-The GraphExecutor is the brain of Animatix Pro — it reads your graph and executes animations in real time.
-
-**Think of it as the conductor of an orchestra.**
-
-### How It Works
-
-1. **Graph Loading** — Loads your assigned GraphFlow Asset
-2. **Target Recognition** — Automatically identifies the GameObject it's attached to
-3. **Node Initialization** — Prepares nodes with recognized target
-4. **Trigger Detection** — Waits for trigger conditions to be met
-5. **Sequential Execution** — Runs animations in connected order
-6. **Parallel Processing** — Handles two animation simultaneously
-7. **Completion** — Ends or loops the animation flow
-
-### GraphExecutor Component
-
-```csharp
-// Main properties you'll use
-public GraphFlowAsset GraphAsset;        // Your animation graph
-public bool PlayOnStart = true;          // Auto-play when scene starts
-public bool LoopAnimation = false;       // Repeat the animation
-public float PlaybackSpeed = 1.0f;       // Speed multiplier
-```
-
-![GraphExecutor Inspector Showing Correct Settings](/img/screenshots/10-graph-executor-inspector.png)
-
-(Graph Asset assigned, Play On Start enabled, Loop Animation off, Playback Speed 1.0, auto-target recognition visible)
-
-### Runtime Control
-
-```csharp
-// Start animation
-GraphExecutorUtil.RunByName("MyAnimation");
-// Stop animation
-GraphExecutorUtil.StopByName("MyAnimation");
-
-// Pause / Resume
-GraphExecutorUtil.PauseByName("MyAnimation");
-GraphExecutorUtil.ResumeByName("MyAnimation");
-
-// Check status
-bool isPlaying = GraphExecutorUtil.IsPlaying("MyAnimation");
-float progress = GraphExecutorUtil.GetProgress("MyAnimation");
-```
-
-![GraphExecutor Component in Inspector](/img/screenshots/11-graph-executor-all-properties.png)
-
----
-
-## Events & Actions System
-
-The Events & Actions System lets you create interactive animations that react to player input and game state changes.
-
-### Event Flow
-
-```
-Player Action → Trigger Node → Animation → Action Node → Event Node → Automatic Event Response
-     ↓              ↓            ↓           ↓              ↓              ↓
-Button Click → On Click → Fade Out → Play Sound → Custom Event → Event Manager handles automatically
-```
-
-### Automatic Event Management
-
-- **Event Listeners:** Automatically created by the Event Manager
-- **No Manual Setup:** No need to manually subscribe or unregister events
-- **Event Manager:** Handles routing and listener management
-- **System Integration:** Seamless connection with Unity's event system
-
-### Built-In Triggers
-
-| Trigger | Description | Use Case |
-|---------|-------------|----------|
-| On Start | Fires when scene begins | Auto-play animations |
-| On Button Click | Fires when UI button is pressed | Interactive UI |
-| On Key Press | Fires when specific key is pressed | Keyboard shortcuts |
-| On Collision | Fires when objects collide | Physics-based triggers |
-| On Timer | Fires after time delay | Timed sequences |
-| On API Call | Fires from code | Programmatic triggers |
-
-### Built-In Actions
-
-| Action | Description | Use Case |
-|--------|-------------|----------|
-| Play Audio | Plays sound effects | Audio feedback |
-| Set Active | Show/hide objects | UI visibility control |
-| Log Message | Outputs to console | Debugging |
-| Play Animation | Triggers another animation | Chained effects |
-| Wait | Pauses execution | Timing control |
-| Trigger Animation | Starts other graphs | Complex sequences |
-
-![Example Graph Showing Trigger → Animation → Action Flow](/img/screenshots/12-trigger-animation-action-flow.png)
-
----
-
-## Parallel Execution & Delays
-
-Animatix Pro supports running multiple animations simultaneously, allowing for layered and synchronized effects.
-
-### Parallel Execution
-
-```
-Trigger Node
-     ↓
-    ┌─→ Animation A (Fade In)
-    ├─→ Animation B (Slide In)
-    └─→ Animation C (Scale Up)
-```
-
-### Setting Up Parallel Animations
-
-1. **Connect Multiple Branches** — Drag from one node to multiple targets
-2. **Enable Parallel Mode** — Check Parallel With Previous in Animation nodes
-3. **Sync Timing** — Use Delay Nodes to align actions
-4. **Control Flow** — Combine with Condition Nodes for advanced logic
-
-### Delay Control
-
-| Delay Type | Purpose | Example |
-|------------|---------|---------|
-| Delay Before | Wait before starting | Pause 2 seconds, then fade |
-| Delay After | Wait after completing | Fade out, then wait 1 second |
-| Delay Between | Pause between animations | Fade → Wait → Slide |
-| Custom Timing | Precise control | Use Delay Nodes for exact timing |
-
-### Real-World Example
-
-```
-On Button Click
-     ↓
-Play Click Sound (immediate)
-     ↓
-Fade Out Button (0.5s duration)
-     ↓
-Wait 0.3 seconds
-     ↓
-Slide In Next Screen (1.0s duration)
-```
-
-This creates a polished button interaction with audio feedback, smooth transitions, and properly timed pacing.
-
-![Parallel Execution Example in GraphFlow Editor](/img/screenshots/13-parallel-execution-example.png)
