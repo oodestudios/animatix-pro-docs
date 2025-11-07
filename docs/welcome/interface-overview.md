@@ -12,7 +12,6 @@ The **GraphFlow Editor** is the heart of Animatix Pro — a visual node-based in
 2. The GraphFlow Editor opens in a new dedicated window
 3. You can have multiple editor windows open simultaneously
 
-![GraphFlow Editor Window – Main editor interface showing node canvas, toolbar, and minimap with connected nodes visible](./images/graphflow-editor-window.png)
 *The GraphFlow Editor main window showing the node canvas and interface elements*
 
 **Main Components:**
@@ -45,7 +44,6 @@ The **Node Palette** provides access to all available node types for building yo
 3. Navigate through categories to find the desired node
 4. Click a node to add it to the canvas
 
-![Node Palette – Right-click context menu showing Trigger, Animation, Action, Event, Condition, and Delay node categories](./images/node-palette.png)
 *Node Palette context menu showing available node categories*
 
 **Node Categories:**
@@ -90,7 +88,6 @@ The **connection system** visually links nodes together to define the animation 
 - **Delete** key removes selected connections
 - **Right-click** a connection for context menu options
 
-![Connection System – GraphFlow Editor canvas showing multiple nodes with connection lines linking output ports to input ports](./images/connection-system.png)
 *GraphFlow Editor showing nodes connected via the connection system*
 
 ## Inspector Window: Node Properties
@@ -114,7 +111,6 @@ Node properties are organized into logical sections:
 | **Target Settings** | Target Object, Component Type | Specifies what to animate |
 | **Advanced Options** | Easing, Update Method, Looping | Fine-tune animation behavior |
 
-![Node Inspector – Inspector panel displaying Fade node properties organized into Basic Settings, Animation Values, and Advanced Options sections](./images/node-inspector.png)
 *Inspector window showing Fade node properties and configuration options*
 
 **Common Properties Explained:**
@@ -148,7 +144,6 @@ Many animation nodes support custom animation curves for fine-tuned control:
 | **Ease In Out** | Slow start and end | Smooth, natural motion |
 | **Custom** | User-defined shape | Precise control |
 
-![Animation Curve Editor – Curve editor window showing animation curve with control points for custom easing](./images/animation-curve-editor.png)
 *Animation Curve Editor showing a custom ease curve*
 
 **Preview Controls:**
@@ -214,7 +209,6 @@ A comprehensive reference table of all interface elements, their purposes, and l
 - **Copy/Paste:** Ctrl/Cmd + C/V works for nodes and connections
 - **Save Frequently:** Ctrl/Cmd + S saves the GraphFlow Asset
 
-![GraphFlow Editor Full Interface – Complete editor window with graph canvas, toolbar, node palette, inspector, and minimap all visible](./images/graphflow-editor-full-interface.png)
 *Complete GraphFlow Editor interface with all elements visible*
 
 ---

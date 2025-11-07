@@ -27,7 +27,6 @@ Every GraphFlow animation follows a structured pattern: it begins with a **Trigg
 
 **Visual Representation:**
 
-![Trigger Nodes – Diagram showing various trigger node types with their output ports ready to connect](./images/trigger-nodes.png)
 *Trigger nodes — entry points for animation graphs*
 
 **Multiple Triggers:**
@@ -71,7 +70,6 @@ Animation nodes perform **visual transformations** on GameObjects.
 - **Configurable** — Start/end values, easing, delays all customizable
 - **Reusable** — Same node type can animate different targets
 
-![Animation Nodes – Collection of animation node icons showing Fade, Move, Scale, Rotate, Slide nodes](./images/animation-nodes.png)
 *Animation nodes — visual transformation building blocks*
 
 ### 2. Action Nodes
@@ -101,7 +99,6 @@ Action nodes execute **system operations** that aren't visual animations.
 - **System-level** — Affect game systems beyond visual changes
 - **Event-driven** — Often used to trigger other game logic
 
-![Action Nodes – Collection of action node icons showing Play Audio, Enable GameObject, Trigger Event nodes](./images/action-nodes.png)
 *Action nodes — system operation building blocks*
 
 ### 3. Condition Nodes
@@ -139,7 +136,6 @@ On Button Click → Is Variable Equal (Has Coin, true)
   If false → Execution stops
 ```
 
-![Condition Nodes – Diagram showing Condition node with single output port evaluating conditions (e.g., If Player Enter, If has tag)](./images/condition-nodes.png)
 *Condition nodes — evaluate conditions and continue execution if true, stop if false*
 
 ### 4. Delay Nodes
@@ -168,7 +164,6 @@ On Start → Fade In → Wait 2s → Slide Out
 
 This creates a fade-in, followed by a 2-second pause, then slides out.
 
-![Delay Nodes – Diagram showing Wait node with configurable duration parameter](./images/delay-nodes.png)
 *Delay nodes — timing and pause control*
 
 ### 5. Event Nodes
@@ -189,7 +184,6 @@ Event nodes handle **callbacks and completion notifications**.
 - **Completion markers** — Indicate animation finished
 - **Integration** — Bridge to other game systems
 
-![Event Nodes – Diagram showing On Complete event node connecting to external systems](./images/event-nodes.png)
 *Event nodes — completion and callback handling*
 
 ## End Point: Completion or Looping
@@ -239,7 +233,6 @@ On Start → Rotate 360° → [Loop Back to Start]
 
 This creates an infinite rotation animation.
 
-![Looping Example – Diagram showing animation graph with loop connection back to trigger](./images/looping-example.png)
 *Looping animation — continuous execution*
 
 **When to Use Each:**
@@ -283,7 +276,6 @@ Event Node (Event)
 6. **Action:** `Play Audio` plays sound if enabled
 7. **Event:** `Event Node` notifies completion
 
-![Complete Graph Flow Example – Full graph showing all node types connected in sequence from trigger to completion](./images/complete-graph-flow.png)
 *Complete graph flow example — showing trigger, animation, delay, condition, action, and event nodes*
 
 ## Graph Structure Best Practices
