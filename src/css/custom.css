@@ -415,8 +415,8 @@ table {
 }
 
 thead {
-  background: var(--animatix-red);
-  color: white;
+  background: var(--animatix-red) !important;
+  color: white !important;
 }
 
 thead th {
@@ -426,6 +426,8 @@ thead th {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  background: var(--animatix-red) !important;
+  color: white !important;
 }
 
 tbody tr {
