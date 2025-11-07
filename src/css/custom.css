@@ -414,8 +414,10 @@ table {
   box-shadow: var(--shadow-sm);
 }
 
+/* Table header - ensure proper contrast in light mode */
 thead {
-  background: var(--animatix-red) !important;
+  background: #b34a4a !important;
+  background-color: #b34a4a !important;
   color: white !important;
 }
 
@@ -426,7 +428,24 @@ thead th {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: var(--animatix-red) !important;
+  background: #b34a4a !important;
+  background-color: #b34a4a !important;
+  color: white !important;
+  border: none !important;
+}
+
+/* Ensure table headers are readable in light mode */
+.theme-doc-markdown thead,
+.theme-doc-markdown thead th {
+  background: #b34a4a !important;
+  color: white !important;
+}
+
+/* Dark mode table headers */
+[data-theme='dark'] thead,
+[data-theme='dark'] thead th {
+  background: #8a3a3a !important;
+  background-color: #8a3a3a !important;
   color: white !important;
 }
 
@@ -443,6 +462,18 @@ tbody td {
   padding: 1rem;
   font-size: 0.875rem;
   color: var(--gray-700);
+}
+
+[data-theme='dark'] tbody tr {
+  border-bottom-color: var(--gray-700);
+}
+
+[data-theme='dark'] tbody tr:hover {
+  background-color: var(--gray-800);
+}
+
+[data-theme='dark'] tbody td {
+  color: var(--gray-300);
 }
 
 [data-theme='dark'] tbody tr {
