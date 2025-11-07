@@ -11,7 +11,7 @@ Create your first animation in under 5 minutes. This tutorial walks you through 
 
 The GraphFlow Editor will open in a new window, showing an empty graph canvas where you'll build your animation.
 
-![Create GraphFlow Asset – Project window context menu showing Create → Animatix Pro → GraphFlow Asset option](./images/create-graphflow-asset.png)
+
 *Creating a new GraphFlow Asset from the Project window context menu*
 
 ## Step 2: Add Nodes
@@ -38,7 +38,7 @@ Now you'll add the nodes that make up your animation sequence.
 
 You now have a basic flow: **On Start → Fade**
 
-![Basic Node Connection – GraphFlow Editor showing On Start node connected to Fade node with connection line](./images/basic-node-connection.png)
+
 *GraphFlow editor showing On Start trigger connected to Fade animation node*
 
 ## Step 3: Configure the Animation
@@ -67,7 +67,7 @@ In the Inspector, set the following values:
 - **Delay After:** Leave at `0.0` for immediate completion
 - **Update Method:** Keep as `LateUpdate` (default)
 
-![Fade Node Configuration – Inspector panel showing Fade node with Duration, Fade Start, Fade End, and Easing properties](./images/fade-node-configuration.png)
+
 *Inspector showing Fade node properties and configuration*
 
 ## Step 4: Attach GraphExecutor to Target
@@ -96,7 +96,7 @@ Now you'll connect your graph to a GameObject in your scene so it can run.
 
 **Important:** The GraphExecutor automatically recognizes the GameObject it's attached to (your button) as the animation target. No additional target assignment needed.
 
-![GraphExecutor Setup – Inspector showing GraphExecutor with ButtonFadeIn GraphFlow Asset assigned to Graph Asset field](./images/graphexecutor-assignment.png)
+
 *GraphExecutor component with ButtonFadeIn asset assigned*
 
 **Verify Settings:**
@@ -125,7 +125,7 @@ Now you're ready to see your animation in action.
 - Button becomes fully visible (alpha = 1)
 - Animation completes
 
-![Animation Result – Button GameObject fading in from transparent to fully visible over 1 second](./images/fade-in-result.gif)
+
 *Button fade-in animation in action*
 
 ## Expected Result

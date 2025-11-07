@@ -60,7 +60,7 @@ On Button Click → Fade In (0.5s) → Wait (1s) → Scale Up (0.3s) → Wait (0
 
 **Total Time:** ~2.3 seconds
 
-![Sequential Execution Timeline – Diagram showing timeline of sequential node execution with no overlap](./images/sequential-execution-timeline.png)
+
 *Sequential execution — nodes execute one after another with no overlap*
 
 ## Parallel: Simultaneous Execution
@@ -120,7 +120,7 @@ On Start
 
 **Total Time:** ~0.5 seconds (longest duration)
 
-![Parallel Execution Timeline – Diagram showing timeline of parallel node execution with overlap](./images/parallel-execution-timeline.png)
+
 *Parallel execution — nodes execute simultaneously with overlap*
 
 ## When to Use Each: Use Case Guidance
@@ -198,7 +198,7 @@ Play Audio
 - 0.5s - 1.5s: Wait period (sequential)
 - 1.5s: Play Audio (sequential)
 
-![Mixed Execution Pattern – Graph showing parallel execution followed by sequential steps](./images/mixed-execution-pattern.png)
+
 *Mixed execution — parallel followed by sequential*
 
 ## Examples: Parallel Animation Scenarios

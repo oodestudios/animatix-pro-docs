@@ -35,7 +35,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Polished** — Smooth, professional feel
 - **Scalable** — Works across different screen sizes
 
-![UI Animation Examples – Screenshot showing menu fade-in, button scale effect, and panel slide animation](./images/ui-animation-examples.png)
+
 *UI animations — menu transitions, button feedback, and panel effects*
 
 > 💡 **Pro Tip:** Combine UI animations with Camera animations to create cinematic menu transitions.
@@ -75,7 +75,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Dynamic** — Responsive to game events
 - **Versatile** — Supports many camera styles
 
-![Camera Animation Examples – Screenshot showing camera move, orbit, and shake effects in action](./images/camera-animation-examples.png)
+
 *Camera animations — smooth movements, orbits, and shake effects*
 
 > 💡 **Pro Tip:** Use Camera animations for dynamic gameplay transitions and cinematic storytelling.
@@ -112,7 +112,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Narrative-Driven** — Story-focused execution
 - **Polished** — Production-quality sequences
 
-![Cutscene Animation Examples – Screenshot showing orchestrated cutscene with camera, UI, and character animations](./images/cutscene-animation-examples.png)
+
 *Cutscene sequences — orchestrated animations combining multiple elements*
 
 > 💡 **Pro Tip:** Orchestrate cutscenes by combining Camera, UI, Audio, and 3D Object animations for maximum impact.
@@ -150,7 +150,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Impactful** — Clear visual communication
 - **Dynamic** — Adapts to game state
 
-![Gameplay Animation Examples – Screenshot showing hit feedback, pickup effects, and ability animations](./images/gameplay-animation-examples.png)
+
 *Gameplay animations — hit feedback, pickups, and ability effects*
 
 > 💡 **Pro Tip:** Optimize gameplay animations for performance — keep durations short and use parallel execution for responsive feedback.
@@ -189,7 +189,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Performance-Conscious** — Optimized for effects
 - **Creative** — Supports unique visual styles
 
-![VFX Animation Examples – Screenshot showing particle effects, material transitions, and color tweens](./images/vfx-animation-examples.png)
+
 *VFX animations — particle systems, material effects, and color transitions*
 
 > 💡 **Pro Tip:** Use VFX animations sparingly on mobile devices — consider reducing particle counts for optimal performance.
@@ -229,7 +229,7 @@ Animatix Pro organizes animations into **functional categories** based on their 
 - **Flexible** — Supports custom implementations
 - **Comprehensive** — Covers edge cases
 
-![Misc Animation Examples – Screenshot showing typewriter text, path animations, and audio effects](./images/misc-animation-examples.png)
+
 *Misc animations — text effects, path animations, and specialized effects*
 
 > 💡 **Pro Tip:** Misc category is perfect for specialized needs — explore text animations and audio control for enhanced experiences.
