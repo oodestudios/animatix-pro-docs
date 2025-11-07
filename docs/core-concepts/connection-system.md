@@ -26,7 +26,7 @@ Connections visually represent **execution order** and **timing** in your animat
 2. **Visual Left-to-Right:** Reading the graph left-to-right shows execution order
 3. **No Circular Dependencies:** Connections cannot form loops (prevents infinite execution)
 
-![Connection Anatomy – Diagram showing input ports on left, output ports on right, with connection line between nodes](/img/images/connection-anatomy.png)
+
 *Connection anatomy — input ports receive, output ports send, connection lines represent execution flow*
 
 **Reading Connection Flow:**
@@ -66,7 +66,7 @@ Node A → Node B → Node C
 - **Timed sequences:** Wait → Action → Wait → Action
 - **Ordered operations:** Load → Prepare → Display
 
-![Sequential Execution – Graph showing single connection path: On Start → Fade → Scale → Rotate](/img/images/sequential-execution.png)
+
 *Sequential execution — one connection path, nodes execute in order*
 
 ### Parallel Execution with RunWithPrevious
@@ -88,7 +88,7 @@ Node A → Node B (RunWithPrevious: true)
 - **Synchronized animations:** Two properties animating together
 - **Complex animations:** Two properties animating in parallel
 
-![Parallel Execution – Graph showing sequential connection with On Start → Fade → Scale, where Scale has RunWithPrevious enabled](/img/images/parallel-execution-pattern.png)
+
 *Parallel execution — sequential connections with RunWithPrevious enabled on the second node*
 
 **Parallel Execution Details:**
@@ -130,7 +130,7 @@ Standard connections create **linear execution paths** — one node flows to the
 Trigger → Animation → Action → Event
 ```
 
-![Standard Connection – Graph showing linear connection path from Trigger through Animation to Action](/img/images/standard-connection.png)
+
 *Standard connections — linear, predictable execution paths*
 
 ### Conditional Branches
@@ -158,7 +158,7 @@ Trigger → Condition Node (e.g., "If Player Enter")
 3. **Execution Flow:** If true, execution continues to the next connected node; if false, execution stops
 4. **Single Path:** Only one execution path exists — continue if true, stop if false
 
-![Conditional Branch – Graph showing Condition node with single output port evaluating condition and continuing execution if true](/img/images/conditional-branch.png)
+
 *Conditional branches — condition nodes evaluate conditions and continue execution if true, stop if false*
 
 **Example: Conditional Flow**
@@ -195,7 +195,7 @@ On Start → Fade In → Scale Up → Complete
 **Use Case:** Basic animation sequence  
 **Execution:** Sequential, one-after-another
 
-![Simple Sequence Pattern – Graph showing linear sequence from On Start through Fade and Scale to completion](/img/images/simple-sequence-pattern.png)
+
 *Simple sequence — straightforward linear flow*
 
 ### Pattern 2: Parallel Effects
@@ -209,7 +209,7 @@ On Start
 **Use Case:** Layered simultaneous animations  
 **Execution:** Two animations start together (using RunWithPrevious)
 
-![Parallel Effects Pattern – Graph showing sequential connection with On Start → Fade → Scale, where Scale has RunWithPrevious enabled](/img/images/parallel-effects-pattern.png)
+
 *Parallel effects — two animations starting simultaneously using RunWithPrevious*
 
 ### Pattern 3: Conditional Branch
@@ -224,7 +224,7 @@ On Button Click → Is Bool True
 **Use Case:** Decision-based animations  
 **Execution:** Execution continues if condition is true, stops if false
 
-![Conditional Branch Pattern – Graph showing Condition node with single output port evaluating condition and continuing if true](/img/images/conditional-branch-pattern.png)
+
 *Conditional branch — condition node evaluates condition and continues execution if true*
 
 ### Pattern 4: Mixed Sequential and Parallel
@@ -241,7 +241,7 @@ Play Audio
 **Use Case:** Parallel animations followed by sequential actions  
 **Execution:** Fade and Scale together → Wait → Play Audio
 
-![Mixed Pattern – Graph showing parallel execution (Fade + Scale with RunWithPrevious) followed by sequential steps](/img/images/mixed-pattern.png)
+
 *Mixed pattern — parallel (2 nodes) then sequential execution*
 
 ### Pattern 5: Complex Conditional Sequences
@@ -259,7 +259,7 @@ On Start → Condition A (e.g., "If Player Enter")
 **Use Case:** Multi-level conditional logic  
 **Execution:** Chained condition nodes evaluating sequentially
 
-![Complex Branching Pattern – Graph showing nested conditional sequences with multiple condition evaluations](/img/images/complex-branching-pattern.png)
+
 *Complex conditional sequences — nested condition nodes evaluating sequentially*
 
 ## Connection Best Practices

@@ -6,7 +6,7 @@ A **complete, all-in-one toolkit** for animating UI, text, 3D objects, cameras, 
 
 > Think of it as a *visual programming language* made specifically for animations.
 
-![Animatix Pro Overview – GraphFlow Editor showing connected nodes for visual animation creation](/img/images/animatix-pro-overview.png)
+
 *Animatix Pro's graph editor — visualize, connect, and animate with zero code.*
 
 No more scripting — simply **drag, connect, and tweak** your animations visually.
@@ -51,7 +51,7 @@ Whether you're **prototyping, polishing, or shipping**, Animatix Pro adapts to e
 
 Whether you're prototyping or shipping a finished product, Animatix Pro adapts to your workflow and scales with your game.
 
-![Use Cases Showcase – Animation examples including UI transitions, camera movements, and text reveals](/img/images/use-cases-showcase.gif)
+
 *From UI motion to cinematic effects — all created in the visual graph.*
 
 ---

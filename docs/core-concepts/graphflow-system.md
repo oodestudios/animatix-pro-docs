@@ -12,7 +12,7 @@ Think of your animation graph as a **flowchart** where:
 
 Each node performs one task — trigger, delay, condition, or action. Connections between nodes determine **when** and **in what order** these actions execute.
 
-![GraphFlow Flowchart Concept – Diagram showing nodes connected by arrows demonstrating left-to-right flow](/img/images/graphflow-flowchart-concept.png)
+
 *GraphFlow system visualized as a flowchart — nodes represent actions, connections define timing and order*
 
 **Fundamental Rules:**
@@ -63,7 +63,7 @@ Trigger → Animation → Action → Event
 
 **Visual Flow Example:**
 
-![Standard Flow Pattern – Graph showing On Start connected to Fade, which connects to Play Audio, which connects to On Complete event](/img/images/standard-flow-pattern.png)
+
 *Standard flow: Trigger → Animation → Action → Event*
 
 ## Key Principles
@@ -112,7 +112,7 @@ Connections define **when** actions execute, not just the order.
 - **Parallel:** `On Start` connects to both `Fade In` and `Play Audio` (both start simultaneously)
 - **Conditional:** `If Condition → Fade In` (fades only if condition is met)
 
-![Timing Examples – Graph showing sequential, parallel, and conditional connection patterns](/img/images/timing-examples.png)
+
 *Different timing patterns: sequential (top), parallel (middle), and conditional (bottom)*
 
 ### Principle 3: Directional Flow
@@ -133,7 +133,7 @@ GraphFlow uses **unidirectional flow** — execution always moves from left to r
 - **Parallel execution** = Use `RunWithPrevious` property on sequential connections (2 nodes max at once)
 - **Multiple inputs** = Not allowed for execution ports (prevents ambiguity)
 
-![Directional Flow – Diagram showing input ports on left, output ports on right, with arrows indicating left-to-right flow](/img/images/directional-flow.png)
+
 *Directional flow: always left to right, from output port to input port*
 
 ### Principle 4: Parallel Execution
@@ -166,7 +166,7 @@ The second animation (Scale) runs simultaneously with the first (Fade) because `
 | **Sequential** | Actions must happen in order | Wait for dialogue → Fade in menu → Play sound |
 | **Parallel** | Two actions can happen simultaneously | Fade + Scale together for layered effect (using RunWithPrevious) |
 
-![Parallel Execution – Graph showing sequential connection with On Start → Fade → Scale, where Scale has RunWithPrevious enabled](/img/images/parallel-execution.png)
+
 *Parallel execution: sequential connections with RunWithPrevious enabled on the second node*
 
 ## Execution Model
