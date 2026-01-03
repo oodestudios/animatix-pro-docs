@@ -426,11 +426,15 @@ Trigger Node → Trigger Relay → [Node A, Node B, Node C, ...]
                               All execute simultaneously
 ```
 
+![Trigger Relay Node in GraphFlow Editor](/img/screenshots/49-trigger-relay-node-in-editor.png)
+
 **Configuration:**
 
 | **Parameter** | **Type** | **Default** | **Description** |
 |---------------|----------|-------------|-----------------|
 | **Title** | `string` | `"Trigger Relay"` | Custom name for the node |
+
+![Trigger Relay Node Inspector](/img/screenshots/51-trigger-relay-inspector.png)
 
 **Example Use:**
 
@@ -441,6 +445,8 @@ Trigger Relay
     ↓         ↓         ↓
 Move 3D   Color Tween  Rotate 3D
 ```
+
+![Trigger Relay with Multiple Connections](/img/screenshots/50-trigger-relay-multiple-connections.png)
 
 **Result:** All three animations play simultaneously on the same object.
 
