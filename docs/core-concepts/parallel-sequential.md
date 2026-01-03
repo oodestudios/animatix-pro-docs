@@ -89,6 +89,8 @@ On Start → Fade In → Scale Up (RunWithPrevious: true)
 | **Dependencies** | Nodes are independent, can run simultaneously |
 | **Limitation** | Maximum 2 nodes can run in parallel at once |
 
+> 💡 **For 3+ nodes:** Use the **Trigger Relay** node for unlimited parallel execution. See [Parallel Execution Strategies](../advanced/parallel-execution) for details.
+
 **When to Use Parallel:**
 
 - **Layered effects:** Multiple properties animating together
@@ -259,7 +261,7 @@ On Start
 > - **Choose based on goals** — Dependencies, timing, performance needs
 > - **Mix when needed** — Combine both for complex sequences
 > - **Performance matters** — Parallel is faster, sequential is safer
-> - **Limitation** — Maximum 2 nodes can run in parallel at once
+> - **Limitation** — Maximum 2 nodes can run in parallel at once (use Trigger Relay for 3+)
 
 ---
 

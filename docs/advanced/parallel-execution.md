@@ -29,5 +29,62 @@ Both Fade In and Scale Up start simultaneously.
 
 ---
 
+## Trigger Relay Node: Unlimited Parallel Execution
+
+For executing **3 or more nodes** in parallel, use the **Trigger Relay** node instead of `RunWithPrevious`.
+
+**Trigger Relay** is a special flow control node that automatically executes **all connected output nodes in parallel**. Unlike `RunWithPrevious` (which supports 2 nodes), Trigger Relay supports **unlimited parallel execution**.
+
+**How It Works:**
+
+```
+Trigger Node → Trigger Relay → [Node A, Node B, Node C, ...]
+                                    ↓         ↓         ↓
+                              All execute simultaneously
+```
+
+**Key Features:**
+
+- ✅ **Unlimited parallel nodes** - Execute as many nodes as needed
+- ✅ **Automatic execution** - No need to set `RunWithPrevious` flags
+- ✅ **Same object support** - Multiple animations can play on the same object simultaneously
+- ✅ **Waits for completion** - Trigger Relay waits for all nodes to complete before proceeding
+
+**When to Use:**
+
+- **3+ nodes** need to execute in parallel
+- Multiple animations should play on the **same object** simultaneously
+- You want **explicit parallel execution** intent in your graph
+
+**Example:**
+
+```
+On Button Click
+    ↓
+Trigger Relay
+    ↓         ↓         ↓
+Move 3D   Color Tween  Rotate 3D
+```
+
+**Result:** All three animations play simultaneously on the same object.
+
+**Setup:**
+
+1. Right-click in GraphFlow Editor → **"Add Node" → "🔀 Trigger Relay"**
+2. Connect trigger to Trigger Relay
+3. Connect all parallel nodes to Trigger Relay
+4. No configuration needed - parallel execution is automatic!
+
+**Comparison:**
+
+| **Method** | **Max Nodes** | **Best For** |
+|------------|---------------|--------------|
+| `RunWithPrevious` | 2 nodes | Simple two-node parallel |
+| **Trigger Relay** | Unlimited | 3+ nodes, same-object multi-animation |
+
+> 💡 **Tip:** Use `RunWithPrevious` for 2 nodes, use **Trigger Relay** for 3+ nodes.
+
+---
+
 **Next:** [Event Architecture](./event-architecture)
 

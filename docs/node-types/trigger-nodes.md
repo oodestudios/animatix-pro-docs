@@ -403,6 +403,68 @@ if (triggerNode != null && triggerNode.triggerInstance is OnApiCallTrigger apiTr
 - Test API integration thoroughly
 - Consider event-based alternatives first
 
+## Trigger Relay Node
+
+**Purpose:** Flow control node for unlimited parallel execution of connected nodes
+
+> 📘 **Key Uses:**
+>
+> - Execute 3+ nodes simultaneously
+> - Multiple animations on same object
+> - Explicit parallel execution intent
+> - Complex layered effects
+
+**How It Works:**
+
+Trigger Relay automatically executes **all connected output nodes in parallel**. Unlike `RunWithPrevious` (which supports 2 nodes), Trigger Relay supports **unlimited parallel execution**.
+
+**Execution Flow:**
+
+```
+Trigger Node → Trigger Relay → [Node A, Node B, Node C, ...]
+                                    ↓         ↓         ↓
+                              All execute simultaneously
+```
+
+**Configuration:**
+
+| **Parameter** | **Type** | **Default** | **Description** |
+|---------------|----------|-------------|-----------------|
+| **Title** | `string` | `"Trigger Relay"` | Custom name for the node |
+
+**Example Use:**
+
+```
+On Button Click
+    ↓
+Trigger Relay
+    ↓         ↓         ↓
+Move 3D   Color Tween  Rotate 3D
+```
+
+**Result:** All three animations play simultaneously on the same object.
+
+**When to Use:**
+
+- **3+ parallel nodes** - Execute multiple nodes simultaneously
+- **Same object animations** - Multiple animations on one object
+- **Explicit intent** - Make parallel execution clear in graph
+
+**Comparison:**
+
+| **Method** | **Max Nodes** | **Best For** |
+|------------|---------------|--------------|
+| `RunWithPrevious` | 2 nodes | Simple two-node parallel |
+| **Trigger Relay** | Unlimited | 3+ nodes, same-object multi-animation |
+
+**Best Practices:**
+
+- Use Trigger Relay for 3+ parallel nodes
+- Use `RunWithPrevious` for simple 2-node parallel execution
+- Give Trigger Relay descriptive titles for clarity
+
+> 💡 **See Also:** [Parallel Execution Strategies](../advanced/parallel-execution) for detailed Trigger Relay documentation.
+
 ## When to Use Each Trigger
 
 **Quick Decision Guide:**
