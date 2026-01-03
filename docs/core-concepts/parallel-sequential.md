@@ -109,11 +109,11 @@ Trigger Relay
 Move 3D   Color Tween  Rotate 3D
 ```
 
-![Trigger Relay Parallel Execution Example](/img/screenshots/50-trigger-relay-multiple-connections.png)
+![Trigger Relay Parallel Execution Example](/img/screenshots/50.trigger-relay-multiple-connections.png)
 
 **Result:** All three animations play simultaneously on the same object.
 
-![Trigger Relay Parallel Execution Timeline](/img/screenshots/53-trigger-relay-parallel-execution-timeline.png)
+![Trigger Relay Parallel Execution Timeline](/img/screenshots/53.trigger-relay-parallel-execution-timeline.png)
 
 > 📘 **Learn More:** 
 > - Full documentation: [Parallel Execution Strategies](../advanced/parallel-execution#trigger-relay-node-unlimited-parallel-execution)
