@@ -91,6 +91,32 @@ On Start → Fade In → Scale Up (RunWithPrevious: true)
 
 > 💡 **For 3+ nodes:** Use the **Trigger Relay** node for unlimited parallel execution. See [Parallel Execution Strategies](../advanced/parallel-execution) for details.
 
+---
+
+### Trigger Relay: Unlimited Parallel Execution (3+ Nodes)
+
+For executing **3 or more nodes** in parallel, use the **Trigger Relay** node instead of `RunWithPrevious`.
+
+**Trigger Relay** automatically executes all connected output nodes in parallel, supporting **unlimited parallel execution** (unlike `RunWithPrevious` which is limited to 2 nodes).
+
+**Quick Example:**
+
+```
+On Button Click
+    ↓
+Trigger Relay
+    ↓         ↓         ↓
+Move 3D   Color Tween  Rotate 3D
+```
+
+**Result:** All three animations play simultaneously on the same object.
+
+> 📘 **Learn More:** 
+> - Full documentation: [Parallel Execution Strategies](../advanced/parallel-execution#trigger-relay-node-unlimited-parallel-execution)
+> - Node details: [Trigger Relay Node](../node-types/trigger-nodes#trigger-relay-node)
+
+---
+
 **When to Use Parallel:**
 
 - **Layered effects:** Multiple properties animating together
