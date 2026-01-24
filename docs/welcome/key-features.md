@@ -17,6 +17,8 @@ Unlike traditional timeline tools or hardcoded scripts, Animatix Pro uses a **no
 
 *The GraphFlow editor — every animation represented as connected actions.*
 
+![Visual Graph System – GraphFlow Editor canvas showing connected nodes representing animation flow](/img/screenshots/3.visual-graph-system.png)
+
 ## Built for Speed and Efficiency
 
 Performance drives everything in Animatix Pro.
@@ -31,6 +33,8 @@ From desktop to mobile, every system is optimized for real-time gameplay.
 | **Cross-Platform Ready** | Same performance everywhere |
 
 *Engineered for stability and speed on all targets.*
+
+![Performance Optimization – Platform compatibility diagram showing mobile, desktop, and console support](/img/screenshots/4.performance-optimization.png)
 
 ## Complete Animation Toolkit
 

@@ -13,6 +13,8 @@ The GraphFlow Editor will open in a new window, showing an empty graph canvas wh
 
 *Creating a new GraphFlow Asset from the Project window context menu*
 
+![Create GraphFlow Asset – Project window context menu showing Create → Animatix Pro → GraphFlow Asset option](/img/screenshots/5.create-graphflow-asset.png)
+
 ## Step 2: Add Nodes
 
 Now you'll add the nodes that make up your animation sequence.
@@ -38,6 +40,8 @@ Now you'll add the nodes that make up your animation sequence.
 You now have a basic flow: **On Start → Fade**
 
 *GraphFlow editor showing On Start trigger connected to Fade animation node*
+
+![Basic Node Connection – GraphFlow Editor showing On Start node connected to Fade node with connection line](/img/screenshots/6.basic-node-connection.png)
 
 ## Step 3: Configure the Animation
 
@@ -67,6 +71,8 @@ In the Inspector, set the following values:
 
 *Inspector showing Fade node properties and configuration*
 
+![Fade Node Configuration – Inspector panel showing Fade node with Duration, Fade Start, Fade End, and Easing properties](/img/screenshots/7.fade-node-configuration.png)
+
 ## Step 4: Attach GraphExecutor to Target
 
 Now you'll connect your graph to a GameObject in your scene so it can run.
@@ -95,6 +101,8 @@ Now you'll connect your graph to a GameObject in your scene so it can run.
 
 *GraphExecutor component with ButtonFadeIn asset assigned*
 
+![GraphExecutor Setup – Inspector showing GraphExecutor with ButtonFadeIn GraphFlow Asset assigned to Graph Asset field](/img/screenshots/8.graphexecutor-assignment.png)
+
 **Verify Settings:**
 
 Ensure these GraphExecutor settings:
@@ -122,6 +130,8 @@ Now you're ready to see your animation in action.
 - Animation completes
 
 *Button fade-in animation in action*
+
+![Animation Result – Button GameObject fading in from transparent to fully visible over 1 second](/img/screenshots/9.fade-in-result.gif)
 
 ## Expected Result
 
