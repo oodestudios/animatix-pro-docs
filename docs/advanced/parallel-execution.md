@@ -43,7 +43,7 @@ Trigger Node → Trigger Relay → [Node A, Node B, Node C, ...]
                               All execute simultaneously
 ```
 
-![Trigger Relay Node in GraphFlow Editor](/img/screenshots/49.trigger-relay-node-editor.png)
+<!-- TODO: image pending: /img/screenshots/49.trigger-relay-node-editor.png -->
 
 **Key Features:**
 
@@ -68,11 +68,11 @@ Trigger Relay
 Move 3D   Color Tween  Rotate 3D
 ```
 
-![Trigger Relay with Multiple Connections](/img/screenshots/50.trigger-relay-multiple-connections.png)
+<!-- TODO: image pending: /img/screenshots/50.trigger-relay-multiple-connections.png -->
 
 **Result:** All three animations play simultaneously on the same object.
 
-![Trigger Relay Parallel Execution Animation](/img/screenshots/54.trigger-relay-same-object-animation.gif)
+<!-- TODO: image pending: /img/screenshots/54.trigger-relay-same-object-animation.gif -->
 
 **Setup:**
 
@@ -88,7 +88,7 @@ Move 3D   Color Tween  Rotate 3D
 | `RunWithPrevious` | 2 nodes | Simple two-node parallel |
 | **Trigger Relay** | Unlimited | 3+ nodes, same-object multi-animation |
 
-![RunWithPrevious vs Trigger Relay Comparison](/img/screenshots/52.runwithprevious-vs-trigger-relay-comparison.png)
+<!-- TODO: image pending: /img/screenshots/52.runwithprevious-vs-trigger-relay-comparison.png -->
 
 > 💡 **Tip:** Use `RunWithPrevious` for 2 nodes, use **Trigger Relay** for 3+ nodes.
 
